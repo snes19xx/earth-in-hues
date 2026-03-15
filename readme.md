@@ -1,6 +1,8 @@
 # Earth in Hues
 
-> A geospatial project for computing area-weighted mean spectral signatures across land cover categories using satellite imagery, elevation data, and land classification rasters.
+A geospatial project for computing area-weighted mean spectral signatures across land cover categories using satellite imagery, elevation data, and land classification rasters.
+
+See the [Observable notebook](https://observablehq.com/d/f128eacdf52ad504)
 
 <div align="center">
     <img src="image.png" height=500 alt="hues" />
@@ -130,7 +132,7 @@ This is a standard weighted arithmetic mean where each pixel's contribution is s
 
 The three channel means are then encoded to a hexadecimal string:
 
-$$\mathrm{hex}_k^{(m)} = \#\,\lfloor \bar{R} \rceil_{255}\,\lfloor \bar{G} \rceil_{255}\,\lfloor \bar{B} \rceil_{255}$$
+$$\mathrm{hex}_k^{(m)} = \\#\,\lfloor \bar{R} \rceil_{255}\,\lfloor \bar{G} \rceil_{255}\,\lfloor \bar{B} \rceil_{255}$$
 
 where $\lfloor \cdot \rceil_{255}$ denotes rounding and clamping to $[0, 255]$.
 
