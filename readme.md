@@ -32,7 +32,7 @@ This yields a global unprojected grid in **EPSG:4326** (WGS84), covering the ful
 
 The GEBCO dataset is distributed as a set of regional tiles. Each tile is spatially located within the reference grid using the rasterio window transform:
 
-$$W = \text{from\_bounds}(\text{bounds}_{\text{tile}},\ T_{\text{ref}})$$
+$$W = \mathrm{from\_bounds}(\mathrm{bounds}_{\mathrm{tile}},\ T_{\mathrm{ref}})$$
 
 where $T_{\text{ref}}$ is the affine transform of the reference grid. Each tile is then downsampled via **average resampling** from its native resolution to the target grid dimensions:
 
@@ -130,7 +130,7 @@ This is a standard weighted arithmetic mean where each pixel's contribution is s
 
 The three channel means are then encoded to a hexadecimal string:
 
-$$\text{hex}_k^{(m)} = \texttt{\#}\,\lfloor \bar{R} \rceil_{255}\,\lfloor \bar{G} \rceil_{255}\,\lfloor \bar{B} \rceil_{255}$$
+$$\mathrm{hex}_k^{(m)} = \mathtt{\#}\,\lfloor \bar{R} \rceil_{255}\,\lfloor \bar{G} \rceil_{255}\,\lfloor \bar{B} \rceil_{255}$$
 
 where $\lfloor \cdot \rceil_{255}$ denotes rounding and clamping to $[0, 255]$.
 
