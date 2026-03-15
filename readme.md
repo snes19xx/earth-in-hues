@@ -130,7 +130,7 @@ This is a standard weighted arithmetic mean where each pixel's contribution is s
 
 The three channel means are then encoded to a hexadecimal string:
 
-$$\mathrm{hex}_k^{(m)} = \mathtt{\#}\,\lfloor \bar{R} \rceil_{255}\,\lfloor \bar{G} \rceil_{255}\,\lfloor \bar{B} \rceil_{255}$$
+$$\mathrm{hex}_k^{(m)} = \#\,\lfloor \bar{R} \rceil_{255}\,\lfloor \bar{G} \rceil_{255}\,\lfloor \bar{B} \rceil_{255}$$
 
 where $\lfloor \cdot \rceil_{255}$ denotes rounding and clamping to $[0, 255]$.
 
