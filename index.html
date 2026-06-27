@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earth in Hues</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script>
+      MathJax = {
+        tex: { inlineMath: [["$", "$"]], displayMath: [["$$", "$$"]] },
+        options: {
+          skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
+        },
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+    <style>
+      /* Computer Modern Fonts */
+      @font-face {
+        font-family: "Computer Modern";
+        src: url("../gradcafe_analysis/fonts/cmunrm.woff2") format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Computer Modern";
+        src: url("../gradcafe_analysis/fonts/cmunbx.woff2") format("woff2");
+        font-weight: bold;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Computer Modern";
+        src: url("../gradcafe_analysis/fonts/cmunti.woff2") format("woff2");
+        font-weight: normal;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: "Computer Modern";
+        src: url("../gradcafe_analysis/fonts/cmunbi.woff2") format("woff2");
+        font-weight: bold;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: "Computer Modern Typewriter";
+        src: url("../gradcafe_analysis/fonts/cmuntt.woff2") format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      :root {
+        --ink: #000000;
+        --paper: #faf9f6;
+        --link: #0000aa;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 11pt;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background: var(--paper);
+        color: var(--ink);
+        font-family: "Computer Modern", serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 40px;
+        text-align: justify;
+        hyphens: auto;
+      }
+
+      /* Navigation Container */
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid #000;
+        padding-bottom: 0.5rem;
+      }
+
+      .topbar-right {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .nav-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 2px 5px;
+        font-size: 8.5pt;
+        color: var(--link);
+        text-decoration: none;
+        border-radius: 2px;
+        transition: all 0.15s;
+        white-space: nowrap;
+        border: 1px solid transparent;
+      }
+
+      .nav-btn--outline {
+        border: 1px solid #000;
+      }
+
+      .nav-btn--outline:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+        text-decoration: none;
+      }
+      .nav-btn svg {
+        display: block;
+        flex-shrink: 0;
+      }
+
+      /* Header */
+      .paper-header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .paper-title {
+        font-size: 18pt;
+        font-weight: bold;
+        line-height: 1.3;
+        margin-bottom: rem;
+      }
+      .paper-meta {
+        font-size: 12pt;
+        margin-bottom: 0.5rem;
+      }
+      .paper-subtitle {
+        font-size: 12pt;
+        font-weight: normal;
+        font-style: italic;
+        line-height: 1.3;
+        margin-bottom: 1.5rem;
+      }
+
+      /* Typography */
+      h2 {
+        font-size: 14pt;
+        font-weight: bold;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        font-size: 12pt;
+        font-weight: bold;
+        margin-top: 2rem;
+        margin-bottom: 0.8rem;
+      }
+      h4 {
+        font-size: 11pt;
+        font-weight: bold;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        margin-bottom: 1rem;
+      }
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      em {
+        font-style: italic;
+      }
+      strong {
+        font-weight: bold;
+      }
+      code {
+        font-family: "Computer Modern Typewriter", monospace;
+        font-size: 0.9em;
+      }
+
+      /* Table of Contents */
+      .sidebar {
+        margin: 3rem 0;
+        padding: 1.5rem;
+        border: 1px solid #ccc;
+        background: #faf9f6;
+      }
+      .toc-title {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+      }
+      .toc,
+      .toc-sub {
+        list-style: none;
+        padding: 0;
+      }
+      .toc-sub {
+        padding-left: 1.5rem;
+        margin-top: 0.2rem;
+      }
+      .toc a {
+        color: var(--ink);
+      }
+
+      /* Tables */
+      .table-wrap {
+        overflow-x: auto;
+        margin: 2rem 0;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 10pt;
+        margin: 0 auto;
+      }
+      table thead tr {
+        border-top: 2px solid var(--ink);
+        border-bottom: 1px solid var(--ink);
+      }
+      table tbody tr:last-child {
+        border-bottom: 2px solid var(--ink);
+      }
+      table th,
+      table td {
+        padding: 0.4rem 0.6rem;
+        text-align: left;
+      }
+      table th {
+        font-weight: bold;
+      }
+
+      /* Math */
+      .math-block {
+        margin: 1.5rem 0;
+        text-align: center;
+        overflow-x: auto;
+      }
+
+      /* Visualizations & Custom Blocks */
+      .viz-container {
+        width: 100%;
+        margin: 2rem 0;
+        overflow-x: auto;
+      }
+      .viz-container svg {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+      .findings-block {
+        margin: 1.5rem 0 2rem;
+        padding: 1rem 1.5rem;
+        border: 1px solid #ccc;
+        background: #faf9f6;
+        font-size: 10pt;
+      }
+      .findings-label {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        font-size: 9pt;
+      }
+      .notes-list {
+        margin-top: 1rem;
+      }
+      .note-item {
+        margin-bottom: 1.5rem;
+      }
+      .note-label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 0.2rem;
+      }
+
+      /* Footer */
+      .article-footer {
+        margin-top: 4rem;
+        padding-top: 1rem;
+        border-top: 1px solid var(--ink);
+        font-size: 9pt;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="topbar">
+      <div class="topbar-left">
+        <a href="../index.html" class="btn-top" title="Back">← Back</a>
+      </div>
+      <div class="topbar-right">
+        <a
+          href="https://github.com/snes19xx/earth-in-hues"
+          target="_blank"
+          rel="noopener"
+          class="nav-btn nav-btn--outline"
+        >
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"
+            />
+          </svg>
+          Jupyter Notebook
+        </a>
+        <a
+          href="https://observablehq.com/d/f128eacdf52ad504"
+          target="_blank"
+          rel="noopener"
+          class="nav-btn nav-btn--outline"
+        >
+          <svg
+            width="13"
+            height="13"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <ellipse
+              cx="12"
+              cy="12"
+              rx="7"
+              ry="9"
+              stroke="currentColor"
+              stroke-width="3.5"
+            />
+            <circle cx="12" cy="12" r="2.5" fill="currentColor" />
+          </svg>
+
+          Observable Notebook
+        </a>
+      </div>
+    </nav>
+
+    <main class="content">
+      <header class="paper-header">
+        <div class="paper-title">
+          Earth in Hues
+          <div class="paper-subtitle">
+            Computing & Visualizing the Area-Weighted Spectral Signature of
+            Earth's Surface
+          </div>
+        </div>
+      </header>
+
+      <aside class="sidebar">
+        <div class="toc-title">Contents</div>
+        <ul class="toc">
+          <li><a href="#s1">1. Overview</a></li>
+          <li><a href="#s2">2. Data Sources</a></li>
+          <li>
+            <a href="#s3">3. Methodology</a>
+            <ul class="toc-sub">
+              <li><a href="#s3-1">3.1 Reference Grid Establishment</a></li>
+              <li><a href="#s3-2">3.2 Elevation Mosaic</a></li>
+              <li><a href="#s3-3">3.3 Land Cover Reprojection</a></li>
+              <li><a href="#s3-4">3.4 Latitude-Cosine Area Weighting</a></li>
+              <li><a href="#s3-5">3.5 Surface Category Masking</a></li>
+              <li><a href="#s3-6">3.6 Mean Color Extraction</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#s4">4. Visualizations</a>
+            <ul class="toc-sub">
+              <li><a href="#s4-1">4.1 True Mean Earth Color</a></li>
+              <li><a href="#s4-2">4.2 Earth's Annual Color Signature</a></li>
+              <li><a href="#s4-3">4.3 Seasonal Color Drift</a></li>
+              <li><a href="#s4-4">4.4 Seasonal Color Wheels</a></li>
+              <li><a href="#s4-5">4.5 RGB Channel Decomposition</a></li>
+              <li><a href="#s4-6">4.6 Brightness Anomaly</a></li>
+            </ul>
+          </li>
+          <li><a href="#s5">5. Notes & Limitations</a></li>
+        </ul>
+      </aside>
+
+      <section id="s1">
+        <h2><span class="section-num">1.</span> Overview</h2>
+        <p>
+          The project processes multi-source satellite data to compute the true,
+          physically-representative average RGB color of distinct surface
+          categories: oceans, forests, deserts, ice sheets, urban areas, and
+          more, for each calendar month. The result is a structured dataset
+          (<code>earth_hues.json</code>) mapping every surface category to a hex
+          color per month, corrected for the spatial distortion inherent in
+          geographic coordinate grids. The output is then used in D3 for
+          visualizations.
+        </p>
+      </section>
+
+      <section id="s2">
+        <h2><span class="section-num">2.</span> Data Sources</h2>
+        <p>Three primary datasets are utilized in this analysis:</p>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Dataset</th>
+                <th>Format</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>NASA Blue Marble</strong> (×12)</td>
+                <td><code>GeoTIFF</code></td>
+                <td>
+                  True-colour RGB surface reflectance composites at ~10 km
+                  resolution, one per calendar month.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>GEBCO 2025</strong></td>
+                <td><code>GeoTIFF</code></td>
+                <td>
+                  Global seabed and terrain elevation, stitched from a
+                  multi-tile mosaic.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>MODIS MCD12C1</strong></td>
+                <td><code>HDF</code></td>
+                <td>
+                  IGBP land cover classification at 0.05° (~5.6 km per pixel),
+                  17 discrete classes.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          The Blue Marble composites provide the raw colour signal. GEBCO
+          provides the elevation dimension needed to split ocean from inland
+          water and to define the mountain mask. MODIS provides the categorical
+          overlay that separates forests from grasslands, croplands from
+          deserts, and so on.
+        </p>
+      </section>
+
+      <section id="s3">
+        <h2><span class="section-num">3.</span> Methodology</h2>
+
+        <h3 id="s3-1">3.1 Reference Grid Establishment</h3>
+        <p>
+          All datasets are aligned to a common reference frame derived from the
+          January Blue Marble composite: a global unprojected grid in
+          <strong>EPSG:4326</strong> (WGS84) with uniform 0.1° spacing.
+        </p>
+        <div class="math-block">
+          $$\text{Grid} \in \mathbb{R}^{1800 \times 3600}, \quad \Delta\lambda =
+          \Delta\phi = 0.1^\circ$$
+        </div>
+        <p>
+          This covers $[-90^\circ, 90^\circ] \times [-180^\circ, 180^\circ]$.
+          Every subsequent dataset is aligned to this transform before any
+          computation.
+        </p>
+
+        <h3 id="s3-2">3.2 GEBCO Elevation Mosaic</h3>
+        <p>
+          GEBCO 2025 distributes global bathymetry as regional tiles at ~450 m
+          native resolution. Each tile is downsampled from disk via average
+          resampling to match the reference grid:
+        </p>
+        <div class="math-block">
+          $$\hat{e}_{i,j} = \frac{1}{|\mathcal{P}_{i,j}|} \sum_{p \in
+          \mathcal{P}_{i,j}} e_p$$
+        </div>
+        <p>
+          The resulting array $\mathbf{E} \in \mathbb{R}^{1800 \times 3600}$
+          stores signed elevation in metres, with negative values indicating
+          depth below sea level.
+        </p>
+
+        <h3 id="s3-3">3.3 Land Cover Reprojection</h3>
+        <p>
+          The MODIS MCD12C1 HDF encodes IGBP land surface classification. The
+          file lacks a standard geotransform, so reprojection is handled
+          explicitly. Nearest-neighbour resampling is required to prevent
+          interpolation artifacts on discrete class integers.
+        </p>
+        <div class="math-block">
+          $$L_{i,j} =
+          L_{\text{src}}\!\left(T_{\text{src}}^{-1}\!\left(T_{\text{ref}}(i,
+          j)\right)\right)$$
+        </div>
+        <p>
+          The resulting array $\mathbf{L} \in \mathbb{Z}^{1800 \times 3600}$
+          assigns each pixel one of 17 IGBP classes (0–16).
+        </p>
+
+        <h3 id="s3-4">3.4 Latitude-Cosine Area Weighting</h3>
+        <p>
+          In an equirectangular grid, physical area shrinks dramatically toward
+          the poles. Without correction, polar regions are massively
+          overrepresented. Since longitude step width scales by the cosine of
+          latitude, the relative area weight applied to each pixel is:
+        </p>
+        <div class="math-block">$$w(\phi) = \cos(\phi)$$</div>
+        <p>Where $\phi$ is the latitude of the given row in the grid.</p>
+
+        <h3 id="s3-5">3.5 Surface Category Masking</h3>
+        <p>
+          The mountain category utilizes a topographic roughness index ($\rho$)
+          calculated from the DEM gradient, distinguishing rugged terrain from
+          flat elevated plateaus.
+        </p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Mask Condition</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Oceans</td>
+                <td>$L = 0 \;\wedge\; E < 0$</td>
+              </tr>
+              <tr>
+                <td>Fresh Water</td>
+                <td>$L = 0 \;\wedge\; E \geq 0$</td>
+              </tr>
+              <tr>
+                <td>Snow and Ice</td>
+                <td>$L = 15$</td>
+              </tr>
+              <tr>
+                <td>Deserts</td>
+                <td>$L = 16$</td>
+              </tr>
+              <tr>
+                <td>Forests</td>
+                <td>$L \in \{1\ldots5\}$</td>
+              </tr>
+              <tr>
+                <td>Grasslands</td>
+                <td>$L \in \{8, 9, 10, 14\}$</td>
+              </tr>
+              <tr>
+                <td>Shrublands</td>
+                <td>$L \in \{6, 7\}$</td>
+              </tr>
+              <tr>
+                <td>Croplands</td>
+                <td>$L = 12$</td>
+              </tr>
+              <tr>
+                <td>Wetlands</td>
+                <td>$L = 11$</td>
+              </tr>
+              <tr>
+                <td>Urban Areas</td>
+                <td>$L = 13$</td>
+              </tr>
+              <tr>
+                <td>Mountains</td>
+                <td>$E > 1000\,\text{m} \;\wedge\; \rho > 50$</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 id="s3-6">3.6 Area-Weighted Mean Color Extraction</h3>
+        <p>
+          For each month $m$ and category $k$, the area-weighted mean for each
+          color channel $c \in \{R, G, B\}$ is computed over the valid masked
+          pixels $\mathcal{M}_{k}^{(m)}$:
+        </p>
+        <div class="math-block">
+          $$\bar{c}_k^{(m)} = \frac{\sum_{(i,j) \in \mathcal{M}_{k}^{(m)}}
+          w_{i}\; c_{i,j}}{\sum_{(i,j) \in \mathcal{M}_{k}^{(m)}} w_{i}}$$
+        </div>
+        <p>
+          Channel means are rounded, clamped to $[0,255]$, and encoded as
+          standard hexadecimal strings.
+        </p>
+      </section>
+
+      <section id="s4">
+        <h2><span class="section-num">4.</span> Visualizations</h2>
+        <p>
+          Six charts explore the dataset from different angles: from a raw
+          colour grid to channel-level decompositions and seasonal brightness
+          anomalies.
+        </p>
+
+        <h3 id="s4-1">4.1 True Mean Earth Color</h3>
+        <p>
+          Each cell shows the area-weighted mean hex colour for a surface type
+          and month.
+        </p>
+        <div class="viz-container" id="viz-heatmap"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            The ocean row is immediately legible: twelve identical squares of
+            very deep navy (#030614), confirming that total ocean mean luminance
+            is essentially constant. The ocean absorbs nearly all incident
+            visible radiation at every wavelength.
+          </p>
+          <p>
+            Snow and Ice shows the opposite extreme — consistently the brightest
+            row, near-white all year, with a barely perceptible warm shift in
+            Northern Hemisphere summer as Arctic melt ponds and older snow
+            reduce overall albedo. The Forests row traces a clear arc: warm
+            dark-olive in boreal winter, deepening to near-black (#1b290d) in
+            July–September, then recovering.
+          </p>
+        </div>
+
+        <h3 id="s4-2">4.2 Earth's Annual Color Signature</h3>
+        <p>
+          The aggregate signals (total Earth, total land, and total ocean)
+          across the full year.
+        </p>
+        <div class="viz-container" id="viz-signature"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            Carl Sagan famously described Earth as a "pale blue dot," and it
+            holds at interplanetary distance, where atmospheric scattering
+            dominates the signal. The surface data differs. The Total Earth Mean
+            sits around #242528 in summer and #28292d in winter — a near-neutral
+            very dark grey with only a marginal blue bias. Area-weighted,
+            Earth's surface is not pale and not meaningfully blue; the surface
+            mean is simply dark.
+          </p>
+        </div>
+
+        <h3 id="s4-3">4.3 Seasonal Color Drift from January</h3>
+        <p>
+          RGB Euclidean distance of each month's mean colour from the January
+          baseline, per surface type.
+        </p>
+        <div class="viz-container" id="viz-drift"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            Wetlands dominates by a wide margin, exceeding 200 RGB units by
+            August–September. This is a bimodal signal: boreal winter produces
+            cool grey-green tones from frozen Arctic peatland pixels, while
+            Northern Hemisphere summer brings dramatic darkening as vegetation
+            growth and open water reflectance take over. Shrublands shows the
+            second-largest drift, capturing the double-hemisphere drying signal
+            during mid-year months.
+          </p>
+        </div>
+
+        <h3 id="s4-4">4.4 Seasonal Color Wheels</h3>
+        <p>
+          Each biome as a 12-segment wheel. The outer rim marks the four
+          seasons; inner wedges show mean colour per month.
+        </p>
+        <div class="viz-container" id="viz-wheels"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            The Oceans wheel is a near-perfect monochrome disc. Snow and Ice is
+            equally static but bright. Forests and Wetlands show the most
+            visually striking wheels: a clear split between the lighter
+            boreal-winter half and the darker summer half.
+          </p>
+        </div>
+
+        <h3 id="s4-5">4.5 RGB Channel Decomposition</h3>
+        <p>
+          R, G, and B channel intensities (0–255) per surface type across twelve
+          months.
+        </p>
+        <div class="viz-container" id="viz-rgb"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            For most land categories, all three channels track together —
+            seasonal change is primarily a brightness modulation, not a hue
+            shift. Shrublands is the clearest exception: in July–August red and
+            green fall more steeply than blue, giving the summer minimum its
+            warm brown character consistent with dry senesced vegetation.
+          </p>
+        </div>
+
+        <h3 id="s4-6">4.6 Seasonal Brightness Anomaly</h3>
+        <p>
+          Deviation of monthly perceptual luminance from the annual mean for
+          each surface type.
+        </p>
+        <div class="viz-container" id="viz-anomaly"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            Wetlands commands the heatmap: January–May run strongly positive
+            (+16 to +18 pp), while August–October plunge to −27 to −29 pp.
+            Shrublands shows the second-sharpest contrast. Grasslands and
+            Croplands show similar shapes, heavily driven by Northern Hemisphere
+            agricultural cycles. Urban Areas are nearly flat throughout.
+          </p>
+        </div>
+      </section>
+
+      <section id="s5">
+        <h2><span class="section-num">5.</span> Notes & Limitations</h2>
+        <div class="notes-list">
+          <div class="note-item">
+            <span class="note-label">Resampling strategy</span>
+            <p>
+              Average resampling preserves radiometric accuracy for continuous
+              GEBCO elevation. Nearest-neighbour is reserved for categorical
+              MODIS land cover to prevent class interpolation artifacts.
+            </p>
+          </div>
+          <div class="note-item">
+            <span class="note-label">Polar weighting</span>
+            <p>
+              Cosine weighting suppresses polar pixels toward zero without
+              hard-excluding them. Contribution diminishes smoothly as $\phi \to
+              \pm 90^\circ$.
+            </p>
+          </div>
+          <div class="note-item">
+            <span class="note-label">Mountain definition</span>
+            <p>
+              The mountain mask requires elevation above 1000 m and roughness
+              $\rho > 50$, excluding flat elevated plateaus. It is non-exclusive
+              — pixels may belong simultaneously to Mountains and another
+              category.
+            </p>
+          </div>
+          <div class="note-item">
+            <span class="note-label">Urban Areas anomaly</span>
+            <p>
+              At MODIS 0.05° resolution, no pixel resolves a pure urban surface.
+              The IGBP classifier systematically misclassifies dense Asian
+              cities. The urban class therefore describes low-density suburban
+              fabric, not global urban land.
+            </p>
+          </div>
+          <div class="note-item">
+            <span class="note-label">Colour space</span>
+            <p>
+              All averages are computed on gamma-compressed values as stored in
+              the GeoTIFFs, not on physically linear light. The perceptual
+              difference is negligible for broad macro-statistics.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="article-footer">
+        Data: NASA Terra/MODIS MCD43C3 | GEBCO 2025 | MODIS MCD12C1 Land
+        Cover<br />
+        Analysis: Python, rasterio, NumPy | Visualizations: D3.js v7
+      </footer>
+    </main>
+
+    <script src="viz.js"></script>
+  </body>
+</html>
