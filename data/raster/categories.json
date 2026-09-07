@@ -1,0 +1,27 @@
+{
+    "width": 3600,
+    "height": 1800,
+    "bounds": [
+        -180,
+        -90,
+        180,
+        90
+    ],
+    "encoding": {
+        "red": "category index",
+        "green": "255 where mountainous"
+    },
+    "categories": [
+        "Oceans",
+        "Fresh Water",
+        "Snow and Ice",
+        "Deserts",
+        "Forests",
+        "Grasslands",
+        "Shrublands",
+        "Croplands",
+        "Wetlands",
+        "Urban Areas"
+    ],
+    "unassigned": 255
+}

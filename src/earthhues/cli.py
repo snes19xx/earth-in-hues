@@ -5,6 +5,7 @@ from pathlib import Path
 from .color import METHODS
 from .gibs import LAYERS, download_all
 from .epic import observed
+from .raster import build as raster_build
 from .space import build as space_build
 from .timeseries import build, rebuild
 from .extract import CANONICAL_METHOD, monthly_colors, monthly_methods, monthly_stats
@@ -56,6 +57,12 @@ def cmd_epic(args) -> None:
     write_json(Path(args.out) / "earth_hues_epic.json", observed(Path(args.data) / "epic"))
 
 
+def cmd_masks(args) -> None:
+    sources = Sources(args.data, args.cache)
+    palette = json.loads((Path(args.out) / "earth_hues.json").read_text())[0]
+    raster_build(sources, Path(args.out) / "raster", palette)
+
+
 def build_parser() -> argparse.ArgumentParser:
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument("--data", default="DATA", help="directory holding the input rasters")
@@ -89,6 +96,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     epic = subcommands.add_parser("epic", parents=[common], help="observed disk colour from DSCOVR")
     epic.set_defaults(func=cmd_epic)
+
+    masks = subcommands.add_parser("masks", parents=[common], help="category raster for the map")
+    masks.set_defaults(func=cmd_masks)
 
     return parser
 
