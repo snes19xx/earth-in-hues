@@ -2,7 +2,8 @@ import argparse
 import json
 from pathlib import Path
 
-from .extract import monthly_colors
+from .color import METHODS
+from .extract import CANONICAL_METHOD, monthly_colors, monthly_methods
 from .sources import Sources
 
 
@@ -15,7 +16,12 @@ def write_json(path: Path, payload) -> None:
 
 def cmd_colors(args) -> None:
     sources = Sources(args.data, args.cache)
-    write_json(Path(args.out) / "earth_hues.json", monthly_colors(sources))
+    write_json(Path(args.out) / "earth_hues.json", monthly_colors(sources, args.method))
+
+
+def cmd_methods(args) -> None:
+    sources = Sources(args.data, args.cache)
+    write_json(Path(args.out) / "earth_hues_methods.json", monthly_methods(sources))
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -28,7 +34,11 @@ def build_parser() -> argparse.ArgumentParser:
     subcommands = parser.add_subparsers(dest="command", required=True)
 
     colors = subcommands.add_parser("colors", parents=[common], help="monthly mean colour per category")
+    colors.add_argument("--method", default=CANONICAL_METHOD, choices=METHODS)
     colors.set_defaults(func=cmd_colors)
+
+    methods = subcommands.add_parser("methods", parents=[common], help="every estimator side by side")
+    methods.set_defaults(func=cmd_methods)
 
     return parser
 

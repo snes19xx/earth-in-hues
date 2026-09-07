@@ -1,0 +1,1406 @@
+[
+    {
+        "month": "jan",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.63
+            },
+            "Fresh Water": {
+                "srgb_mean": "#818680",
+                "linear_mean": "#a6a9a9",
+                "lab_mean": "#7b8079",
+                "median": "#7a807a",
+                "dominant": "#303720",
+                "gamma_shift": 12.27
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#eaedef",
+                "linear_mean": "#ebeef0",
+                "lab_mean": "#eaecef",
+                "median": "#eeeff2",
+                "dominant": "#eceff1",
+                "gamma_shift": 0.26
+            },
+            "Deserts": {
+                "srgb_mean": "#aa916e",
+                "linear_mean": "#ae9675",
+                "lab_mean": "#aa916d",
+                "median": "#af9269",
+                "dominant": "#c3a579",
+                "gamma_shift": 1.82
+            },
+            "Forests": {
+                "srgb_mean": "#39432e",
+                "linear_mean": "#4f5650",
+                "lab_mean": "#38412c",
+                "median": "#202c0f",
+                "dominant": "#1f2f0f",
+                "gamma_shift": 10.0
+            },
+            "Grasslands": {
+                "srgb_mean": "#71705c",
+                "linear_mean": "#878780",
+                "lab_mean": "#706d57",
+                "median": "#605234",
+                "dominant": "#2f3517",
+                "gamma_shift": 11.02
+            },
+            "Shrublands": {
+                "srgb_mean": "#9e8d7b",
+                "linear_mean": "#a9a29c",
+                "lab_mean": "#a08a76",
+                "median": "#8a6946",
+                "dominant": "#7c5032",
+                "gamma_shift": 8.71
+            },
+            "Croplands": {
+                "srgb_mean": "#6a634b",
+                "linear_mean": "#7b776c",
+                "lab_mean": "#696148",
+                "median": "#584d2e",
+                "dominant": "#544a2d",
+                "gamma_shift": 9.47
+            },
+            "Wetlands": {
+                "srgb_mean": "#969f98",
+                "linear_mean": "#adb4b5",
+                "lab_mean": "#939a92",
+                "median": "#c2cbce",
+                "dominant": "#dae2e6",
+                "gamma_shift": 7.9
+            },
+            "Urban Areas": {
+                "srgb_mean": "#4c492f",
+                "linear_mean": "#575340",
+                "lab_mean": "#4c482e",
+                "median": "#454325",
+                "dominant": "#3a3b1e",
+                "gamma_shift": 4.64
+            },
+            "Mountains": {
+                "srgb_mean": "#827c69",
+                "linear_mean": "#96928a",
+                "lab_mean": "#817865",
+                "median": "#7b6749",
+                "dominant": "#635337",
+                "gamma_shift": 9.43
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#817c68",
+                "linear_mean": "#98948c",
+                "lab_mean": "#7f7963",
+                "median": "#7b6646",
+                "dominant": "#2a3115",
+                "gamma_shift": 10.37
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#070b17",
+                "lab_mean": "#030714",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.84
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#28292d",
+                "linear_mean": "#565552",
+                "lab_mean": "#28282a",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 15.2
+            }
+        }
+    },
+    {
+        "month": "feb",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.66
+            },
+            "Fresh Water": {
+                "srgb_mean": "#848983",
+                "linear_mean": "#a8abab",
+                "lab_mean": "#7e837c",
+                "median": "#848b88",
+                "dominant": "#323920",
+                "gamma_shift": 11.78
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#eaedef",
+                "linear_mean": "#ebeef0",
+                "lab_mean": "#eaecef",
+                "median": "#eeeff2",
+                "dominant": "#eceef1",
+                "gamma_shift": 0.25
+            },
+            "Deserts": {
+                "srgb_mean": "#aa926e",
+                "linear_mean": "#ae9777",
+                "lab_mean": "#aa916e",
+                "median": "#af9269",
+                "dominant": "#c3a67a",
+                "gamma_shift": 1.95
+            },
+            "Forests": {
+                "srgb_mean": "#3b4430",
+                "linear_mean": "#515651",
+                "lab_mean": "#39422e",
+                "median": "#212d10",
+                "dominant": "#19230c",
+                "gamma_shift": 9.89
+            },
+            "Grasslands": {
+                "srgb_mean": "#74735f",
+                "linear_mean": "#8a8a84",
+                "lab_mean": "#73705b",
+                "median": "#625435",
+                "dominant": "#2f3617",
+                "gamma_shift": 11.03
+            },
+            "Shrublands": {
+                "srgb_mean": "#9e8d7b",
+                "linear_mean": "#aaa39d",
+                "lab_mean": "#a08a76",
+                "median": "#886845",
+                "dominant": "#7a4e31",
+                "gamma_shift": 8.96
+            },
+            "Croplands": {
+                "srgb_mean": "#736c56",
+                "linear_mean": "#858178",
+                "lab_mean": "#726a52",
+                "median": "#5e5233",
+                "dominant": "#685739",
+                "gamma_shift": 10.15
+            },
+            "Wetlands": {
+                "srgb_mean": "#949c97",
+                "linear_mean": "#abb1b4",
+                "lab_mean": "#919891",
+                "median": "#b8c1c8",
+                "dominant": "#2a3217",
+                "gamma_shift": 8.0
+            },
+            "Urban Areas": {
+                "srgb_mean": "#545037",
+                "linear_mean": "#605d4c",
+                "lab_mean": "#534f35",
+                "median": "#4a4629",
+                "dominant": "#424023",
+                "gamma_shift": 5.88
+            },
+            "Mountains": {
+                "srgb_mean": "#86806f",
+                "linear_mean": "#9a968f",
+                "lab_mean": "#857d6a",
+                "median": "#7e6c4e",
+                "dominant": "#655538",
+                "gamma_shift": 9.15
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#837f6b",
+                "linear_mean": "#9a968f",
+                "lab_mean": "#817b66",
+                "median": "#7e6a4a",
+                "dominant": "#2a3215",
+                "gamma_shift": 10.22
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#080b17",
+                "lab_mean": "#030714",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.86
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#28292e",
+                "linear_mean": "#585653",
+                "lab_mean": "#29292a",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 15.39
+            }
+        }
+    },
+    {
+        "month": "mar",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.67
+            },
+            "Fresh Water": {
+                "srgb_mean": "#858a84",
+                "linear_mean": "#aaacac",
+                "lab_mean": "#80847d",
+                "median": "#898e8a",
+                "dominant": "#ebedef",
+                "gamma_shift": 11.68
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#eaedef",
+                "linear_mean": "#ebeef0",
+                "lab_mean": "#eaedef",
+                "median": "#eef0f2",
+                "dominant": "#eceef1",
+                "gamma_shift": 0.25
+            },
+            "Deserts": {
+                "srgb_mean": "#ab9370",
+                "linear_mean": "#af9878",
+                "lab_mean": "#ab926f",
+                "median": "#b0936b",
+                "dominant": "#c4a67a",
+                "gamma_shift": 1.79
+            },
+            "Forests": {
+                "srgb_mean": "#3c4430",
+                "linear_mean": "#52564f",
+                "lab_mean": "#3a422d",
+                "median": "#212e10",
+                "dominant": "#1f2d0e",
+                "gamma_shift": 9.6
+            },
+            "Grasslands": {
+                "srgb_mean": "#76745f",
+                "linear_mean": "#8d8b84",
+                "lab_mean": "#74715a",
+                "median": "#635436",
+                "dominant": "#2e3716",
+                "gamma_shift": 11.05
+            },
+            "Shrublands": {
+                "srgb_mean": "#9f8e7b",
+                "linear_mean": "#ada49e",
+                "lab_mean": "#a18b76",
+                "median": "#876846",
+                "dominant": "#72492d",
+                "gamma_shift": 9.02
+            },
+            "Croplands": {
+                "srgb_mean": "#777059",
+                "linear_mean": "#8a857a",
+                "lab_mean": "#766e55",
+                "median": "#645637",
+                "dominant": "#5c5033",
+                "gamma_shift": 9.72
+            },
+            "Wetlands": {
+                "srgb_mean": "#9ca199",
+                "linear_mean": "#b3b7b7",
+                "lab_mean": "#989d94",
+                "median": "#c7cbce",
+                "dominant": "#e2e6e9",
+                "gamma_shift": 7.96
+            },
+            "Urban Areas": {
+                "srgb_mean": "#575339",
+                "linear_mean": "#635e4d",
+                "lab_mean": "#565237",
+                "median": "#4e492b",
+                "dominant": "#454225",
+                "gamma_shift": 5.44
+            },
+            "Mountains": {
+                "srgb_mean": "#87806d",
+                "linear_mean": "#9a968e",
+                "lab_mean": "#857d69",
+                "median": "#7f6c4f",
+                "dominant": "#66563a",
+                "gamma_shift": 9.02
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#85806b",
+                "linear_mean": "#9c988f",
+                "lab_mean": "#837c66",
+                "median": "#7f6b4c",
+                "dominant": "#2a3215",
+                "gamma_shift": 10.14
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#070b17",
+                "lab_mean": "#030714",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.8
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#292a2e",
+                "linear_mean": "#595653",
+                "lab_mean": "#29292b",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 15.59
+            }
+        }
+    },
+    {
+        "month": "apr",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.66
+            },
+            "Fresh Water": {
+                "srgb_mean": "#858982",
+                "linear_mean": "#a9abab",
+                "lab_mean": "#7f837b",
+                "median": "#848781",
+                "dominant": "#ebedef",
+                "gamma_shift": 11.93
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#eaedef",
+                "linear_mean": "#eceef0",
+                "lab_mean": "#eaedef",
+                "median": "#eef0f2",
+                "dominant": "#eceef1",
+                "gamma_shift": 0.25
+            },
+            "Deserts": {
+                "srgb_mean": "#ac9471",
+                "linear_mean": "#b09878",
+                "lab_mean": "#ac9370",
+                "median": "#b1946d",
+                "dominant": "#c5a77d",
+                "gamma_shift": 1.54
+            },
+            "Forests": {
+                "srgb_mean": "#3a422c",
+                "linear_mean": "#4f534a",
+                "lab_mean": "#38402a",
+                "median": "#202d0f",
+                "dominant": "#1e2c0e",
+                "gamma_shift": 8.9
+            },
+            "Grasslands": {
+                "srgb_mean": "#726f58",
+                "linear_mean": "#88857c",
+                "lab_mean": "#706c54",
+                "median": "#5f5235",
+                "dominant": "#2e3616",
+                "gamma_shift": 10.83
+            },
+            "Shrublands": {
+                "srgb_mean": "#a08e7a",
+                "linear_mean": "#aea49d",
+                "lab_mean": "#a18b75",
+                "median": "#886946",
+                "dominant": "#5b4d2f",
+                "gamma_shift": 8.97
+            },
+            "Croplands": {
+                "srgb_mean": "#6c644a",
+                "linear_mean": "#7a7363",
+                "lab_mean": "#6b6247",
+                "median": "#625637",
+                "dominant": "#605436",
+                "gamma_shift": 7.21
+            },
+            "Wetlands": {
+                "srgb_mean": "#9ea299",
+                "linear_mean": "#b7b9b7",
+                "lab_mean": "#9a9e93",
+                "median": "#cccfce",
+                "dominant": "#e6e8e8",
+                "gamma_shift": 7.95
+            },
+            "Urban Areas": {
+                "srgb_mean": "#514e32",
+                "linear_mean": "#58543c",
+                "lab_mean": "#514d31",
+                "median": "#4d492b",
+                "dominant": "#3f3f22",
+                "gamma_shift": 2.92
+            },
+            "Mountains": {
+                "srgb_mean": "#827b66",
+                "linear_mean": "#959086",
+                "lab_mean": "#807862",
+                "median": "#7c6a4b",
+                "dominant": "#625438",
+                "gamma_shift": 8.97
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#827d67",
+                "linear_mean": "#9a948a",
+                "lab_mean": "#807962",
+                "median": "#7a6647",
+                "dominant": "#2b3316",
+                "gamma_shift": 10.22
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#070b16",
+                "lab_mean": "#030714",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.77
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#28292c",
+                "linear_mean": "#575451",
+                "lab_mean": "#292829",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 15.27
+            }
+        }
+    },
+    {
+        "month": "may",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.64
+            },
+            "Fresh Water": {
+                "srgb_mean": "#81857d",
+                "linear_mean": "#a7a9a8",
+                "lab_mean": "#7b7f76",
+                "median": "#717165",
+                "dominant": "#ebedee",
+                "gamma_shift": 12.7
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#eaedef",
+                "linear_mean": "#eceef0",
+                "lab_mean": "#eaedef",
+                "median": "#eef0f2",
+                "dominant": "#eceef1",
+                "gamma_shift": 0.26
+            },
+            "Deserts": {
+                "srgb_mean": "#ad9471",
+                "linear_mean": "#b09877",
+                "lab_mean": "#ad9471",
+                "median": "#b2946e",
+                "dominant": "#c5a87f",
+                "gamma_shift": 1.37
+            },
+            "Forests": {
+                "srgb_mean": "#323b23",
+                "linear_mean": "#43483b",
+                "lab_mean": "#313922",
+                "median": "#1f2c0f",
+                "dominant": "#1f2d0e",
+                "gamma_shift": 7.19
+            },
+            "Grasslands": {
+                "srgb_mean": "#68664d",
+                "linear_mean": "#7e7a6e",
+                "lab_mean": "#676349",
+                "median": "#574d30",
+                "dominant": "#2e3616",
+                "gamma_shift": 10.05
+            },
+            "Shrublands": {
+                "srgb_mean": "#9f8d79",
+                "linear_mean": "#aea49c",
+                "lab_mean": "#a08a74",
+                "median": "#896a47",
+                "dominant": "#784e2e",
+                "gamma_shift": 8.92
+            },
+            "Croplands": {
+                "srgb_mean": "#5c5436",
+                "linear_mean": "#61583c",
+                "lab_mean": "#5c5436",
+                "median": "#5c5234",
+                "dominant": "#635839",
+                "gamma_shift": 1.9
+            },
+            "Wetlands": {
+                "srgb_mean": "#9ca096",
+                "linear_mean": "#b6b7b4",
+                "lab_mean": "#989b90",
+                "median": "#cacbc9",
+                "dominant": "#e9eaea",
+                "gamma_shift": 8.15
+            },
+            "Urban Areas": {
+                "srgb_mean": "#4c4c2d",
+                "linear_mean": "#524f32",
+                "lab_mean": "#4c4b2c",
+                "median": "#484929",
+                "dominant": "#393d1f",
+                "gamma_shift": 1.76
+            },
+            "Mountains": {
+                "srgb_mean": "#7d7660",
+                "linear_mean": "#908a7f",
+                "lab_mean": "#7c735c",
+                "median": "#786748",
+                "dominant": "#615438",
+                "gamma_shift": 9.03
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#7c765f",
+                "linear_mean": "#948e83",
+                "lab_mean": "#79735a",
+                "median": "#705e40",
+                "dominant": "#2c3316",
+                "gamma_shift": 10.65
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#070b16",
+                "lab_mean": "#030714",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.76
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#26272a",
+                "linear_mean": "#54514c",
+                "lab_mean": "#272628",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 14.72
+            }
+        }
+    },
+    {
+        "month": "jun",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.62
+            },
+            "Fresh Water": {
+                "srgb_mean": "#7b8078",
+                "linear_mean": "#a3a6a4",
+                "lab_mean": "#767a70",
+                "median": "#5d5d49",
+                "dominant": "#262f18",
+                "gamma_shift": 13.67
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#eaedef",
+                "linear_mean": "#eceef0",
+                "lab_mean": "#eaecee",
+                "median": "#eeeff2",
+                "dominant": "#eceef1",
+                "gamma_shift": 0.26
+            },
+            "Deserts": {
+                "srgb_mean": "#ad9472",
+                "linear_mean": "#b09777",
+                "lab_mean": "#ad9471",
+                "median": "#b2956f",
+                "dominant": "#c4a87f",
+                "gamma_shift": 1.23
+            },
+            "Forests": {
+                "srgb_mean": "#263016",
+                "linear_mean": "#2e3622",
+                "lab_mean": "#253016",
+                "median": "#1e2a0e",
+                "dominant": "#18240b",
+                "gamma_shift": 3.68
+            },
+            "Grasslands": {
+                "srgb_mean": "#5e5b42",
+                "linear_mean": "#726e60",
+                "lab_mean": "#5c593f",
+                "median": "#4c472a",
+                "dominant": "#2e3517",
+                "gamma_shift": 8.83
+            },
+            "Shrublands": {
+                "srgb_mean": "#9a8873",
+                "linear_mean": "#a89f96",
+                "lab_mean": "#9b856f",
+                "median": "#876947",
+                "dominant": "#764d2d",
+                "gamma_shift": 8.83
+            },
+            "Croplands": {
+                "srgb_mean": "#565131",
+                "linear_mean": "#5b5435",
+                "lab_mean": "#565131",
+                "median": "#534e2f",
+                "dominant": "#6a5c3c",
+                "gamma_shift": 1.79
+            },
+            "Wetlands": {
+                "srgb_mean": "#83877a",
+                "linear_mean": "#9fa19d",
+                "lab_mean": "#7f8274",
+                "median": "#77786f",
+                "dominant": "#282e16",
+                "gamma_shift": 10.1
+            },
+            "Urban Areas": {
+                "srgb_mean": "#494b2b",
+                "linear_mean": "#4f4e2f",
+                "lab_mean": "#494b2a",
+                "median": "#444827",
+                "dominant": "#343d1c",
+                "gamma_shift": 1.93
+            },
+            "Mountains": {
+                "srgb_mean": "#78715a",
+                "linear_mean": "#8b8579",
+                "lab_mean": "#766f57",
+                "median": "#746446",
+                "dominant": "#8c795b",
+                "gamma_shift": 9.07
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#746f57",
+                "linear_mean": "#8e887c",
+                "lab_mean": "#726c53",
+                "median": "#645637",
+                "dominant": "#252f13",
+                "gamma_shift": 11.33
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#070a16",
+                "lab_mean": "#030714",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.74
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#242528",
+                "linear_mean": "#504d48",
+                "lab_mean": "#252526",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 14.19
+            }
+        }
+    },
+    {
+        "month": "jul",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060916",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.57
+            },
+            "Fresh Water": {
+                "srgb_mean": "#71766d",
+                "linear_mean": "#9c9e9d",
+                "lab_mean": "#6b7065",
+                "median": "#444930",
+                "dominant": "#222c15",
+                "gamma_shift": 15.44
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#eaecee",
+                "linear_mean": "#ebedef",
+                "lab_mean": "#eaecee",
+                "median": "#eeeff2",
+                "dominant": "#eceef1",
+                "gamma_shift": 0.27
+            },
+            "Deserts": {
+                "srgb_mean": "#ac9471",
+                "linear_mean": "#af9676",
+                "lab_mean": "#ac9371",
+                "median": "#b39670",
+                "dominant": "#c4a880",
+                "gamma_shift": 1.07
+            },
+            "Forests": {
+                "srgb_mean": "#1d2a0e",
+                "linear_mean": "#202c11",
+                "lab_mean": "#1d2a0f",
+                "median": "#1a280c",
+                "dominant": "#1b290d",
+                "gamma_shift": 0.81
+            },
+            "Grasslands": {
+                "srgb_mean": "#4c4b2e",
+                "linear_mean": "#5b5742",
+                "lab_mean": "#4b4a2d",
+                "median": "#3e3f20",
+                "dominant": "#564c2f",
+                "gamma_shift": 5.74
+            },
+            "Shrublands": {
+                "srgb_mean": "#746148",
+                "linear_mean": "#7d6e5d",
+                "lab_mean": "#746046",
+                "median": "#705537",
+                "dominant": "#6d4a2c",
+                "gamma_shift": 5.66
+            },
+            "Croplands": {
+                "srgb_mean": "#4f4f2d",
+                "linear_mean": "#565231",
+                "lab_mean": "#4f4f2c",
+                "median": "#494a28",
+                "dominant": "#313d1a",
+                "gamma_shift": 2.15
+            },
+            "Wetlands": {
+                "srgb_mean": "#393d28",
+                "linear_mean": "#4b4e42",
+                "lab_mean": "#373b26",
+                "median": "#292d13",
+                "dominant": "#232611",
+                "gamma_shift": 7.61
+            },
+            "Urban Areas": {
+                "srgb_mean": "#464a29",
+                "linear_mean": "#4d4d2e",
+                "lab_mean": "#464928",
+                "median": "#404625",
+                "dominant": "#303c19",
+                "gamma_shift": 2.2
+            },
+            "Mountains": {
+                "srgb_mean": "#706a51",
+                "linear_mean": "#837d6f",
+                "lab_mean": "#6e674e",
+                "median": "#6c5f40",
+                "dominant": "#847152",
+                "gamma_shift": 9.05
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#676349",
+                "linear_mean": "#817a6c",
+                "lab_mean": "#646045",
+                "median": "#524a2b",
+                "dominant": "#222d11",
+                "gamma_shift": 11.24
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#070a16",
+                "lab_mean": "#030714",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.69
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#202124",
+                "linear_mean": "#494640",
+                "lab_mean": "#222222",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 12.96
+            }
+        }
+    },
+    {
+        "month": "aug",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#050916",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.53
+            },
+            "Fresh Water": {
+                "srgb_mean": "#6a7065",
+                "linear_mean": "#989a98",
+                "lab_mean": "#646a5e",
+                "median": "#363d23",
+                "dominant": "#202a13",
+                "gamma_shift": 16.95
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#e9ecee",
+                "linear_mean": "#ebedef",
+                "lab_mean": "#e9ebed",
+                "median": "#eeeff2",
+                "dominant": "#eceef1",
+                "gamma_shift": 0.31
+            },
+            "Deserts": {
+                "srgb_mean": "#ab9270",
+                "linear_mean": "#ae9574",
+                "lab_mean": "#ab926f",
+                "median": "#b29570",
+                "dominant": "#c1a077",
+                "gamma_shift": 1.06
+            },
+            "Forests": {
+                "srgb_mean": "#1b290d",
+                "linear_mean": "#1e2b10",
+                "lab_mean": "#1b290e",
+                "median": "#19270b",
+                "dominant": "#17250a",
+                "gamma_shift": 0.73
+            },
+            "Grasslands": {
+                "srgb_mean": "#454527",
+                "linear_mean": "#514c33",
+                "lab_mean": "#444426",
+                "median": "#3b3c1e",
+                "dominant": "#4f4629",
+                "gamma_shift": 4.29
+            },
+            "Shrublands": {
+                "srgb_mean": "#5d4c2e",
+                "linear_mean": "#675135",
+                "lab_mean": "#5c4b2d",
+                "median": "#614529",
+                "dominant": "#70482a",
+                "gamma_shift": 3.02
+            },
+            "Croplands": {
+                "srgb_mean": "#484b27",
+                "linear_mean": "#4f4e2c",
+                "lab_mean": "#484b27",
+                "median": "#414522",
+                "dominant": "#2c3a16",
+                "gamma_shift": 2.28
+            },
+            "Wetlands": {
+                "srgb_mean": "#272e15",
+                "linear_mean": "#2d3320",
+                "lab_mean": "#272d15",
+                "median": "#22290f",
+                "dominant": "#222610",
+                "gamma_shift": 2.98
+            },
+            "Urban Areas": {
+                "srgb_mean": "#444827",
+                "linear_mean": "#4b4b2c",
+                "lab_mean": "#434726",
+                "median": "#3e4422",
+                "dominant": "#2e3a18",
+                "gamma_shift": 2.24
+            },
+            "Mountains": {
+                "srgb_mean": "#6a654b",
+                "linear_mean": "#7f796a",
+                "lab_mean": "#696348",
+                "median": "#66583a",
+                "dominant": "#252f12",
+                "gamma_shift": 9.38
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#605e42",
+                "linear_mean": "#7c7566",
+                "lab_mean": "#5e5b3e",
+                "median": "#474324",
+                "dominant": "#212e10",
+                "gamma_shift": 11.3
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.65
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#1e2022",
+                "linear_mean": "#46423c",
+                "lab_mean": "#202120",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 12.52
+            }
+        }
+    },
+    {
+        "month": "sept",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#050916",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.53
+            },
+            "Fresh Water": {
+                "srgb_mean": "#696f64",
+                "linear_mean": "#979998",
+                "lab_mean": "#63685d",
+                "median": "#333b21",
+                "dominant": "#1f2913",
+                "gamma_shift": 17.29
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#e9ebed",
+                "linear_mean": "#ebedef",
+                "lab_mean": "#e9ebed",
+                "median": "#eeeff2",
+                "dominant": "#eceef1",
+                "gamma_shift": 0.33
+            },
+            "Deserts": {
+                "srgb_mean": "#aa916e",
+                "linear_mean": "#ad9472",
+                "lab_mean": "#aa906e",
+                "median": "#b0946f",
+                "dominant": "#c0a076",
+                "gamma_shift": 1.1
+            },
+            "Forests": {
+                "srgb_mean": "#1c290d",
+                "linear_mean": "#1e2a0f",
+                "lab_mean": "#1c290e",
+                "median": "#19270b",
+                "dominant": "#18250b",
+                "gamma_shift": 0.73
+            },
+            "Grasslands": {
+                "srgb_mean": "#454426",
+                "linear_mean": "#514b31",
+                "lab_mean": "#444325",
+                "median": "#3d3d1f",
+                "dominant": "#50462a",
+                "gamma_shift": 4.09
+            },
+            "Shrublands": {
+                "srgb_mean": "#5f4c2f",
+                "linear_mean": "#695235",
+                "lab_mean": "#5e4c2e",
+                "median": "#66482c",
+                "dominant": "#744a2c",
+                "gamma_shift": 2.94
+            },
+            "Croplands": {
+                "srgb_mean": "#464825",
+                "linear_mean": "#4c4b29",
+                "lab_mean": "#454825",
+                "median": "#3f4320",
+                "dominant": "#2d3816",
+                "gamma_shift": 2.04
+            },
+            "Wetlands": {
+                "srgb_mean": "#262b13",
+                "linear_mean": "#2c311e",
+                "lab_mean": "#262b14",
+                "median": "#22270e",
+                "dominant": "#21260e",
+                "gamma_shift": 2.79
+            },
+            "Urban Areas": {
+                "srgb_mean": "#434626",
+                "linear_mean": "#4a492b",
+                "lab_mean": "#424525",
+                "median": "#3d4222",
+                "dominant": "#2d3717",
+                "gamma_shift": 2.2
+            },
+            "Mountains": {
+                "srgb_mean": "#69634a",
+                "linear_mean": "#7e7769",
+                "lab_mean": "#676147",
+                "median": "#655638",
+                "dominant": "#252e12",
+                "gamma_shift": 9.43
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#605d41",
+                "linear_mean": "#7b7465",
+                "lab_mean": "#5d5a3e",
+                "median": "#494326",
+                "dominant": "#212d10",
+                "gamma_shift": 11.24
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.64
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#1e1f21",
+                "linear_mean": "#45423c",
+                "lab_mean": "#202020",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 12.46
+            }
+        }
+    },
+    {
+        "month": "oct",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#050916",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.54
+            },
+            "Fresh Water": {
+                "srgb_mean": "#6d7268",
+                "linear_mean": "#999b9a",
+                "lab_mean": "#676b61",
+                "median": "#3d4129",
+                "dominant": "#212915",
+                "gamma_shift": 16.35
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#e9ecee",
+                "linear_mean": "#ebedef",
+                "lab_mean": "#e9ecee",
+                "median": "#eeeff2",
+                "dominant": "#eceef1",
+                "gamma_shift": 0.3
+            },
+            "Deserts": {
+                "srgb_mean": "#aa916e",
+                "linear_mean": "#ad9472",
+                "lab_mean": "#aa906d",
+                "median": "#b0936d",
+                "dominant": "#c4a77e",
+                "gamma_shift": 1.16
+            },
+            "Forests": {
+                "srgb_mean": "#1e290f",
+                "linear_mean": "#212b12",
+                "lab_mean": "#1e2910",
+                "median": "#1b280c",
+                "dominant": "#1d2d0d",
+                "gamma_shift": 0.87
+            },
+            "Grasslands": {
+                "srgb_mean": "#4d4a2e",
+                "linear_mean": "#5a543f",
+                "lab_mean": "#4c492d",
+                "median": "#464226",
+                "dominant": "#554a30",
+                "gamma_shift": 5.08
+            },
+            "Shrublands": {
+                "srgb_mean": "#78644d",
+                "linear_mean": "#7f6e5d",
+                "lab_mean": "#78634b",
+                "median": "#785b3d",
+                "dominant": "#745133",
+                "gamma_shift": 4.65
+            },
+            "Croplands": {
+                "srgb_mean": "#484726",
+                "linear_mean": "#4d4929",
+                "lab_mean": "#484725",
+                "median": "#434322",
+                "dominant": "#494525",
+                "gamma_shift": 1.57
+            },
+            "Wetlands": {
+                "srgb_mean": "#323522",
+                "linear_mean": "#3d4034",
+                "lab_mean": "#313421",
+                "median": "#292d15",
+                "dominant": "#202110",
+                "gamma_shift": 5.15
+            },
+            "Urban Areas": {
+                "srgb_mean": "#434425",
+                "linear_mean": "#4a482a",
+                "lab_mean": "#434425",
+                "median": "#3e4122",
+                "dominant": "#303718",
+                "gamma_shift": 2.08
+            },
+            "Mountains": {
+                "srgb_mean": "#6e674f",
+                "linear_mean": "#817a6e",
+                "lab_mean": "#6c644c",
+                "median": "#6b5a3c",
+                "dominant": "#887352",
+                "gamma_shift": 9.34
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#666148",
+                "linear_mean": "#80786b",
+                "lab_mean": "#645f44",
+                "median": "#554a2e",
+                "dominant": "#212b10",
+                "gamma_shift": 10.92
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.65
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#202123",
+                "linear_mean": "#48443f",
+                "lab_mean": "#222122",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 12.77
+            }
+        }
+    },
+    {
+        "month": "nov",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060916",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.58
+            },
+            "Fresh Water": {
+                "srgb_mean": "#757a72",
+                "linear_mean": "#9fa1a0",
+                "lab_mean": "#6f736a",
+                "median": "#4d4f39",
+                "dominant": "#252e18",
+                "gamma_shift": 14.72
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#e9ecee",
+                "linear_mean": "#ebedf0",
+                "lab_mean": "#e9ecee",
+                "median": "#eeeff2",
+                "dominant": "#eceff1",
+                "gamma_shift": 0.27
+            },
+            "Deserts": {
+                "srgb_mean": "#ab916e",
+                "linear_mean": "#ae9574",
+                "lab_mean": "#ab916e",
+                "median": "#b0936c",
+                "dominant": "#c4a67b",
+                "gamma_shift": 1.32
+            },
+            "Forests": {
+                "srgb_mean": "#232d14",
+                "linear_mean": "#29311f",
+                "lab_mean": "#232d15",
+                "median": "#1d2a0d",
+                "dominant": "#1c2b0d",
+                "gamma_shift": 3.0
+            },
+            "Grasslands": {
+                "srgb_mean": "#5a563d",
+                "linear_mean": "#6a6558",
+                "lab_mean": "#59543b",
+                "median": "#52482c",
+                "dominant": "#2b3116",
+                "gamma_shift": 7.62
+            },
+            "Shrublands": {
+                "srgb_mean": "#978572",
+                "linear_mean": "#a19790",
+                "lab_mean": "#98836e",
+                "median": "#886947",
+                "dominant": "#7a5134",
+                "gamma_shift": 7.92
+            },
+            "Croplands": {
+                "srgb_mean": "#4d4829",
+                "linear_mean": "#524b2d",
+                "lab_mean": "#4d4829",
+                "median": "#4a4526",
+                "dominant": "#564d2e",
+                "gamma_shift": 1.56
+            },
+            "Wetlands": {
+                "srgb_mean": "#666c60",
+                "linear_mean": "#818684",
+                "lab_mean": "#63685b",
+                "median": "#4e4f42",
+                "dominant": "#32381c",
+                "gamma_shift": 11.85
+            },
+            "Urban Areas": {
+                "srgb_mean": "#444326",
+                "linear_mean": "#4a472a",
+                "lab_mean": "#444325",
+                "median": "#404123",
+                "dominant": "#2f3418",
+                "gamma_shift": 1.97
+            },
+            "Mountains": {
+                "srgb_mean": "#756d57",
+                "linear_mean": "#888176",
+                "lab_mean": "#736a53",
+                "median": "#705e3f",
+                "dominant": "#5d4f33",
+                "gamma_shift": 9.63
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#706b54",
+                "linear_mean": "#898377",
+                "lab_mean": "#6e684f",
+                "median": "#625235",
+                "dominant": "#293015",
+                "gamma_shift": 11.26
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.68
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#232327",
+                "linear_mean": "#4d4a46",
+                "lab_mean": "#242425",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 13.61
+            }
+        }
+    },
+    {
+        "month": "dec",
+        "categories": {
+            "Oceans": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#060a16",
+                "lab_mean": "#030614",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.61
+            },
+            "Fresh Water": {
+                "srgb_mean": "#7c817a",
+                "linear_mean": "#a3a6a5",
+                "lab_mean": "#767b73",
+                "median": "#65685b",
+                "dominant": "#2e361f",
+                "gamma_shift": 13.21
+            },
+            "Snow and Ice": {
+                "srgb_mean": "#eaecef",
+                "linear_mean": "#ebeef0",
+                "lab_mean": "#e9ecee",
+                "median": "#eeeff2",
+                "dominant": "#eceef1",
+                "gamma_shift": 0.26
+            },
+            "Deserts": {
+                "srgb_mean": "#aa916e",
+                "linear_mean": "#ae9574",
+                "lab_mean": "#aa916d",
+                "median": "#af926a",
+                "dominant": "#c4a67b",
+                "gamma_shift": 1.55
+            },
+            "Forests": {
+                "srgb_mean": "#2f3822",
+                "linear_mean": "#3d453a",
+                "lab_mean": "#2e3721",
+                "median": "#1f2b0e",
+                "dominant": "#1c2c0d",
+                "gamma_shift": 7.26
+            },
+            "Grasslands": {
+                "srgb_mean": "#66634d",
+                "linear_mean": "#78766d",
+                "lab_mean": "#65614a",
+                "median": "#5b4f31",
+                "dominant": "#2e3417",
+                "gamma_shift": 9.36
+            },
+            "Shrublands": {
+                "srgb_mean": "#9e8d7a",
+                "linear_mean": "#a9a19b",
+                "lab_mean": "#a08a76",
+                "median": "#8b6b48",
+                "dominant": "#7c5133",
+                "gamma_shift": 8.41
+            },
+            "Croplands": {
+                "srgb_mean": "#585135",
+                "linear_mean": "#605945",
+                "lab_mean": "#575034",
+                "median": "#51492a",
+                "dominant": "#554b2d",
+                "gamma_shift": 4.28
+            },
+            "Wetlands": {
+                "srgb_mean": "#8a928b",
+                "linear_mean": "#a0a7a8",
+                "lab_mean": "#878e85",
+                "median": "#a6adb0",
+                "dominant": "#dae2e5",
+                "gamma_shift": 8.21
+            },
+            "Urban Areas": {
+                "srgb_mean": "#474529",
+                "linear_mean": "#4e4a31",
+                "lab_mean": "#464428",
+                "median": "#424124",
+                "dominant": "#393a1e",
+                "gamma_shift": 2.5
+            },
+            "Mountains": {
+                "srgb_mean": "#7b735f",
+                "linear_mean": "#8e887f",
+                "lab_mean": "#79705b",
+                "median": "#756243",
+                "dominant": "#5e4f34",
+                "gamma_shift": 9.57
+            },
+            "Total Land Mean": {
+                "srgb_mean": "#79745e",
+                "linear_mean": "#908b82",
+                "lab_mean": "#77715a",
+                "median": "#705c3f",
+                "dominant": "#2a3116",
+                "gamma_shift": 10.64
+            },
+            "Total Ocean Mean": {
+                "srgb_mean": "#030614",
+                "linear_mean": "#070a16",
+                "lab_mean": "#030714",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 0.71
+            },
+            "Total Earth Mean": {
+                "srgb_mean": "#25262a",
+                "linear_mean": "#524f4c",
+                "lab_mean": "#262627",
+                "median": "#020514",
+                "dominant": "#020514",
+                "gamma_shift": 14.31
+            }
+        }
+    }
+]
