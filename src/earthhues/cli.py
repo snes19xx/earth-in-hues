@@ -4,6 +4,8 @@ from pathlib import Path
 
 from .color import METHODS
 from .gibs import LAYERS, download_all
+from .epic import observed
+from .space import build as space_build
 from .timeseries import build, rebuild
 from .extract import CANONICAL_METHOD, monthly_colors, monthly_methods, monthly_stats
 from .sources import Sources
@@ -44,6 +46,16 @@ def cmd_timeseries(args) -> None:
     write_json(target, build(Sources(args.data, args.cache), args.gibs))
 
 
+def cmd_space(args) -> None:
+    sources = Sources(args.data, args.cache)
+    payload = space_build(sources, Path(args.data) / "clouds", args.cache)
+    write_json(Path(args.out) / "earth_hues_space.json", payload)
+
+
+def cmd_epic(args) -> None:
+    write_json(Path(args.out) / "earth_hues_epic.json", observed(Path(args.data) / "epic"))
+
+
 def build_parser() -> argparse.ArgumentParser:
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument("--data", default="DATA", help="directory holding the input rasters")
@@ -71,6 +83,12 @@ def build_parser() -> argparse.ArgumentParser:
     timeseries = subcommands.add_parser("timeseries", parents=[common], help="multi-year trends")
     timeseries.add_argument("--reuse", action="store_true", help="recompute from stored observations")
     timeseries.set_defaults(func=cmd_timeseries)
+
+    space = subcommands.add_parser("space", parents=[common], help="surface, atmosphere and space views")
+    space.set_defaults(func=cmd_space)
+
+    epic = subcommands.add_parser("epic", parents=[common], help="observed disk colour from DSCOVR")
+    epic.set_defaults(func=cmd_epic)
 
     return parser
 

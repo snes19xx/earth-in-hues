@@ -51,6 +51,26 @@ Both sensors are fetched because Terra and Aqua are calibrated independently. De
 as the stability control: a trend that appears on one sensor but not the other is
 instrumental, not geophysical.
 
+## MODIS cloud fraction
+
+Daily daytime cloud fraction from GIBS, rendered against a published palette and decoded
+back to values through `https://gibs.earthdata.nasa.gov/colormaps/v1.3/MODIS_Cloud_Fraction.xml`.
+The palette is a 101 entry lookup, so decoding is exact.
+
+- Layer: `MODIS_Terra_Cloud_Fraction_Day`
+- `make space` fetches three days per month, each from a different year, into `DATA/clouds/`.
+- Pixels the palette does not match are filled from their row mean.
+
+## DSCOVR EPIC
+
+Full disk true colour of the sunlit Earth from the L1 point, used to check the modelled
+colour against an observation.
+
+- API: https://epic.gsfc.nasa.gov/api/natural/date/YYYY-MM-DD
+- `make epic` takes one frame near local noon per month through 2020 into `DATA/epic/`.
+- These PNGs are display products with a tone curve applied. Their chromaticity is
+  comparable to the model, their absolute brightness is not.
+
 ## Derived arrays
 
 The stitched DEM and the reprojected land cover are cached as `.npy` under `cache/`.

@@ -1,0 +1,2240 @@
+{
+    "records": [
+        {
+            "month": "jan",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#060a16",
+                        "albedo": 0.0042
+                    },
+                    "Fresh Water": {
+                        "hex": "#a6a9a9",
+                        "albedo": 0.3915
+                    },
+                    "Snow and Ice": {
+                        "hex": "#ebeef0",
+                        "albedo": 0.8518
+                    },
+                    "Deserts": {
+                        "hex": "#ae9675",
+                        "albedo": 0.3021
+                    },
+                    "Forests": {
+                        "hex": "#4f5650",
+                        "albedo": 0.0842
+                    },
+                    "Grasslands": {
+                        "hex": "#878780",
+                        "albedo": 0.2334
+                    },
+                    "Shrublands": {
+                        "hex": "#a9a29c",
+                        "albedo": 0.363
+                    },
+                    "Croplands": {
+                        "hex": "#7b776c",
+                        "albedo": 0.1767
+                    },
+                    "Wetlands": {
+                        "hex": "#adb4b5",
+                        "albedo": 0.447
+                    },
+                    "Urban Areas": {
+                        "hex": "#575340",
+                        "albedo": 0.0778
+                    },
+                    "Mountains": {
+                        "hex": "#96928a",
+                        "albedo": 0.2818
+                    },
+                    "Total Land Mean": {
+                        "hex": "#98948c",
+                        "albedo": 0.2918
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#070b17",
+                        "albedo": 0.0047
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#565552",
+                        "albedo": 0.0892
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#30415c",
+                        "albedo": 0.0635
+                    },
+                    "Fresh Water": {
+                        "hex": "#a7acb2",
+                        "albedo": 0.4144
+                    },
+                    "Snow and Ice": {
+                        "hex": "#e7e7e8",
+                        "albedo": 0.8014
+                    },
+                    "Deserts": {
+                        "hex": "#ad9781",
+                        "albedo": 0.3159
+                    },
+                    "Forests": {
+                        "hex": "#57626b",
+                        "albedo": 0.1217
+                    },
+                    "Grasslands": {
+                        "hex": "#87888a",
+                        "albedo": 0.2487
+                    },
+                    "Shrublands": {
+                        "hex": "#a49b9f",
+                        "albedo": 0.3469
+                    },
+                    "Croplands": {
+                        "hex": "#7e7c7b",
+                        "albedo": 0.2025
+                    },
+                    "Wetlands": {
+                        "hex": "#a9afb5",
+                        "albedo": 0.4306
+                    },
+                    "Urban Areas": {
+                        "hex": "#5e6163",
+                        "albedo": 0.1191
+                    },
+                    "Mountains": {
+                        "hex": "#96928f",
+                        "albedo": 0.2884
+                    },
+                    "Total Land Mean": {
+                        "hex": "#989493",
+                        "albedo": 0.3012
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#30425c",
+                        "albedo": 0.0639
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#5e6370",
+                        "albedo": 0.134
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#aaabae",
+                        "albedo": 0.4103
+                    },
+                    "Fresh Water": {
+                        "hex": "#b9babd",
+                        "albedo": 0.4945
+                    },
+                    "Snow and Ice": {
+                        "hex": "#dbdbdc",
+                        "albedo": 0.7115
+                    },
+                    "Deserts": {
+                        "hex": "#b4a598",
+                        "albedo": 0.3823
+                    },
+                    "Forests": {
+                        "hex": "#aeafb1",
+                        "albedo": 0.431
+                    },
+                    "Grasslands": {
+                        "hex": "#adadae",
+                        "albedo": 0.4207
+                    },
+                    "Shrublands": {
+                        "hex": "#b0abad",
+                        "albedo": 0.4186
+                    },
+                    "Croplands": {
+                        "hex": "#a9a8a7",
+                        "albedo": 0.3908
+                    },
+                    "Wetlands": {
+                        "hex": "#bbbdc0",
+                        "albedo": 0.5117
+                    },
+                    "Urban Areas": {
+                        "hex": "#aaaaaa",
+                        "albedo": 0.4026
+                    },
+                    "Mountains": {
+                        "hex": "#afaeac",
+                        "albedo": 0.4215
+                    },
+                    "Total Land Mean": {
+                        "hex": "#b4b1b0",
+                        "albedo": 0.4442
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#aaabae",
+                        "albedo": 0.4104
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#adadaf",
+                        "albedo": 0.4206
+                    }
+                }
+            },
+            "cloud_fraction": 0.6857
+        },
+        {
+            "month": "feb",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#060a16",
+                        "albedo": 0.0043
+                    },
+                    "Fresh Water": {
+                        "hex": "#a8abab",
+                        "albedo": 0.4023
+                    },
+                    "Snow and Ice": {
+                        "hex": "#ebeef0",
+                        "albedo": 0.8534
+                    },
+                    "Deserts": {
+                        "hex": "#ae9777",
+                        "albedo": 0.3061
+                    },
+                    "Forests": {
+                        "hex": "#515651",
+                        "albedo": 0.0854
+                    },
+                    "Grasslands": {
+                        "hex": "#8a8a84",
+                        "albedo": 0.2465
+                    },
+                    "Shrublands": {
+                        "hex": "#aaa39d",
+                        "albedo": 0.3686
+                    },
+                    "Croplands": {
+                        "hex": "#858178",
+                        "albedo": 0.2146
+                    },
+                    "Wetlands": {
+                        "hex": "#abb1b4",
+                        "albedo": 0.4347
+                    },
+                    "Urban Areas": {
+                        "hex": "#605d4c",
+                        "albedo": 0.0995
+                    },
+                    "Mountains": {
+                        "hex": "#9a968f",
+                        "albedo": 0.3014
+                    },
+                    "Total Land Mean": {
+                        "hex": "#9a968f",
+                        "albedo": 0.302
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#080b17",
+                        "albedo": 0.0047
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#585653",
+                        "albedo": 0.0922
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#2e3f59",
+                        "albedo": 0.0582
+                    },
+                    "Fresh Water": {
+                        "hex": "#a8abad",
+                        "albedo": 0.4038
+                    },
+                    "Snow and Ice": {
+                        "hex": "#e7e7e6",
+                        "albedo": 0.7971
+                    },
+                    "Deserts": {
+                        "hex": "#ae9881",
+                        "albedo": 0.3191
+                    },
+                    "Forests": {
+                        "hex": "#576168",
+                        "albedo": 0.1183
+                    },
+                    "Grasslands": {
+                        "hex": "#8b8b8a",
+                        "albedo": 0.2573
+                    },
+                    "Shrublands": {
+                        "hex": "#a79e9a",
+                        "albedo": 0.3512
+                    },
+                    "Croplands": {
+                        "hex": "#878583",
+                        "albedo": 0.2354
+                    },
+                    "Wetlands": {
+                        "hex": "#a9aeb0",
+                        "albedo": 0.4179
+                    },
+                    "Urban Areas": {
+                        "hex": "#656767",
+                        "albedo": 0.1338
+                    },
+                    "Mountains": {
+                        "hex": "#9a9793",
+                        "albedo": 0.3074
+                    },
+                    "Total Land Mean": {
+                        "hex": "#9a9793",
+                        "albedo": 0.3075
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#2e3f59",
+                        "albedo": 0.0586
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#5f636e",
+                        "albedo": 0.132
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a7a9ab",
+                        "albedo": 0.397
+                    },
+                    "Fresh Water": {
+                        "hex": "#b7b8b9",
+                        "albedo": 0.4781
+                    },
+                    "Snow and Ice": {
+                        "hex": "#dddddd",
+                        "albedo": 0.7234
+                    },
+                    "Deserts": {
+                        "hex": "#b4a496",
+                        "albedo": 0.3771
+                    },
+                    "Forests": {
+                        "hex": "#b0b1b2",
+                        "albedo": 0.4416
+                    },
+                    "Grasslands": {
+                        "hex": "#acabab",
+                        "albedo": 0.4086
+                    },
+                    "Shrublands": {
+                        "hex": "#aba4a1",
+                        "albedo": 0.377
+                    },
+                    "Croplands": {
+                        "hex": "#a4a3a2",
+                        "albedo": 0.3677
+                    },
+                    "Wetlands": {
+                        "hex": "#b9babb",
+                        "albedo": 0.4914
+                    },
+                    "Urban Areas": {
+                        "hex": "#a5a5a5",
+                        "albedo": 0.3766
+                    },
+                    "Mountains": {
+                        "hex": "#aeacab",
+                        "albedo": 0.4149
+                    },
+                    "Total Land Mean": {
+                        "hex": "#b3b0ae",
+                        "albedo": 0.435
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a7a9ab",
+                        "albedo": 0.3971
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#ababac",
+                        "albedo": 0.4085
+                    }
+                }
+            },
+            "cloud_fraction": 0.6632
+        },
+        {
+            "month": "mar",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#060a16",
+                        "albedo": 0.0043
+                    },
+                    "Fresh Water": {
+                        "hex": "#aaacac",
+                        "albedo": 0.4079
+                    },
+                    "Snow and Ice": {
+                        "hex": "#ebeef0",
+                        "albedo": 0.8544
+                    },
+                    "Deserts": {
+                        "hex": "#af9878",
+                        "albedo": 0.3092
+                    },
+                    "Forests": {
+                        "hex": "#52564f",
+                        "albedo": 0.0854
+                    },
+                    "Grasslands": {
+                        "hex": "#8d8b84",
+                        "albedo": 0.2518
+                    },
+                    "Shrublands": {
+                        "hex": "#ada49e",
+                        "albedo": 0.3772
+                    },
+                    "Croplands": {
+                        "hex": "#8a857a",
+                        "albedo": 0.2273
+                    },
+                    "Wetlands": {
+                        "hex": "#b3b7b7",
+                        "albedo": 0.4671
+                    },
+                    "Urban Areas": {
+                        "hex": "#635e4d",
+                        "albedo": 0.1033
+                    },
+                    "Mountains": {
+                        "hex": "#9a968e",
+                        "albedo": 0.3
+                    },
+                    "Total Land Mean": {
+                        "hex": "#9c988f",
+                        "albedo": 0.3072
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#070b17",
+                        "albedo": 0.0046
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#595653",
+                        "albedo": 0.0936
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#2b3b53",
+                        "albedo": 0.0512
+                    },
+                    "Fresh Water": {
+                        "hex": "#a8a9a9",
+                        "albedo": 0.3954
+                    },
+                    "Snow and Ice": {
+                        "hex": "#e7e6e3",
+                        "albedo": 0.7851
+                    },
+                    "Deserts": {
+                        "hex": "#af9981",
+                        "albedo": 0.3233
+                    },
+                    "Forests": {
+                        "hex": "#596166",
+                        "albedo": 0.1172
+                    },
+                    "Grasslands": {
+                        "hex": "#8e8e8b",
+                        "albedo": 0.2662
+                    },
+                    "Shrublands": {
+                        "hex": "#aca39e",
+                        "albedo": 0.3746
+                    },
+                    "Croplands": {
+                        "hex": "#8c8985",
+                        "albedo": 0.2482
+                    },
+                    "Wetlands": {
+                        "hex": "#b2b5b5",
+                        "albedo": 0.4569
+                    },
+                    "Urban Areas": {
+                        "hex": "#676866",
+                        "albedo": 0.1356
+                    },
+                    "Mountains": {
+                        "hex": "#9b9792",
+                        "albedo": 0.3075
+                    },
+                    "Total Land Mean": {
+                        "hex": "#9c9893",
+                        "albedo": 0.3145
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#2b3b53",
+                        "albedo": 0.0515
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#5f626b",
+                        "albedo": 0.1288
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a6a8aa",
+                        "albedo": 0.3916
+                    },
+                    "Fresh Water": {
+                        "hex": "#babab9",
+                        "albedo": 0.4896
+                    },
+                    "Snow and Ice": {
+                        "hex": "#dedddb",
+                        "albedo": 0.7219
+                    },
+                    "Deserts": {
+                        "hex": "#b3a392",
+                        "albedo": 0.3694
+                    },
+                    "Forests": {
+                        "hex": "#afb0b0",
+                        "albedo": 0.4311
+                    },
+                    "Grasslands": {
+                        "hex": "#aeaeac",
+                        "albedo": 0.4202
+                    },
+                    "Shrublands": {
+                        "hex": "#aaa3a0",
+                        "albedo": 0.3746
+                    },
+                    "Croplands": {
+                        "hex": "#a8a6a4",
+                        "albedo": 0.3817
+                    },
+                    "Wetlands": {
+                        "hex": "#bfc0bf",
+                        "albedo": 0.5225
+                    },
+                    "Urban Areas": {
+                        "hex": "#a6a6a5",
+                        "albedo": 0.3784
+                    },
+                    "Mountains": {
+                        "hex": "#b0aeac",
+                        "albedo": 0.423
+                    },
+                    "Total Land Mean": {
+                        "hex": "#b4b1ae",
+                        "albedo": 0.4382
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a6a8aa",
+                        "albedo": 0.3916
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#abaaab",
+                        "albedo": 0.4056
+                    }
+                }
+            },
+            "cloud_fraction": 0.6553
+        },
+        {
+            "month": "apr",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#060a16",
+                        "albedo": 0.0043
+                    },
+                    "Fresh Water": {
+                        "hex": "#a9abab",
+                        "albedo": 0.4045
+                    },
+                    "Snow and Ice": {
+                        "hex": "#eceef0",
+                        "albedo": 0.8551
+                    },
+                    "Deserts": {
+                        "hex": "#b09878",
+                        "albedo": 0.3111
+                    },
+                    "Forests": {
+                        "hex": "#4f534a",
+                        "albedo": 0.0775
+                    },
+                    "Grasslands": {
+                        "hex": "#88857c",
+                        "albedo": 0.2271
+                    },
+                    "Shrublands": {
+                        "hex": "#aea49d",
+                        "albedo": 0.3785
+                    },
+                    "Croplands": {
+                        "hex": "#7a7363",
+                        "albedo": 0.1639
+                    },
+                    "Wetlands": {
+                        "hex": "#b7b9b7",
+                        "albedo": 0.4777
+                    },
+                    "Urban Areas": {
+                        "hex": "#58543c",
+                        "albedo": 0.0776
+                    },
+                    "Mountains": {
+                        "hex": "#959086",
+                        "albedo": 0.2718
+                    },
+                    "Total Land Mean": {
+                        "hex": "#9a948a",
+                        "albedo": 0.291
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#070b16",
+                        "albedo": 0.0046
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#575451",
+                        "albedo": 0.0889
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#2a3a53",
+                        "albedo": 0.051
+                    },
+                    "Fresh Water": {
+                        "hex": "#a3a4ab",
+                        "albedo": 0.3812
+                    },
+                    "Snow and Ice": {
+                        "hex": "#e2dfe0",
+                        "albedo": 0.7488
+                    },
+                    "Deserts": {
+                        "hex": "#b09a82",
+                        "albedo": 0.3266
+                    },
+                    "Forests": {
+                        "hex": "#565e63",
+                        "albedo": 0.11
+                    },
+                    "Grasslands": {
+                        "hex": "#8a8985",
+                        "albedo": 0.2464
+                    },
+                    "Shrublands": {
+                        "hex": "#aea5a1",
+                        "albedo": 0.3846
+                    },
+                    "Croplands": {
+                        "hex": "#7d7974",
+                        "albedo": 0.191
+                    },
+                    "Wetlands": {
+                        "hex": "#b7b8b7",
+                        "albedo": 0.4755
+                    },
+                    "Urban Areas": {
+                        "hex": "#5e605c",
+                        "albedo": 0.1117
+                    },
+                    "Mountains": {
+                        "hex": "#95918b",
+                        "albedo": 0.2802
+                    },
+                    "Total Land Mean": {
+                        "hex": "#999490",
+                        "albedo": 0.2982
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#2b3b53",
+                        "albedo": 0.0512
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#5d606a",
+                        "albedo": 0.1239
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a5a6a9",
+                        "albedo": 0.3853
+                    },
+                    "Fresh Water": {
+                        "hex": "#b8b8bb",
+                        "albedo": 0.4845
+                    },
+                    "Snow and Ice": {
+                        "hex": "#d8d7d7",
+                        "albedo": 0.6818
+                    },
+                    "Deserts": {
+                        "hex": "#b3a18e",
+                        "albedo": 0.3593
+                    },
+                    "Forests": {
+                        "hex": "#aeaeaf",
+                        "albedo": 0.4244
+                    },
+                    "Grasslands": {
+                        "hex": "#acabaa",
+                        "albedo": 0.4061
+                    },
+                    "Shrublands": {
+                        "hex": "#aea8a5",
+                        "albedo": 0.3957
+                    },
+                    "Croplands": {
+                        "hex": "#a2a19f",
+                        "albedo": 0.3545
+                    },
+                    "Wetlands": {
+                        "hex": "#c0c0bf",
+                        "albedo": 0.5248
+                    },
+                    "Urban Areas": {
+                        "hex": "#9e9e9d",
+                        "albedo": 0.3396
+                    },
+                    "Mountains": {
+                        "hex": "#aeaba9",
+                        "albedo": 0.4091
+                    },
+                    "Total Land Mean": {
+                        "hex": "#b2aeab",
+                        "albedo": 0.4257
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a5a6a9",
+                        "albedo": 0.3853
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#a9a9aa",
+                        "albedo": 0.3976
+                    }
+                }
+            },
+            "cloud_fraction": 0.6407
+        },
+        {
+            "month": "may",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#060a16",
+                        "albedo": 0.0043
+                    },
+                    "Fresh Water": {
+                        "hex": "#a7a9a8",
+                        "albedo": 0.3913
+                    },
+                    "Snow and Ice": {
+                        "hex": "#eceef0",
+                        "albedo": 0.8547
+                    },
+                    "Deserts": {
+                        "hex": "#b09877",
+                        "albedo": 0.3111
+                    },
+                    "Forests": {
+                        "hex": "#43483b",
+                        "albedo": 0.0546
+                    },
+                    "Grasslands": {
+                        "hex": "#7e7a6e",
+                        "albedo": 0.1865
+                    },
+                    "Shrublands": {
+                        "hex": "#aea49c",
+                        "albedo": 0.3754
+                    },
+                    "Croplands": {
+                        "hex": "#61583c",
+                        "albedo": 0.0875
+                    },
+                    "Wetlands": {
+                        "hex": "#b6b7b4",
+                        "albedo": 0.4657
+                    },
+                    "Urban Areas": {
+                        "hex": "#524f32",
+                        "albedo": 0.0644
+                    },
+                    "Mountains": {
+                        "hex": "#908a7f",
+                        "albedo": 0.2491
+                    },
+                    "Total Land Mean": {
+                        "hex": "#948e83",
+                        "albedo": 0.2637
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#070b16",
+                        "albedo": 0.0045
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#54514c",
+                        "albedo": 0.0811
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#2f405b",
+                        "albedo": 0.0612
+                    },
+                    "Fresh Water": {
+                        "hex": "#9fa1ab",
+                        "albedo": 0.3711
+                    },
+                    "Snow and Ice": {
+                        "hex": "#dedce3",
+                        "albedo": 0.7386
+                    },
+                    "Deserts": {
+                        "hex": "#b19a82",
+                        "albedo": 0.3273
+                    },
+                    "Forests": {
+                        "hex": "#4c565b",
+                        "albedo": 0.0895
+                    },
+                    "Grasslands": {
+                        "hex": "#807f7c",
+                        "albedo": 0.2104
+                    },
+                    "Shrublands": {
+                        "hex": "#aea6a1",
+                        "albedo": 0.386
+                    },
+                    "Croplands": {
+                        "hex": "#66625b",
+                        "albedo": 0.1207
+                    },
+                    "Wetlands": {
+                        "hex": "#b6b7b6",
+                        "albedo": 0.4689
+                    },
+                    "Urban Areas": {
+                        "hex": "#585b57",
+                        "albedo": 0.0998
+                    },
+                    "Mountains": {
+                        "hex": "#908b86",
+                        "albedo": 0.2579
+                    },
+                    "Total Land Mean": {
+                        "hex": "#938e8a",
+                        "albedo": 0.2732
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#2f405b",
+                        "albedo": 0.0614
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#5c606c",
+                        "albedo": 0.124
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a8a9ac",
+                        "albedo": 0.3995
+                    },
+                    "Fresh Water": {
+                        "hex": "#b4b5b9",
+                        "albedo": 0.4671
+                    },
+                    "Snow and Ice": {
+                        "hex": "#d5d3d7",
+                        "albedo": 0.6675
+                    },
+                    "Deserts": {
+                        "hex": "#b4a391",
+                        "albedo": 0.3681
+                    },
+                    "Forests": {
+                        "hex": "#aaabac",
+                        "albedo": 0.4083
+                    },
+                    "Grasslands": {
+                        "hex": "#a6a5a4",
+                        "albedo": 0.375
+                    },
+                    "Shrublands": {
+                        "hex": "#aca6a4",
+                        "albedo": 0.3893
+                    },
+                    "Croplands": {
+                        "hex": "#a1a09e",
+                        "albedo": 0.3498
+                    },
+                    "Wetlands": {
+                        "hex": "#bcbdbc",
+                        "albedo": 0.5047
+                    },
+                    "Urban Areas": {
+                        "hex": "#a1a2a1",
+                        "albedo": 0.3574
+                    },
+                    "Mountains": {
+                        "hex": "#a9a6a4",
+                        "albedo": 0.3826
+                    },
+                    "Total Land Mean": {
+                        "hex": "#afaba8",
+                        "albedo": 0.4092
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a8a9ac",
+                        "albedo": 0.3994
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#aaaaab",
+                        "albedo": 0.4028
+                    }
+                }
+            },
+            "cloud_fraction": 0.6583
+        },
+        {
+            "month": "jun",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#060a16",
+                        "albedo": 0.0042
+                    },
+                    "Fresh Water": {
+                        "hex": "#a3a6a4",
+                        "albedo": 0.3738
+                    },
+                    "Snow and Ice": {
+                        "hex": "#eceef0",
+                        "albedo": 0.8534
+                    },
+                    "Deserts": {
+                        "hex": "#b09777",
+                        "albedo": 0.31
+                    },
+                    "Forests": {
+                        "hex": "#2e3622",
+                        "albedo": 0.027
+                    },
+                    "Grasslands": {
+                        "hex": "#726e60",
+                        "albedo": 0.1465
+                    },
+                    "Shrublands": {
+                        "hex": "#a89f96",
+                        "albedo": 0.3476
+                    },
+                    "Croplands": {
+                        "hex": "#5b5435",
+                        "albedo": 0.0765
+                    },
+                    "Wetlands": {
+                        "hex": "#9fa19d",
+                        "albedo": 0.3471
+                    },
+                    "Urban Areas": {
+                        "hex": "#4f4e2f",
+                        "albedo": 0.0613
+                    },
+                    "Mountains": {
+                        "hex": "#8b8579",
+                        "albedo": 0.2273
+                    },
+                    "Total Land Mean": {
+                        "hex": "#8e887c",
+                        "albedo": 0.2381
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#070a16",
+                        "albedo": 0.0045
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#504d48",
+                        "albedo": 0.0737
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#334561",
+                        "albedo": 0.0706
+                    },
+                    "Fresh Water": {
+                        "hex": "#9c9ea9",
+                        "albedo": 0.3567
+                    },
+                    "Snow and Ice": {
+                        "hex": "#dedce3",
+                        "albedo": 0.7391
+                    },
+                    "Deserts": {
+                        "hex": "#b09a81",
+                        "albedo": 0.3265
+                    },
+                    "Forests": {
+                        "hex": "#3c4a51",
+                        "albedo": 0.0646
+                    },
+                    "Grasslands": {
+                        "hex": "#757571",
+                        "albedo": 0.1741
+                    },
+                    "Shrublands": {
+                        "hex": "#a9a19c",
+                        "albedo": 0.3618
+                    },
+                    "Croplands": {
+                        "hex": "#615f58",
+                        "albedo": 0.1108
+                    },
+                    "Wetlands": {
+                        "hex": "#a1a3a2",
+                        "albedo": 0.3606
+                    },
+                    "Urban Areas": {
+                        "hex": "#565b56",
+                        "albedo": 0.0971
+                    },
+                    "Mountains": {
+                        "hex": "#8a8681",
+                        "albedo": 0.2379
+                    },
+                    "Total Land Mean": {
+                        "hex": "#8d8985",
+                        "albedo": 0.2504
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#334561",
+                        "albedo": 0.0708
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#5a5f6e",
+                        "albedo": 0.124
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a9abad",
+                        "albedo": 0.4079
+                    },
+                    "Fresh Water": {
+                        "hex": "#b3b3b8",
+                        "albedo": 0.4596
+                    },
+                    "Snow and Ice": {
+                        "hex": "#d3d1d5",
+                        "albedo": 0.6515
+                    },
+                    "Deserts": {
+                        "hex": "#b39f8c",
+                        "albedo": 0.3543
+                    },
+                    "Forests": {
+                        "hex": "#a4a5a6",
+                        "albedo": 0.3759
+                    },
+                    "Grasslands": {
+                        "hex": "#a2a2a1",
+                        "albedo": 0.3595
+                    },
+                    "Shrublands": {
+                        "hex": "#aea8a5",
+                        "albedo": 0.3967
+                    },
+                    "Croplands": {
+                        "hex": "#a0a09e",
+                        "albedo": 0.3491
+                    },
+                    "Wetlands": {
+                        "hex": "#b9b9b9",
+                        "albedo": 0.4855
+                    },
+                    "Urban Areas": {
+                        "hex": "#a5a5a4",
+                        "albedo": 0.3742
+                    },
+                    "Mountains": {
+                        "hex": "#a6a3a0",
+                        "albedo": 0.365
+                    },
+                    "Total Land Mean": {
+                        "hex": "#aca8a6",
+                        "albedo": 0.3951
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a9abad",
+                        "albedo": 0.4077
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#aaaaab",
+                        "albedo": 0.4046
+                    }
+                }
+            },
+            "cloud_fraction": 0.6647
+        },
+        {
+            "month": "jul",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#060916",
+                        "albedo": 0.0041
+                    },
+                    "Fresh Water": {
+                        "hex": "#9c9e9d",
+                        "albedo": 0.3366
+                    },
+                    "Snow and Ice": {
+                        "hex": "#ebedef",
+                        "albedo": 0.8502
+                    },
+                    "Deserts": {
+                        "hex": "#af9676",
+                        "albedo": 0.3059
+                    },
+                    "Forests": {
+                        "hex": "#202c11",
+                        "albedo": 0.0149
+                    },
+                    "Grasslands": {
+                        "hex": "#5b5742",
+                        "albedo": 0.0846
+                    },
+                    "Shrublands": {
+                        "hex": "#7d6e5d",
+                        "albedo": 0.1569
+                    },
+                    "Croplands": {
+                        "hex": "#565231",
+                        "albedo": 0.0691
+                    },
+                    "Wetlands": {
+                        "hex": "#4b4e42",
+                        "albedo": 0.0667
+                    },
+                    "Urban Areas": {
+                        "hex": "#4d4d2e",
+                        "albedo": 0.0586
+                    },
+                    "Mountains": {
+                        "hex": "#837d6f",
+                        "albedo": 0.1964
+                    },
+                    "Total Land Mean": {
+                        "hex": "#817a6c",
+                        "albedo": 0.1887
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#070a16",
+                        "albedo": 0.0044
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#494640",
+                        "albedo": 0.0593
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#31435e",
+                        "albedo": 0.0665
+                    },
+                    "Fresh Water": {
+                        "hex": "#9496a3",
+                        "albedo": 0.3222
+                    },
+                    "Snow and Ice": {
+                        "hex": "#dedbe3",
+                        "albedo": 0.7357
+                    },
+                    "Deserts": {
+                        "hex": "#b09980",
+                        "albedo": 0.3224
+                    },
+                    "Forests": {
+                        "hex": "#32434c",
+                        "albedo": 0.0536
+                    },
+                    "Grasslands": {
+                        "hex": "#61615e",
+                        "albedo": 0.1169
+                    },
+                    "Shrublands": {
+                        "hex": "#807570",
+                        "albedo": 0.185
+                    },
+                    "Croplands": {
+                        "hex": "#5c5e56",
+                        "albedo": 0.1039
+                    },
+                    "Wetlands": {
+                        "hex": "#535b60",
+                        "albedo": 0.1028
+                    },
+                    "Urban Areas": {
+                        "hex": "#545a55",
+                        "albedo": 0.0946
+                    },
+                    "Mountains": {
+                        "hex": "#837e79",
+                        "albedo": 0.2087
+                    },
+                    "Total Land Mean": {
+                        "hex": "#817c79",
+                        "albedo": 0.2046
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#31435e",
+                        "albedo": 0.0667
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#535968",
+                        "albedo": 0.1079
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a9abad",
+                        "albedo": 0.4076
+                    },
+                    "Fresh Water": {
+                        "hex": "#aeafb4",
+                        "albedo": 0.4363
+                    },
+                    "Snow and Ice": {
+                        "hex": "#d2d0d4",
+                        "albedo": 0.6439
+                    },
+                    "Deserts": {
+                        "hex": "#b4a18f",
+                        "albedo": 0.3622
+                    },
+                    "Forests": {
+                        "hex": "#9ea0a2",
+                        "albedo": 0.3519
+                    },
+                    "Grasslands": {
+                        "hex": "#9e9e9d",
+                        "albedo": 0.3417
+                    },
+                    "Shrublands": {
+                        "hex": "#a29c9a",
+                        "albedo": 0.3383
+                    },
+                    "Croplands": {
+                        "hex": "#a4a5a3",
+                        "albedo": 0.3714
+                    },
+                    "Wetlands": {
+                        "hex": "#abacac",
+                        "albedo": 0.41
+                    },
+                    "Urban Areas": {
+                        "hex": "#a1a1a0",
+                        "albedo": 0.3539
+                    },
+                    "Mountains": {
+                        "hex": "#a4a19f",
+                        "albedo": 0.3583
+                    },
+                    "Total Land Mean": {
+                        "hex": "#a9a5a3",
+                        "albedo": 0.38
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a9aaad",
+                        "albedo": 0.4074
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#a9a9ab",
+                        "albedo": 0.3999
+                    }
+                }
+            },
+            "cloud_fraction": 0.6698
+        },
+        {
+            "month": "aug",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#050916",
+                        "albedo": 0.0041
+                    },
+                    "Fresh Water": {
+                        "hex": "#989a98",
+                        "albedo": 0.316
+                    },
+                    "Snow and Ice": {
+                        "hex": "#ebedef",
+                        "albedo": 0.8467
+                    },
+                    "Deserts": {
+                        "hex": "#ae9574",
+                        "albedo": 0.2991
+                    },
+                    "Forests": {
+                        "hex": "#1e2b10",
+                        "albedo": 0.0139
+                    },
+                    "Grasslands": {
+                        "hex": "#514c33",
+                        "albedo": 0.063
+                    },
+                    "Shrublands": {
+                        "hex": "#675135",
+                        "albedo": 0.0841
+                    },
+                    "Croplands": {
+                        "hex": "#4f4e2c",
+                        "albedo": 0.0603
+                    },
+                    "Wetlands": {
+                        "hex": "#2d3320",
+                        "albedo": 0.0245
+                    },
+                    "Urban Areas": {
+                        "hex": "#4b4b2c",
+                        "albedo": 0.0553
+                    },
+                    "Mountains": {
+                        "hex": "#7f796a",
+                        "albedo": 0.1821
+                    },
+                    "Total Land Mean": {
+                        "hex": "#7c7566",
+                        "albedo": 0.1702
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#060a16",
+                        "albedo": 0.0043
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#46423c",
+                        "albedo": 0.0539
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#2c3c56",
+                        "albedo": 0.0541
+                    },
+                    "Fresh Water": {
+                        "hex": "#90929d",
+                        "albedo": 0.3012
+                    },
+                    "Snow and Ice": {
+                        "hex": "#dfdce0",
+                        "albedo": 0.7323
+                    },
+                    "Deserts": {
+                        "hex": "#ae977f",
+                        "albedo": 0.3158
+                    },
+                    "Forests": {
+                        "hex": "#31434c",
+                        "albedo": 0.0527
+                    },
+                    "Grasslands": {
+                        "hex": "#585956",
+                        "albedo": 0.0972
+                    },
+                    "Shrublands": {
+                        "hex": "#6b5e59",
+                        "albedo": 0.1192
+                    },
+                    "Croplands": {
+                        "hex": "#565b54",
+                        "albedo": 0.0958
+                    },
+                    "Wetlands": {
+                        "hex": "#3c4952",
+                        "albedo": 0.0655
+                    },
+                    "Urban Areas": {
+                        "hex": "#535954",
+                        "albedo": 0.0914
+                    },
+                    "Mountains": {
+                        "hex": "#7f7b75",
+                        "albedo": 0.1958
+                    },
+                    "Total Land Mean": {
+                        "hex": "#7c7874",
+                        "albedo": 0.1877
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#2c3c56",
+                        "albedo": 0.0543
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#4f5460",
+                        "albedo": 0.0942
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a9aaac",
+                        "albedo": 0.4037
+                    },
+                    "Fresh Water": {
+                        "hex": "#aeafb3",
+                        "albedo": 0.4341
+                    },
+                    "Snow and Ice": {
+                        "hex": "#d2d0d2",
+                        "albedo": 0.6416
+                    },
+                    "Deserts": {
+                        "hex": "#b3a18f",
+                        "albedo": 0.3597
+                    },
+                    "Forests": {
+                        "hex": "#a0a2a3",
+                        "albedo": 0.3582
+                    },
+                    "Grasslands": {
+                        "hex": "#9c9b9b",
+                        "albedo": 0.3293
+                    },
+                    "Shrublands": {
+                        "hex": "#99918f",
+                        "albedo": 0.2923
+                    },
+                    "Croplands": {
+                        "hex": "#a4a4a3",
+                        "albedo": 0.3709
+                    },
+                    "Wetlands": {
+                        "hex": "#a3a5a6",
+                        "albedo": 0.3736
+                    },
+                    "Urban Areas": {
+                        "hex": "#a0a09f",
+                        "albedo": 0.3505
+                    },
+                    "Mountains": {
+                        "hex": "#a29f9b",
+                        "albedo": 0.345
+                    },
+                    "Total Land Mean": {
+                        "hex": "#a7a3a1",
+                        "albedo": 0.3705
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a9aaac",
+                        "albedo": 0.4035
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#a8a8a9",
+                        "albedo": 0.3944
+                    }
+                }
+            },
+            "cloud_fraction": 0.6655
+        },
+        {
+            "month": "sept",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#050916",
+                        "albedo": 0.004
+                    },
+                    "Fresh Water": {
+                        "hex": "#979998",
+                        "albedo": 0.3137
+                    },
+                    "Snow and Ice": {
+                        "hex": "#ebedef",
+                        "albedo": 0.8455
+                    },
+                    "Deserts": {
+                        "hex": "#ad9472",
+                        "albedo": 0.2937
+                    },
+                    "Forests": {
+                        "hex": "#1e2a0f",
+                        "albedo": 0.0138
+                    },
+                    "Grasslands": {
+                        "hex": "#514b31",
+                        "albedo": 0.0609
+                    },
+                    "Shrublands": {
+                        "hex": "#695235",
+                        "albedo": 0.0864
+                    },
+                    "Croplands": {
+                        "hex": "#4c4b29",
+                        "albedo": 0.0549
+                    },
+                    "Wetlands": {
+                        "hex": "#2c311e",
+                        "albedo": 0.0226
+                    },
+                    "Urban Areas": {
+                        "hex": "#4a492b",
+                        "albedo": 0.0528
+                    },
+                    "Mountains": {
+                        "hex": "#7e7769",
+                        "albedo": 0.1783
+                    },
+                    "Total Land Mean": {
+                        "hex": "#7b7465",
+                        "albedo": 0.1682
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#060a16",
+                        "albedo": 0.0043
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#45423c",
+                        "albedo": 0.0533
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#2a3952",
+                        "albedo": 0.0495
+                    },
+                    "Fresh Water": {
+                        "hex": "#959697",
+                        "albedo": 0.3053
+                    },
+                    "Snow and Ice": {
+                        "hex": "#e4e3e0",
+                        "albedo": 0.7632
+                    },
+                    "Deserts": {
+                        "hex": "#ad967d",
+                        "albedo": 0.3102
+                    },
+                    "Forests": {
+                        "hex": "#32434d",
+                        "albedo": 0.0536
+                    },
+                    "Grasslands": {
+                        "hex": "#575857",
+                        "albedo": 0.0964
+                    },
+                    "Shrublands": {
+                        "hex": "#6d5f5b",
+                        "albedo": 0.1244
+                    },
+                    "Croplands": {
+                        "hex": "#535954",
+                        "albedo": 0.0915
+                    },
+                    "Wetlands": {
+                        "hex": "#3c4a55",
+                        "albedo": 0.0683
+                    },
+                    "Urban Areas": {
+                        "hex": "#525754",
+                        "albedo": 0.0897
+                    },
+                    "Mountains": {
+                        "hex": "#7f7b74",
+                        "albedo": 0.1956
+                    },
+                    "Total Land Mean": {
+                        "hex": "#7d7974",
+                        "albedo": 0.1901
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#2a3a52",
+                        "albedo": 0.0497
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#4e535e",
+                        "albedo": 0.0915
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a8a9ab",
+                        "albedo": 0.4
+                    },
+                    "Fresh Water": {
+                        "hex": "#b2b2b2",
+                        "albedo": 0.4432
+                    },
+                    "Snow and Ice": {
+                        "hex": "#d9d8d6",
+                        "albedo": 0.6818
+                    },
+                    "Deserts": {
+                        "hex": "#b19e8b",
+                        "albedo": 0.3468
+                    },
+                    "Forests": {
+                        "hex": "#a3a5a6",
+                        "albedo": 0.375
+                    },
+                    "Grasslands": {
+                        "hex": "#9b9a99",
+                        "albedo": 0.3239
+                    },
+                    "Shrublands": {
+                        "hex": "#978e8b",
+                        "albedo": 0.2805
+                    },
+                    "Croplands": {
+                        "hex": "#9f9f9e",
+                        "albedo": 0.3454
+                    },
+                    "Wetlands": {
+                        "hex": "#a6a7a9",
+                        "albedo": 0.3888
+                    },
+                    "Urban Areas": {
+                        "hex": "#9d9d9c",
+                        "albedo": 0.3359
+                    },
+                    "Mountains": {
+                        "hex": "#a19e9a",
+                        "albedo": 0.3397
+                    },
+                    "Total Land Mean": {
+                        "hex": "#a7a3a0",
+                        "albedo": 0.3697
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a8a9ab",
+                        "albedo": 0.3999
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#a8a8a8",
+                        "albedo": 0.3917
+                    }
+                }
+            },
+            "cloud_fraction": 0.6551
+        },
+        {
+            "month": "oct",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#050916",
+                        "albedo": 0.0041
+                    },
+                    "Fresh Water": {
+                        "hex": "#999b9a",
+                        "albedo": 0.3239
+                    },
+                    "Snow and Ice": {
+                        "hex": "#ebedef",
+                        "albedo": 0.8479
+                    },
+                    "Deserts": {
+                        "hex": "#ad9472",
+                        "albedo": 0.2948
+                    },
+                    "Forests": {
+                        "hex": "#212b12",
+                        "albedo": 0.015
+                    },
+                    "Grasslands": {
+                        "hex": "#5a543f",
+                        "albedo": 0.0799
+                    },
+                    "Shrublands": {
+                        "hex": "#7f6e5d",
+                        "albedo": 0.1596
+                    },
+                    "Croplands": {
+                        "hex": "#4d4929",
+                        "albedo": 0.0544
+                    },
+                    "Wetlands": {
+                        "hex": "#3d4034",
+                        "albedo": 0.0441
+                    },
+                    "Urban Areas": {
+                        "hex": "#4a482a",
+                        "albedo": 0.0516
+                    },
+                    "Mountains": {
+                        "hex": "#817a6e",
+                        "albedo": 0.191
+                    },
+                    "Total Land Mean": {
+                        "hex": "#80786b",
+                        "albedo": 0.1838
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#060a16",
+                        "albedo": 0.0043
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#48443f",
+                        "albedo": 0.0578
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#2c3d56",
+                        "albedo": 0.0552
+                    },
+                    "Fresh Water": {
+                        "hex": "#9a9da0",
+                        "albedo": 0.3369
+                    },
+                    "Snow and Ice": {
+                        "hex": "#e7e6e5",
+                        "albedo": 0.7905
+                    },
+                    "Deserts": {
+                        "hex": "#ad967e",
+                        "albedo": 0.3106
+                    },
+                    "Forests": {
+                        "hex": "#344550",
+                        "albedo": 0.0579
+                    },
+                    "Grasslands": {
+                        "hex": "#606060",
+                        "albedo": 0.1163
+                    },
+                    "Shrublands": {
+                        "hex": "#827674",
+                        "albedo": 0.193
+                    },
+                    "Croplands": {
+                        "hex": "#555856",
+                        "albedo": 0.0936
+                    },
+                    "Wetlands": {
+                        "hex": "#4c5866",
+                        "albedo": 0.1001
+                    },
+                    "Urban Areas": {
+                        "hex": "#525756",
+                        "albedo": 0.0909
+                    },
+                    "Mountains": {
+                        "hex": "#837e79",
+                        "albedo": 0.2084
+                    },
+                    "Total Land Mean": {
+                        "hex": "#827e7a",
+                        "albedo": 0.2088
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#2c3d56",
+                        "albedo": 0.0554
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#525763",
+                        "albedo": 0.1012
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a7a8ab",
+                        "albedo": 0.3953
+                    },
+                    "Fresh Water": {
+                        "hex": "#b3b3b4",
+                        "albedo": 0.4529
+                    },
+                    "Snow and Ice": {
+                        "hex": "#d9d9d8",
+                        "albedo": 0.6934
+                    },
+                    "Deserts": {
+                        "hex": "#b29e8b",
+                        "albedo": 0.3483
+                    },
+                    "Forests": {
+                        "hex": "#adaeae",
+                        "albedo": 0.4211
+                    },
+                    "Grasslands": {
+                        "hex": "#a3a2a1",
+                        "albedo": 0.3626
+                    },
+                    "Shrublands": {
+                        "hex": "#a09896",
+                        "albedo": 0.3244
+                    },
+                    "Croplands": {
+                        "hex": "#999999",
+                        "albedo": 0.3185
+                    },
+                    "Wetlands": {
+                        "hex": "#b2b3b4",
+                        "albedo": 0.4516
+                    },
+                    "Urban Areas": {
+                        "hex": "#9d9d9d",
+                        "albedo": 0.3379
+                    },
+                    "Mountains": {
+                        "hex": "#a6a3a0",
+                        "albedo": 0.3682
+                    },
+                    "Total Land Mean": {
+                        "hex": "#aca9a6",
+                        "albedo": 0.3963
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a7a8ab",
+                        "albedo": 0.3953
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#a9a8a9",
+                        "albedo": 0.3961
+                    }
+                }
+            },
+            "cloud_fraction": 0.6601
+        },
+        {
+            "month": "nov",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#060916",
+                        "albedo": 0.0041
+                    },
+                    "Fresh Water": {
+                        "hex": "#9fa1a0",
+                        "albedo": 0.3515
+                    },
+                    "Snow and Ice": {
+                        "hex": "#ebedf0",
+                        "albedo": 0.8495
+                    },
+                    "Deserts": {
+                        "hex": "#ae9574",
+                        "albedo": 0.2988
+                    },
+                    "Forests": {
+                        "hex": "#29311f",
+                        "albedo": 0.0223
+                    },
+                    "Grasslands": {
+                        "hex": "#6a6558",
+                        "albedo": 0.1236
+                    },
+                    "Shrublands": {
+                        "hex": "#a19790",
+                        "albedo": 0.3144
+                    },
+                    "Croplands": {
+                        "hex": "#524b2d",
+                        "albedo": 0.0601
+                    },
+                    "Wetlands": {
+                        "hex": "#818684",
+                        "albedo": 0.2286
+                    },
+                    "Urban Areas": {
+                        "hex": "#4a472a",
+                        "albedo": 0.0518
+                    },
+                    "Mountains": {
+                        "hex": "#888176",
+                        "albedo": 0.2158
+                    },
+                    "Total Land Mean": {
+                        "hex": "#898377",
+                        "albedo": 0.2205
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#060a16",
+                        "albedo": 0.0044
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#4d4a46",
+                        "albedo": 0.0684
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#2f415b",
+                        "albedo": 0.0621
+                    },
+                    "Fresh Water": {
+                        "hex": "#a1a5ac",
+                        "albedo": 0.3804
+                    },
+                    "Snow and Ice": {
+                        "hex": "#e7e7e7",
+                        "albedo": 0.7986
+                    },
+                    "Deserts": {
+                        "hex": "#ae9680",
+                        "albedo": 0.3143
+                    },
+                    "Forests": {
+                        "hex": "#3c4c59",
+                        "albedo": 0.0719
+                    },
+                    "Grasslands": {
+                        "hex": "#6e6e72",
+                        "albedo": 0.1594
+                    },
+                    "Shrublands": {
+                        "hex": "#9e9497",
+                        "albedo": 0.3152
+                    },
+                    "Croplands": {
+                        "hex": "#5a5b5c",
+                        "albedo": 0.1042
+                    },
+                    "Wetlands": {
+                        "hex": "#838b98",
+                        "albedo": 0.2669
+                    },
+                    "Urban Areas": {
+                        "hex": "#54585a",
+                        "albedo": 0.0962
+                    },
+                    "Mountains": {
+                        "hex": "#888480",
+                        "albedo": 0.2312
+                    },
+                    "Total Land Mean": {
+                        "hex": "#8a8686",
+                        "albedo": 0.244
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#2f415b",
+                        "albedo": 0.0623
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#575c6a",
+                        "albedo": 0.1164
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a7a9ac",
+                        "albedo": 0.3979
+                    },
+                    "Fresh Water": {
+                        "hex": "#b9babb",
+                        "albedo": 0.4905
+                    },
+                    "Snow and Ice": {
+                        "hex": "#dcdcdc",
+                        "albedo": 0.7181
+                    },
+                    "Deserts": {
+                        "hex": "#b3a190",
+                        "albedo": 0.3627
+                    },
+                    "Forests": {
+                        "hex": "#abadae",
+                        "albedo": 0.4158
+                    },
+                    "Grasslands": {
+                        "hex": "#a7a6a6",
+                        "albedo": 0.3838
+                    },
+                    "Shrublands": {
+                        "hex": "#aba4a5",
+                        "albedo": 0.384
+                    },
+                    "Croplands": {
+                        "hex": "#a0a0a0",
+                        "albedo": 0.3506
+                    },
+                    "Wetlands": {
+                        "hex": "#afb1b5",
+                        "albedo": 0.4436
+                    },
+                    "Urban Areas": {
+                        "hex": "#a5a5a5",
+                        "albedo": 0.3773
+                    },
+                    "Mountains": {
+                        "hex": "#aaa8a6",
+                        "albedo": 0.3902
+                    },
+                    "Total Land Mean": {
+                        "hex": "#b0acab",
+                        "albedo": 0.4173
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a7a9ac",
+                        "albedo": 0.398
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#aaaaac",
+                        "albedo": 0.4042
+                    }
+                }
+            },
+            "cloud_fraction": 0.662
+        },
+        {
+            "month": "dec",
+            "views": {
+                "surface": {
+                    "Oceans": {
+                        "hex": "#060a16",
+                        "albedo": 0.0042
+                    },
+                    "Fresh Water": {
+                        "hex": "#a3a6a5",
+                        "albedo": 0.3749
+                    },
+                    "Snow and Ice": {
+                        "hex": "#ebeef0",
+                        "albedo": 0.8508
+                    },
+                    "Deserts": {
+                        "hex": "#ae9574",
+                        "albedo": 0.3002
+                    },
+                    "Forests": {
+                        "hex": "#3d453a",
+                        "albedo": 0.0497
+                    },
+                    "Grasslands": {
+                        "hex": "#78766d",
+                        "albedo": 0.1746
+                    },
+                    "Shrublands": {
+                        "hex": "#a9a19b",
+                        "albedo": 0.3581
+                    },
+                    "Croplands": {
+                        "hex": "#605945",
+                        "albedo": 0.0922
+                    },
+                    "Wetlands": {
+                        "hex": "#a0a7a8",
+                        "albedo": 0.3758
+                    },
+                    "Urban Areas": {
+                        "hex": "#4e4a31",
+                        "albedo": 0.058
+                    },
+                    "Mountains": {
+                        "hex": "#8e887f",
+                        "albedo": 0.243
+                    },
+                    "Total Land Mean": {
+                        "hex": "#908b82",
+                        "albedo": 0.2541
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#070a16",
+                        "albedo": 0.0044
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#524f4c",
+                        "albedo": 0.0782
+                    }
+                },
+                "atmosphere": {
+                    "Oceans": {
+                        "hex": "#30425d",
+                        "albedo": 0.0651
+                    },
+                    "Fresh Water": {
+                        "hex": "#a5aab2",
+                        "albedo": 0.4088
+                    },
+                    "Snow and Ice": {
+                        "hex": "#e7e7e8",
+                        "albedo": 0.8022
+                    },
+                    "Deserts": {
+                        "hex": "#ad9781",
+                        "albedo": 0.315
+                    },
+                    "Forests": {
+                        "hex": "#4b5966",
+                        "albedo": 0.1007
+                    },
+                    "Grasslands": {
+                        "hex": "#7a7c81",
+                        "albedo": 0.2049
+                    },
+                    "Shrublands": {
+                        "hex": "#a39a9f",
+                        "albedo": 0.3454
+                    },
+                    "Croplands": {
+                        "hex": "#666667",
+                        "albedo": 0.1345
+                    },
+                    "Wetlands": {
+                        "hex": "#9ea4b1",
+                        "albedo": 0.3832
+                    },
+                    "Urban Areas": {
+                        "hex": "#575b5f",
+                        "albedo": 0.1053
+                    },
+                    "Mountains": {
+                        "hex": "#8e8a87",
+                        "albedo": 0.2555
+                    },
+                    "Total Land Mean": {
+                        "hex": "#918d8e",
+                        "albedo": 0.274
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#31425d",
+                        "albedo": 0.0653
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#5b616f",
+                        "albedo": 0.1272
+                    }
+                },
+                "space": {
+                    "Oceans": {
+                        "hex": "#a8aaad",
+                        "albedo": 0.4038
+                    },
+                    "Fresh Water": {
+                        "hex": "#babbbe",
+                        "albedo": 0.4999
+                    },
+                    "Snow and Ice": {
+                        "hex": "#dcdcdd",
+                        "albedo": 0.7176
+                    },
+                    "Deserts": {
+                        "hex": "#b6a698",
+                        "albedo": 0.3866
+                    },
+                    "Forests": {
+                        "hex": "#adaeb0",
+                        "albedo": 0.4241
+                    },
+                    "Grasslands": {
+                        "hex": "#aaaaab",
+                        "albedo": 0.4046
+                    },
+                    "Shrublands": {
+                        "hex": "#aca6a8",
+                        "albedo": 0.3945
+                    },
+                    "Croplands": {
+                        "hex": "#a5a5a4",
+                        "albedo": 0.3741
+                    },
+                    "Wetlands": {
+                        "hex": "#b7b9bd",
+                        "albedo": 0.4869
+                    },
+                    "Urban Areas": {
+                        "hex": "#a4a4a5",
+                        "albedo": 0.3732
+                    },
+                    "Mountains": {
+                        "hex": "#b0aead",
+                        "albedo": 0.4239
+                    },
+                    "Total Land Mean": {
+                        "hex": "#b2afaf",
+                        "albedo": 0.4338
+                    },
+                    "Total Ocean Mean": {
+                        "hex": "#a8aaad",
+                        "albedo": 0.4038
+                    },
+                    "Total Earth Mean": {
+                        "hex": "#abacad",
+                        "albedo": 0.4131
+                    }
+                }
+            },
+            "cloud_fraction": 0.6748
+        }
+    ],
+    "cloud_albedo": 0.5294,
+    "cloud_optical_thickness": 7.5,
+    "sensitivity": {
+        "6.0": {
+            "cloud_albedo": 0.4737,
+            "mean_albedo": 0.3663,
+            "colours": [
+                "#a5a6a8",
+                "#a4a4a5",
+                "#a3a3a4",
+                "#a2a2a3",
+                "#a3a2a4",
+                "#a3a3a4",
+                "#a2a2a3",
+                "#a1a1a2",
+                "#a1a0a1",
+                "#a1a1a2",
+                "#a3a3a4",
+                "#a4a4a6"
+            ]
+        },
+        "7.5": {
+            "cloud_albedo": 0.5294,
+            "mean_albedo": 0.4033,
+            "colours": [
+                "#adadaf",
+                "#ababac",
+                "#abaaab",
+                "#a9a9aa",
+                "#aaaaab",
+                "#aaaaab",
+                "#a9a9ab",
+                "#a8a8a9",
+                "#a8a8a8",
+                "#a9a8a9",
+                "#aaaaac",
+                "#abacad"
+            ]
+        },
+        "12.0": {
+            "cloud_albedo": 0.6429,
+            "mean_albedo": 0.4785,
+            "colours": [
+                "#bbbbbc",
+                "#b8b8ba",
+                "#b8b8b9",
+                "#b6b6b7",
+                "#b7b7b8",
+                "#b8b8b9",
+                "#b7b7b8",
+                "#b6b6b7",
+                "#b6b5b6",
+                "#b6b6b7",
+                "#b7b8b9",
+                "#b9b9bb"
+            ]
+        },
+        "16.0": {
+            "cloud_albedo": 0.7059,
+            "mean_albedo": 0.5203,
+            "colours": [
+                "#c2c2c3",
+                "#bfbfc1",
+                "#bfbfbf",
+                "#bdbdbe",
+                "#bebebf",
+                "#bfbfc0",
+                "#bebebf",
+                "#bdbdbe",
+                "#bdbcbd",
+                "#bdbdbe",
+                "#bebfc0",
+                "#c0c0c2"
+            ]
+        }
+    }
+}

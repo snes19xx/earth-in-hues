@@ -1,0 +1,134 @@
+{
+    "frames": [
+        {
+            "date": "2020-02-12",
+            "hex": "#717579",
+            "reflectance": [
+                0.16545,
+                0.17709,
+                0.19055
+            ],
+            "mean_reflectance": 0.1777,
+            "pixels": 2080917
+        },
+        {
+            "date": "2020-03-15",
+            "hex": "#717172",
+            "reflectance": [
+                0.16375,
+                0.16404,
+                0.16856
+            ],
+            "mean_reflectance": 0.16545,
+            "pixels": 2319100
+        },
+        {
+            "date": "2020-04-15",
+            "hex": "#707172",
+            "reflectance": [
+                0.1632,
+                0.1636,
+                0.16714
+            ],
+            "mean_reflectance": 0.16465,
+            "pixels": 2148047
+        },
+        {
+            "date": "2020-05-15",
+            "hex": "#717173",
+            "reflectance": [
+                0.16482,
+                0.16552,
+                0.16991
+            ],
+            "mean_reflectance": 0.16675,
+            "pixels": 1893760
+        },
+        {
+            "date": "2020-06-15",
+            "hex": "#737373",
+            "reflectance": [
+                0.17088,
+                0.17013,
+                0.1712
+            ],
+            "mean_reflectance": 0.17073,
+            "pixels": 1789821
+        },
+        {
+            "date": "2020-07-15",
+            "hex": "#6e6e6f",
+            "reflectance": [
+                0.15464,
+                0.15492,
+                0.15772
+            ],
+            "mean_reflectance": 0.15576,
+            "pixels": 1813951
+        },
+        {
+            "date": "2020-08-15",
+            "hex": "#6a6b6c",
+            "reflectance": [
+                0.14506,
+                0.14644,
+                0.15106
+            ],
+            "mean_reflectance": 0.14752,
+            "pixels": 2023823
+        },
+        {
+            "date": "2020-09-15",
+            "hex": "#757474",
+            "reflectance": [
+                0.17783,
+                0.1751,
+                0.17513
+            ],
+            "mean_reflectance": 0.17602,
+            "pixels": 2266055
+        },
+        {
+            "date": "2020-10-15",
+            "hex": "#707172",
+            "reflectance": [
+                0.16195,
+                0.16398,
+                0.16911
+            ],
+            "mean_reflectance": 0.16502,
+            "pixels": 2127101
+        },
+        {
+            "date": "2020-11-15",
+            "hex": "#7a7c7e",
+            "reflectance": [
+                0.1953,
+                0.20129,
+                0.20938
+            ],
+            "mean_reflectance": 0.20199,
+            "pixels": 1936709
+        },
+        {
+            "date": "2020-12-15",
+            "hex": "#7f8081",
+            "reflectance": [
+                0.21098,
+                0.21515,
+                0.22019
+            ],
+            "mean_reflectance": 0.21544,
+            "pixels": 1892888
+        }
+    ],
+    "mean": {
+        "hex": "#737375",
+        "reflectance": [
+            0.17035,
+            0.17248,
+            0.17727
+        ],
+        "mean_reflectance": 0.17337
+    }
+}

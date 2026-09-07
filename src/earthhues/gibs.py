@@ -1,9 +1,28 @@
 import datetime as dt
+import time
 from pathlib import Path
 
 import requests
 
 WMS = "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+
+RETRIES = 5
+
+
+def fetch(url: str, timeout: int = 300) -> bytes:
+    """GET a URL, retrying gateway errors and timeouts with a widening pause."""
+    for attempt in range(RETRIES):
+        try:
+            response = requests.get(url, timeout=timeout)
+            response.raise_for_status()
+            return response.content
+        except requests.HTTPError as error:
+            if error.response.status_code < 500 or attempt == RETRIES - 1:
+                raise
+        except (requests.Timeout, requests.ConnectionError):
+            if attempt == RETRIES - 1:
+                raise
+        time.sleep(2**attempt)
 
 LAYERS = {
     "terra": "MODIS_Terra_L3_SurfaceReflectance_Bands143_8Day",
@@ -42,10 +61,8 @@ def download(sensor: str, date: str, directory, timeout: int = 300) -> Path:
         return target
 
     target.parent.mkdir(parents=True, exist_ok=True)
-    response = requests.get(image_url(sensor, date), timeout=timeout)
-    response.raise_for_status()
     partial = target.with_suffix(".part")
-    partial.write_bytes(response.content)
+    partial.write_bytes(fetch(image_url(sensor, date), timeout))
     partial.rename(target)
     return target
 
