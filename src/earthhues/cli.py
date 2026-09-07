@@ -3,6 +3,8 @@ import json
 from pathlib import Path
 
 from .color import METHODS
+from .gibs import LAYERS, download_all
+from .timeseries import build
 from .extract import CANONICAL_METHOD, monthly_colors, monthly_methods, monthly_stats
 from .sources import Sources
 
@@ -29,11 +31,22 @@ def cmd_stats(args) -> None:
     write_json(Path(args.out) / "earth_hues_stats.json", monthly_stats(sources))
 
 
+def cmd_fetch(args) -> None:
+    kept = download_all(args.sensors, args.gibs)
+    print(f"{len(kept)} composites in {args.gibs}")
+
+
+def cmd_timeseries(args) -> None:
+    sources = Sources(args.data, args.cache)
+    write_json(Path(args.out) / "earth_hues_timeseries.json", build(sources, args.gibs))
+
+
 def build_parser() -> argparse.ArgumentParser:
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument("--data", default="DATA", help="directory holding the input rasters")
     common.add_argument("--out", default="data", help="directory for generated JSON")
     common.add_argument("--cache", default="cache", help="directory for derived arrays")
+    common.add_argument("--gibs", default="DATA/gibs", help="directory for GIBS composites")
 
     parser = argparse.ArgumentParser(prog="earthhues")
     subcommands = parser.add_subparsers(dest="command", required=True)
@@ -47,6 +60,13 @@ def build_parser() -> argparse.ArgumentParser:
 
     stats = subcommands.add_parser("stats", parents=[common], help="spread and area share per category")
     stats.set_defaults(func=cmd_stats)
+
+    fetch = subcommands.add_parser("fetch", parents=[common], help="download MODIS composites")
+    fetch.add_argument("--sensors", nargs="+", default=list(LAYERS), choices=list(LAYERS))
+    fetch.set_defaults(func=cmd_fetch)
+
+    timeseries = subcommands.add_parser("timeseries", parents=[common], help="multi-year trends")
+    timeseries.set_defaults(func=cmd_timeseries)
 
     return parser
 

@@ -2,7 +2,7 @@ PY := $(HOME)/miniforge3/envs/geo_env/bin/python
 DATA := DATA
 OUT := data
 
-.PHONY: setup colors stats timeseries masks all test serve clean
+.PHONY: setup colors stats fetch timeseries masks all test serve clean
 
 setup:
 	mamba env update -f environment.yml
@@ -14,8 +14,11 @@ colors:
 stats:
 	$(PY) -m earthhues stats --data $(DATA) --out $(OUT)
 
+fetch:
+	$(PY) -m earthhues fetch
+
 timeseries:
-	$(PY) -m earthhues timeseries --out $(OUT)
+	$(PY) -m earthhues timeseries --data $(DATA) --out $(OUT)
 
 masks:
 	$(PY) -m earthhues masks --data $(DATA) --out $(OUT)
