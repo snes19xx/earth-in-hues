@@ -5,7 +5,7 @@ A geospatial project for computing area-weighted mean spectral signatures across
 See the [Observable notebook](https://observablehq.com/d/f128eacdf52ad504)
 
 <div align="center">
-    <img src="image.png" height=500 alt="hues" />
+    <img src="assets/image.png" height=500 alt="hues" />
 </div>
 
 ## Overview
@@ -48,13 +48,13 @@ The MODIS MCD12C1 product provides the **IGBP land surface classification** (sub
 
 $$L_{i,j} = L_{\text{src}}\!\left(T_{\text{src}}^{-1}\!\left(T_{\text{ref}}(i, j)\right)\right)$$
 
-The resulting integer array $\mathbf{L} \in \mathbb{Z}^{1800 \times 3600}$ assigns each pixel one of 17 IGBP classes (0–16).
+The resulting integer array $\mathbf{L} \in \mathbb{Z}^{1800 \times 3600}$ assigns each pixel one of 17 IGBP classes (0 to 16).
 
 ### 4. Latitude-Cosine Area Weighting
 
 #### Motivation
 
-In an unprojected geographic coordinate system (equirectangular projection), every pixel subtends an equal angular area of $\Delta\phi \times \Delta\lambda$ degrees. However, the **physical area** represented by a pixel is not constant — longitude lines converge toward the poles.
+In an unprojected geographic coordinate system (equirectangular projection), every pixel subtends an equal angular area of $\Delta\phi \times \Delta\lambda$ degrees. However, the **physical area** represented by a pixel is not constant, since longitude lines converge toward the poles.
 
 #### Derivation
 
@@ -139,6 +139,6 @@ where $\lfloor \cdot \rceil_{255}$ denotes rounding and clamping to $[0, 255]$.
 ## Notes
 
 - **Resampling strategy**: Average resampling is used for continuous elevation data (GEBCO) to preserve radiometric fidelity during downscaling. Nearest-neighbour is used for categorical land cover (MODIS) to prevent class interpolation artifacts.
-- **Pole exclusion**: The cosine weighting naturally suppresses polar pixels toward zero, but does not hard-exclude them — their contribution diminishes smoothly as $\phi \to \pm 90°$.
-- **Mountain definition**: The mountain mask uses a compound criterion — elevation above 1000 m _and_ roughness above 50 gradient units — to distinguish genuine orography from flat elevated plateaus.
+- **Pole exclusion**: The cosine weighting naturally suppresses polar pixels toward zero, but does not hard-exclude them. Their contribution diminishes smoothly as $\phi \to \pm 90°$.
+- **Mountain definition**: The mountain mask uses a compound criterion: elevation above 1000 m _and_ roughness above 50 gradient units. This separates genuine orography from flat elevated plateaus.
 - **Water disambiguation**: Inland water bodies (lakes, rivers) share IGBP class 0 with ocean but are distinguished by the sign of the DEM, since ocean pixels carry negative GEBCO elevation.

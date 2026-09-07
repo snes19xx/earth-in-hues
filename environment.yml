@@ -1,0 +1,16 @@
+name: geo_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - rasterio
+  - libgdal-hdf4
+  - pillow
+  - requests
+  - matplotlib
+  - pytest
+  - jupyterlab

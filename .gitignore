@@ -1,0 +1,14 @@
+DATA/
+cache/
+*.TIFF
+*.hdf
+*.tif
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+
+.DS_Store

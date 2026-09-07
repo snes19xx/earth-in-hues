@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "earthhues"
+version = "0.2.0"
+description = "Area-weighted spectral signatures of Earth's surface categories"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "rasterio",
+    "pillow",
+    "requests",
+]
+
+[project.scripts]
+earthhues = "earthhues.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
