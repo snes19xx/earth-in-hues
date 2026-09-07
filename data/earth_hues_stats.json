@@ -1,0 +1,3422 @@
+[
+    {
+        "month": "jan",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261840,
+                "area_fraction": 0.70735,
+                "mean": "#060a16",
+                "rgb_std": [
+                    9.0,
+                    9.62,
+                    8.7
+                ],
+                "lightness": {
+                    "mean": 1.87,
+                    "std": 3.82,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.74
+                },
+                "dispersion": 1.4
+            },
+            "Fresh Water": {
+                "pixels": 124542,
+                "area_fraction": 0.00866,
+                "mean": "#a6a9a9",
+                "rgb_std": [
+                    95.79,
+                    93.8,
+                    100.97
+                ],
+                "lightness": {
+                    "mean": 52.99,
+                    "std": 37.45,
+                    "p05": 1.37,
+                    "p25": 15.69,
+                    "p50": 52.83,
+                    "p75": 94.1,
+                    "p95": 95.49
+                },
+                "dispersion": 31.17
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#ebeef0",
+                "rgb_std": [
+                    22.31,
+                    21.69,
+                    21.74
+                ],
+                "lightness": {
+                    "mean": 93.35,
+                    "std": 8.22,
+                    "p05": 85.81,
+                    "p25": 93.79,
+                    "p50": 94.45,
+                    "p75": 95.17,
+                    "p95": 99.04
+                },
+                "dispersion": 3.23
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#ae9675",
+                "rgb_std": [
+                    32.36,
+                    32.42,
+                    37.15
+                ],
+                "lightness": {
+                    "mean": 61.49,
+                    "std": 12.21,
+                    "p05": 42.06,
+                    "p25": 53.99,
+                    "p50": 62.27,
+                    "p75": 68.24,
+                    "p95": 80.99
+                },
+                "dispersion": 9.49
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#4f5650",
+                "rgb_std": [
+                    50.06,
+                    48.61,
+                    59.66
+                ],
+                "lightness": {
+                    "mean": 26.08,
+                    "std": 20.47,
+                    "p05": 10.2,
+                    "p25": 13.35,
+                    "p50": 16.46,
+                    "p75": 26.15,
+                    "p95": 70.82
+                },
+                "dispersion": 19.52
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#878780",
+                "rgb_std": [
+                    65.43,
+                    66.4,
+                    80.29
+                ],
+                "lightness": {
+                    "mean": 45.71,
+                    "std": 26.21,
+                    "p05": 16.58,
+                    "p25": 24.29,
+                    "p50": 35.44,
+                    "p75": 69.32,
+                    "p95": 94.12
+                },
+                "dispersion": 25.46
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#a9a29c",
+                "rgb_std": [
+                    52.4,
+                    69.55,
+                    85.91
+                ],
+                "lightness": {
+                    "mean": 59.06,
+                    "std": 24.98,
+                    "p05": 31.94,
+                    "p25": 38.52,
+                    "p50": 46.51,
+                    "p75": 89.59,
+                    "p95": 96.36
+                },
+                "dispersion": 26.2
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#7b776c",
+                "rgb_std": [
+                    55.52,
+                    57.18,
+                    68.28
+                ],
+                "lightness": {
+                    "mean": 41.14,
+                    "std": 22.34,
+                    "p05": 19.65,
+                    "p25": 27.33,
+                    "p50": 33.02,
+                    "p75": 42.48,
+                    "p95": 91.07
+                },
+                "dispersion": 20.62
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#adb4b5",
+                "rgb_std": [
+                    78.36,
+                    78.03,
+                    91.59
+                ],
+                "lightness": {
+                    "mean": 62.94,
+                    "std": 31.11,
+                    "p05": 13.76,
+                    "p25": 25.33,
+                    "p50": 80.99,
+                    "p75": 88.18,
+                    "p95": 93.77
+                },
+                "dispersion": 23.7
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#575340",
+                "rgb_std": [
+                    36.92,
+                    34.55,
+                    38.81
+                ],
+                "lightness": {
+                    "mean": 30.42,
+                    "std": 14.33,
+                    "p05": 15.05,
+                    "p25": 21.65,
+                    "p50": 27.78,
+                    "p75": 34.38,
+                    "p95": 63.31
+                },
+                "dispersion": 11.73
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#96928a",
+                "rgb_std": [
+                    66.48,
+                    68.45,
+                    80.48
+                ],
+                "lightness": {
+                    "mean": 50.8,
+                    "std": 26.76,
+                    "p05": 14.31,
+                    "p25": 29.71,
+                    "p50": 44.9,
+                    "p75": 74.14,
+                    "p95": 95.12
+                },
+                "dispersion": 24.71
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#98948c",
+                "rgb_std": [
+                    72.79,
+                    71.89,
+                    84.7
+                ],
+                "lightness": {
+                    "mean": 50.75,
+                    "std": 28.39,
+                    "p05": 13.75,
+                    "p25": 25.37,
+                    "p50": 44.5,
+                    "p75": 75.69,
+                    "p95": 95.34
+                },
+                "dispersion": 27.41
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271098,
+                "area_fraction": 0.70876,
+                "mean": "#070b17",
+                "rgb_std": [
+                    10.64,
+                    11.05,
+                    9.82
+                ],
+                "lightness": {
+                    "mean": 1.95,
+                    "std": 4.42,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.8
+                },
+                "dispersion": 1.67
+            },
+            "Total Earth Mean": {
+                "pixels": 6479827,
+                "area_fraction": 1.0,
+                "mean": "#565552",
+                "rgb_std": [
+                    70.28,
+                    67.3,
+                    60.59
+                ],
+                "lightness": {
+                    "mean": 16.18,
+                    "std": 27.33,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 19.48,
+                    "p95": 90.24
+                },
+                "dispersion": 24.48
+            }
+        }
+    },
+    {
+        "month": "feb",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261838,
+                "area_fraction": 0.70735,
+                "mean": "#060a16",
+                "rgb_std": [
+                    9.23,
+                    9.85,
+                    8.92
+                ],
+                "lightness": {
+                    "mean": 1.88,
+                    "std": 3.92,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.74
+                },
+                "dispersion": 1.43
+            },
+            "Fresh Water": {
+                "pixels": 124542,
+                "area_fraction": 0.00866,
+                "mean": "#a8abab",
+                "rgb_std": [
+                    95.37,
+                    93.35,
+                    100.56
+                ],
+                "lightness": {
+                    "mean": 54.18,
+                    "std": 37.25,
+                    "p05": 1.41,
+                    "p25": 16.64,
+                    "p50": 57.05,
+                    "p75": 94.1,
+                    "p95": 95.58
+                },
+                "dispersion": 30.68
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#ebeef0",
+                "rgb_std": [
+                    22.03,
+                    21.47,
+                    21.55
+                ],
+                "lightness": {
+                    "mean": 93.42,
+                    "std": 8.14,
+                    "p05": 86.31,
+                    "p25": 93.81,
+                    "p50": 94.48,
+                    "p75": 95.23,
+                    "p95": 99.04
+                },
+                "dispersion": 3.17
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#ae9777",
+                "rgb_std": [
+                    32.75,
+                    33.34,
+                    38.78
+                ],
+                "lightness": {
+                    "mean": 61.74,
+                    "std": 12.51,
+                    "p05": 41.8,
+                    "p25": 54.33,
+                    "p50": 62.4,
+                    "p75": 68.33,
+                    "p95": 84.5
+                },
+                "dispersion": 9.69
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#515651",
+                "rgb_std": [
+                    49.81,
+                    47.46,
+                    59.39
+                ],
+                "lightness": {
+                    "mean": 26.67,
+                    "std": 20.16,
+                    "p05": 10.37,
+                    "p25": 13.58,
+                    "p50": 16.87,
+                    "p75": 32.36,
+                    "p95": 69.52
+                },
+                "dispersion": 19.57
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#8a8a84",
+                "rgb_std": [
+                    66.81,
+                    67.29,
+                    82.07
+                ],
+                "lightness": {
+                    "mean": 46.92,
+                    "std": 26.58,
+                    "p05": 17.09,
+                    "p25": 24.73,
+                    "p50": 36.13,
+                    "p75": 72.3,
+                    "p95": 94.53
+                },
+                "dispersion": 26.12
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#aaa39d",
+                "rgb_std": [
+                    54.83,
+                    71.18,
+                    87.55
+                ],
+                "lightness": {
+                    "mean": 59.04,
+                    "std": 25.64,
+                    "p05": 31.23,
+                    "p25": 37.94,
+                    "p50": 45.94,
+                    "p75": 90.57,
+                    "p95": 97.06
+                },
+                "dispersion": 26.85
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#858178",
+                "rgb_std": [
+                    59.96,
+                    61.98,
+                    74.36
+                ],
+                "lightness": {
+                    "mean": 44.83,
+                    "std": 24.08,
+                    "p05": 20.57,
+                    "p25": 28.78,
+                    "p50": 35.13,
+                    "p75": 51.65,
+                    "p95": 93.08
+                },
+                "dispersion": 22.86
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#abb1b4",
+                "rgb_std": [
+                    77.17,
+                    76.51,
+                    90.68
+                ],
+                "lightness": {
+                    "mean": 62.14,
+                    "std": 30.56,
+                    "p05": 13.85,
+                    "p25": 25.52,
+                    "p50": 77.64,
+                    "p75": 87.4,
+                    "p95": 94.64
+                },
+                "dispersion": 23.41
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#605d4c",
+                "rgb_std": [
+                    42.05,
+                    40.8,
+                    47.01
+                ],
+                "lightness": {
+                    "mean": 33.24,
+                    "std": 16.61,
+                    "p05": 16.02,
+                    "p25": 23.1,
+                    "p50": 29.47,
+                    "p75": 36.31,
+                    "p95": 77.03
+                },
+                "dispersion": 14.21
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#9a968f",
+                "rgb_std": [
+                    67.17,
+                    69.23,
+                    81.92
+                ],
+                "lightness": {
+                    "mean": 52.62,
+                    "std": 27.01,
+                    "p05": 15.05,
+                    "p25": 30.76,
+                    "p50": 46.57,
+                    "p75": 78.62,
+                    "p95": 95.49
+                },
+                "dispersion": 25.19
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#9a968f",
+                "rgb_std": [
+                    73.1,
+                    72.12,
+                    85.42
+                ],
+                "lightness": {
+                    "mean": 51.71,
+                    "std": 28.46,
+                    "p05": 13.93,
+                    "p25": 26.18,
+                    "p50": 46.06,
+                    "p75": 77.4,
+                    "p95": 95.63
+                },
+                "dispersion": 27.64
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271096,
+                "area_fraction": 0.70876,
+                "mean": "#080b17",
+                "rgb_std": [
+                    10.79,
+                    11.2,
+                    9.97
+                ],
+                "lightness": {
+                    "mean": 1.96,
+                    "std": 4.49,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.81
+                },
+                "dispersion": 1.7
+            },
+            "Total Earth Mean": {
+                "pixels": 6479825,
+                "area_fraction": 1.0,
+                "mean": "#585653",
+                "rgb_std": [
+                    71.24,
+                    68.25,
+                    61.73
+                ],
+                "lightness": {
+                    "mean": 16.47,
+                    "std": 27.7,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 20.22,
+                    "p95": 91.15
+                },
+                "dispersion": 24.83
+            }
+        }
+    },
+    {
+        "month": "mar",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261817,
+                "area_fraction": 0.70735,
+                "mean": "#060a16",
+                "rgb_std": [
+                    9.33,
+                    9.91,
+                    8.97
+                ],
+                "lightness": {
+                    "mean": 1.89,
+                    "std": 3.95,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.74
+                },
+                "dispersion": 1.44
+            },
+            "Fresh Water": {
+                "pixels": 124548,
+                "area_fraction": 0.00866,
+                "mean": "#aaacac",
+                "rgb_std": [
+                    95.76,
+                    93.65,
+                    100.8
+                ],
+                "lightness": {
+                    "mean": 54.61,
+                    "std": 37.37,
+                    "p05": 1.41,
+                    "p25": 16.88,
+                    "p50": 58.41,
+                    "p75": 94.1,
+                    "p95": 95.7
+                },
+                "dispersion": 30.65
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#ebeef0",
+                "rgb_std": [
+                    22.01,
+                    21.45,
+                    21.57
+                ],
+                "lightness": {
+                    "mean": 93.46,
+                    "std": 8.13,
+                    "p05": 86.52,
+                    "p25": 93.83,
+                    "p50": 94.48,
+                    "p75": 95.28,
+                    "p95": 99.04
+                },
+                "dispersion": 3.14
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#af9878",
+                "rgb_std": [
+                    32.13,
+                    32.33,
+                    37.14
+                ],
+                "lightness": {
+                    "mean": 62.11,
+                    "std": 12.13,
+                    "p05": 42.88,
+                    "p25": 55.04,
+                    "p50": 62.64,
+                    "p75": 68.34,
+                    "p95": 83.16
+                },
+                "dispersion": 9.17
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#52564f",
+                "rgb_std": [
+                    50.71,
+                    47.23,
+                    58.01
+                ],
+                "lightness": {
+                    "mean": 26.8,
+                    "std": 20.09,
+                    "p05": 10.42,
+                    "p25": 13.75,
+                    "p50": 17.06,
+                    "p75": 31.69,
+                    "p95": 70.01
+                },
+                "dispersion": 19.13
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#8d8b84",
+                "rgb_std": [
+                    68.97,
+                    68.24,
+                    82.23
+                ],
+                "lightness": {
+                    "mean": 47.26,
+                    "std": 26.97,
+                    "p05": 17.41,
+                    "p25": 24.76,
+                    "p50": 36.31,
+                    "p75": 73.13,
+                    "p95": 95.67
+                },
+                "dispersion": 26.26
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#ada49e",
+                "rgb_std": [
+                    58.25,
+                    72.86,
+                    88.82
+                ],
+                "lightness": {
+                    "mean": 59.27,
+                    "std": 26.41,
+                    "p05": 30.75,
+                    "p25": 37.24,
+                    "p50": 45.97,
+                    "p75": 92.48,
+                    "p95": 97.29
+                },
+                "dispersion": 27.33
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#8a857a",
+                "rgb_std": [
+                    60.55,
+                    62.34,
+                    73.98
+                ],
+                "lightness": {
+                    "mean": 46.46,
+                    "std": 24.07,
+                    "p05": 22.28,
+                    "p25": 30.39,
+                    "p50": 37.06,
+                    "p75": 52.26,
+                    "p95": 94.97
+                },
+                "dispersion": 22.67
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#b3b7b7",
+                "rgb_std": [
+                    81.4,
+                    79.29,
+                    92.5
+                ],
+                "lightness": {
+                    "mean": 63.95,
+                    "std": 31.63,
+                    "p05": 13.81,
+                    "p25": 25.96,
+                    "p50": 81.53,
+                    "p75": 90.32,
+                    "p95": 95.28
+                },
+                "dispersion": 24.02
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#635e4d",
+                "rgb_std": [
+                    41.27,
+                    39.62,
+                    45.61
+                ],
+                "lightness": {
+                    "mean": 34.48,
+                    "std": 16.13,
+                    "p05": 17.44,
+                    "p25": 24.73,
+                    "p50": 30.7,
+                    "p75": 37.8,
+                    "p95": 76.04
+                },
+                "dispersion": 13.68
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#9a968e",
+                "rgb_std": [
+                    67.22,
+                    68.77,
+                    80.97
+                ],
+                "lightness": {
+                    "mean": 52.66,
+                    "std": 26.8,
+                    "p05": 15.81,
+                    "p25": 31.14,
+                    "p50": 46.89,
+                    "p75": 77.89,
+                    "p95": 95.87
+                },
+                "dispersion": 24.8
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#9c988f",
+                "rgb_std": [
+                    74.09,
+                    72.55,
+                    85.43
+                ],
+                "lightness": {
+                    "mean": 52.13,
+                    "std": 28.62,
+                    "p05": 14.11,
+                    "p25": 26.51,
+                    "p50": 46.27,
+                    "p75": 78.82,
+                    "p95": 96.19
+                },
+                "dispersion": 27.62
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271075,
+                "area_fraction": 0.70876,
+                "mean": "#070b17",
+                "rgb_std": [
+                    10.49,
+                    10.87,
+                    9.57
+                ],
+                "lightness": {
+                    "mean": 1.96,
+                    "std": 4.36,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.82
+                },
+                "dispersion": 1.64
+            },
+            "Total Earth Mean": {
+                "pixels": 6479810,
+                "area_fraction": 1.0,
+                "mean": "#595653",
+                "rgb_std": [
+                    72.13,
+                    68.73,
+                    61.8
+                ],
+                "lightness": {
+                    "mean": 16.59,
+                    "std": 27.9,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 20.59,
+                    "p95": 92.37
+                },
+                "dispersion": 25.05
+            }
+        }
+    },
+    {
+        "month": "apr",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261824,
+                "area_fraction": 0.70735,
+                "mean": "#060a16",
+                "rgb_std": [
+                    9.31,
+                    9.88,
+                    8.92
+                ],
+                "lightness": {
+                    "mean": 1.88,
+                    "std": 3.93,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.74
+                },
+                "dispersion": 1.43
+            },
+            "Fresh Water": {
+                "pixels": 124536,
+                "area_fraction": 0.00866,
+                "mean": "#a9abab",
+                "rgb_std": [
+                    96.27,
+                    94.0,
+                    101.22
+                ],
+                "lightness": {
+                    "mean": 54.15,
+                    "std": 37.52,
+                    "p05": 1.37,
+                    "p25": 16.52,
+                    "p50": 55.95,
+                    "p75": 94.1,
+                    "p95": 95.82
+                },
+                "dispersion": 30.96
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#eceef0",
+                "rgb_std": [
+                    22.08,
+                    21.43,
+                    21.54
+                ],
+                "lightness": {
+                    "mean": 93.49,
+                    "std": 8.13,
+                    "p05": 86.67,
+                    "p25": 93.83,
+                    "p50": 94.48,
+                    "p75": 95.28,
+                    "p95": 98.94
+                },
+                "dispersion": 3.13
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#b09878",
+                "rgb_std": [
+                    30.92,
+                    30.41,
+                    34.32
+                ],
+                "lightness": {
+                    "mean": 62.46,
+                    "std": 11.46,
+                    "p05": 44.42,
+                    "p25": 55.83,
+                    "p50": 63.04,
+                    "p75": 68.54,
+                    "p95": 78.24
+                },
+                "dispersion": 8.52
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#4f534a",
+                "rgb_std": [
+                    48.86,
+                    44.82,
+                    54.17
+                ],
+                "lightness": {
+                    "mean": 25.92,
+                    "std": 19.15,
+                    "p05": 10.37,
+                    "p25": 13.63,
+                    "p50": 16.88,
+                    "p75": 29.41,
+                    "p95": 68.42
+                },
+                "dispersion": 17.69
+            },
+            "Grasslands": {
+                "pixels": 665511,
+                "area_fraction": 0.11562,
+                "mean": "#88857c",
+                "rgb_std": [
+                    66.98,
+                    65.09,
+                    77.74
+                ],
+                "lightness": {
+                    "mean": 45.31,
+                    "std": 25.88,
+                    "p05": 17.22,
+                    "p25": 24.23,
+                    "p50": 35.49,
+                    "p75": 66.43,
+                    "p95": 94.42
+                },
+                "dispersion": 24.61
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#aea49d",
+                "rgb_std": [
+                    60.42,
+                    73.36,
+                    88.84
+                ],
+                "lightness": {
+                    "mean": 59.19,
+                    "std": 26.76,
+                    "p05": 29.65,
+                    "p25": 36.77,
+                    "p50": 46.31,
+                    "p75": 92.67,
+                    "p95": 97.56
+                },
+                "dispersion": 27.37
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#7a7363",
+                "rgb_std": [
+                    49.33,
+                    49.36,
+                    58.15
+                ],
+                "lightness": {
+                    "mean": 41.91,
+                    "std": 19.28,
+                    "p05": 22.95,
+                    "p25": 30.03,
+                    "p50": 36.93,
+                    "p75": 43.59,
+                    "p95": 91.59
+                },
+                "dispersion": 16.58
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#b7b9b7",
+                "rgb_std": [
+                    83.85,
+                    80.65,
+                    92.91
+                ],
+                "lightness": {
+                    "mean": 64.47,
+                    "std": 32.18,
+                    "p05": 13.69,
+                    "p25": 26.05,
+                    "p50": 82.76,
+                    "p75": 91.62,
+                    "p95": 95.82
+                },
+                "dispersion": 24.41
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#58543c",
+                "rgb_std": [
+                    31.53,
+                    27.76,
+                    30.41
+                ],
+                "lightness": {
+                    "mean": 32.54,
+                    "std": 11.73,
+                    "p05": 18.09,
+                    "p25": 25.53,
+                    "p50": 30.8,
+                    "p75": 37.16,
+                    "p95": 53.29
+                },
+                "dispersion": 9.28
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#959086",
+                "rgb_std": [
+                    65.02,
+                    65.64,
+                    77.05
+                ],
+                "lightness": {
+                    "mean": 50.62,
+                    "std": 25.69,
+                    "p05": 15.83,
+                    "p25": 30.39,
+                    "p50": 45.7,
+                    "p75": 66.68,
+                    "p95": 95.47
+                },
+                "dispersion": 23.26
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#9a948a",
+                "rgb_std": [
+                    73.63,
+                    71.14,
+                    83.22
+                ],
+                "lightness": {
+                    "mean": 50.86,
+                    "std": 28.17,
+                    "p05": 14.08,
+                    "p25": 26.01,
+                    "p50": 44.32,
+                    "p75": 74.3,
+                    "p95": 96.17
+                },
+                "dispersion": 26.76
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271081,
+                "area_fraction": 0.70876,
+                "mean": "#070b16",
+                "rgb_std": [
+                    10.31,
+                    10.69,
+                    9.37
+                ],
+                "lightness": {
+                    "mean": 1.95,
+                    "std": 4.29,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.81
+                },
+                "dispersion": 1.61
+            },
+            "Total Earth Mean": {
+                "pixels": 6479804,
+                "area_fraction": 1.0,
+                "mean": "#575451",
+                "rgb_std": [
+                    70.95,
+                    67.1,
+                    59.63
+                ],
+                "lightness": {
+                    "mean": 16.22,
+                    "std": 27.3,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 20.38,
+                    "p95": 91.12
+                },
+                "dispersion": 24.48
+            }
+        }
+    },
+    {
+        "month": "may",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261847,
+                "area_fraction": 0.70735,
+                "mean": "#060a16",
+                "rgb_std": [
+                    9.18,
+                    9.75,
+                    8.8
+                ],
+                "lightness": {
+                    "mean": 1.88,
+                    "std": 3.88,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.74
+                },
+                "dispersion": 1.42
+            },
+            "Fresh Water": {
+                "pixels": 124540,
+                "area_fraction": 0.00866,
+                "mean": "#a7a9a8",
+                "rgb_std": [
+                    97.18,
+                    94.81,
+                    102.23
+                ],
+                "lightness": {
+                    "mean": 52.55,
+                    "std": 37.85,
+                    "p05": 1.27,
+                    "p25": 15.41,
+                    "p50": 47.16,
+                    "p75": 94.1,
+                    "p95": 95.67
+                },
+                "dispersion": 31.87
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#eceef0",
+                "rgb_std": [
+                    22.12,
+                    21.45,
+                    21.52
+                ],
+                "lightness": {
+                    "mean": 93.48,
+                    "std": 8.14,
+                    "p05": 86.51,
+                    "p25": 93.83,
+                    "p50": 94.48,
+                    "p75": 95.28,
+                    "p95": 98.94
+                },
+                "dispersion": 3.15
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#b09877",
+                "rgb_std": [
+                    29.96,
+                    29.0,
+                    32.28
+                ],
+                "lightness": {
+                    "mean": 62.6,
+                    "std": 10.96,
+                    "p05": 45.28,
+                    "p25": 56.31,
+                    "p50": 63.28,
+                    "p75": 68.55,
+                    "p95": 76.87
+                },
+                "dispersion": 8.14
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#43483b",
+                "rgb_std": [
+                    40.67,
+                    36.74,
+                    43.94
+                ],
+                "lightness": {
+                    "mean": 22.75,
+                    "std": 15.88,
+                    "p05": 10.06,
+                    "p25": 13.16,
+                    "p50": 16.29,
+                    "p75": 24.76,
+                    "p95": 61.46
+                },
+                "dispersion": 13.82
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#7e7a6e",
+                "rgb_std": [
+                    62.37,
+                    59.8,
+                    70.46
+                ],
+                "lightness": {
+                    "mean": 41.65,
+                    "std": 23.92,
+                    "p05": 16.78,
+                    "p25": 23.4,
+                    "p50": 33.01,
+                    "p75": 53.43,
+                    "p95": 92.7
+                },
+                "dispersion": 21.79
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#aea49c",
+                "rgb_std": [
+                    61.18,
+                    74.08,
+                    88.38
+                ],
+                "lightness": {
+                    "mean": 58.89,
+                    "std": 27.04,
+                    "p05": 28.2,
+                    "p25": 36.21,
+                    "p50": 46.67,
+                    "p75": 92.7,
+                    "p95": 97.9
+                },
+                "dispersion": 27.35
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#61583c",
+                "rgb_std": [
+                    28.29,
+                    21.94,
+                    23.3
+                ],
+                "lightness": {
+                    "mean": 35.69,
+                    "std": 9.6,
+                    "p05": 22.91,
+                    "p25": 28.17,
+                    "p50": 35.26,
+                    "p75": 41.27,
+                    "p95": 51.45
+                },
+                "dispersion": 8.44
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#b6b7b4",
+                "rgb_std": [
+                    84.64,
+                    81.09,
+                    92.75
+                ],
+                "lightness": {
+                    "mean": 63.5,
+                    "std": 32.38,
+                    "p05": 13.32,
+                    "p25": 25.53,
+                    "p50": 81.51,
+                    "p75": 91.29,
+                    "p95": 96.32
+                },
+                "dispersion": 24.81
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#524f32",
+                "rgb_std": [
+                    26.68,
+                    20.6,
+                    19.87
+                ],
+                "lightness": {
+                    "mean": 31.29,
+                    "std": 9.23,
+                    "p05": 18.33,
+                    "p25": 25.25,
+                    "p50": 30.2,
+                    "p75": 36.64,
+                    "p95": 47.52
+                },
+                "dispersion": 7.57
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#908a7f",
+                "rgb_std": [
+                    63.64,
+                    63.5,
+                    74.09
+                ],
+                "lightness": {
+                    "mean": 48.74,
+                    "std": 24.96,
+                    "p05": 15.52,
+                    "p25": 29.33,
+                    "p50": 44.48,
+                    "p75": 60.69,
+                    "p95": 94.97
+                },
+                "dispersion": 22.06
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#948e83",
+                "rgb_std": [
+                    72.92,
+                    69.62,
+                    80.52
+                ],
+                "lightness": {
+                    "mean": 48.3,
+                    "std": 27.68,
+                    "p05": 13.61,
+                    "p25": 24.75,
+                    "p50": 41.02,
+                    "p75": 68.64,
+                    "p95": 95.84
+                },
+                "dispersion": 25.74
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271105,
+                "area_fraction": 0.70877,
+                "mean": "#070b16",
+                "rgb_std": [
+                    10.22,
+                    10.59,
+                    9.26
+                ],
+                "lightness": {
+                    "mean": 1.94,
+                    "std": 4.25,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.81
+                },
+                "dispersion": 1.6
+            },
+            "Total Earth Mean": {
+                "pixels": 6479832,
+                "area_fraction": 1.0,
+                "mean": "#54514c",
+                "rgb_std": [
+                    68.42,
+                    64.35,
+                    56.38
+                ],
+                "lightness": {
+                    "mean": 15.48,
+                    "std": 26.23,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 19.69,
+                    "p95": 88.8
+                },
+                "dispersion": 23.53
+            }
+        }
+    },
+    {
+        "month": "jun",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261845,
+                "area_fraction": 0.70735,
+                "mean": "#060a16",
+                "rgb_std": [
+                    9.0,
+                    9.58,
+                    8.64
+                ],
+                "lightness": {
+                    "mean": 1.87,
+                    "std": 3.81,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.74
+                },
+                "dispersion": 1.41
+            },
+            "Fresh Water": {
+                "pixels": 124539,
+                "area_fraction": 0.00866,
+                "mean": "#a3a6a4",
+                "rgb_std": [
+                    97.91,
+                    95.36,
+                    103.14
+                ],
+                "lightness": {
+                    "mean": 50.5,
+                    "std": 38.13,
+                    "p05": 1.26,
+                    "p25": 13.97,
+                    "p50": 39.05,
+                    "p75": 94.1,
+                    "p95": 95.49
+                },
+                "dispersion": 32.73
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#eceef0",
+                "rgb_std": [
+                    22.22,
+                    21.58,
+                    21.57
+                ],
+                "lightness": {
+                    "mean": 93.43,
+                    "std": 8.18,
+                    "p05": 86.07,
+                    "p25": 93.79,
+                    "p50": 94.45,
+                    "p75": 95.18,
+                    "p95": 99.31
+                },
+                "dispersion": 3.23
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#b09777",
+                "rgb_std": [
+                    29.11,
+                    27.6,
+                    30.32
+                ],
+                "lightness": {
+                    "mean": 62.65,
+                    "std": 10.5,
+                    "p05": 45.54,
+                    "p25": 56.73,
+                    "p50": 63.55,
+                    "p75": 68.5,
+                    "p95": 76.0
+                },
+                "dispersion": 7.87
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#2e3622",
+                "rgb_std": [
+                    25.02,
+                    22.23,
+                    25.56
+                ],
+                "lightness": {
+                    "mean": 18.07,
+                    "std": 9.82,
+                    "p05": 9.86,
+                    "p25": 12.39,
+                    "p50": 15.35,
+                    "p75": 20.4,
+                    "p95": 36.13
+                },
+                "dispersion": 7.41
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#726e60",
+                "rgb_std": [
+                    57.02,
+                    53.56,
+                    62.07
+                ],
+                "lightness": {
+                    "mean": 37.57,
+                    "std": 21.63,
+                    "p05": 16.22,
+                    "p25": 22.1,
+                    "p50": 29.97,
+                    "p75": 45.54,
+                    "p95": 89.48
+                },
+                "dispersion": 18.84
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#a89f96",
+                "rgb_std": [
+                    59.81,
+                    71.98,
+                    85.23
+                ],
+                "lightness": {
+                    "mean": 56.96,
+                    "std": 26.41,
+                    "p05": 26.47,
+                    "p25": 35.1,
+                    "p50": 46.35,
+                    "p75": 89.83,
+                    "p95": 97.56
+                },
+                "dispersion": 26.43
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#5b5435",
+                "rgb_std": [
+                    27.88,
+                    19.31,
+                    18.34
+                ],
+                "lightness": {
+                    "mean": 34.1,
+                    "std": 8.81,
+                    "p05": 22.55,
+                    "p25": 27.06,
+                    "p50": 32.99,
+                    "p75": 39.97,
+                    "p95": 50.4
+                },
+                "dispersion": 8.13
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#9fa19d",
+                "rgb_std": [
+                    81.93,
+                    79.21,
+                    89.72
+                ],
+                "lightness": {
+                    "mean": 53.89,
+                    "std": 31.66,
+                    "p05": 12.68,
+                    "p25": 22.18,
+                    "p50": 50.01,
+                    "p75": 86.78,
+                    "p95": 94.92
+                },
+                "dispersion": 26.99
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#4f4e2f",
+                "rgb_std": [
+                    27.82,
+                    20.59,
+                    19.32
+                ],
+                "lightness": {
+                    "mean": 30.73,
+                    "std": 9.33,
+                    "p05": 18.03,
+                    "p25": 24.43,
+                    "p50": 29.41,
+                    "p75": 36.33,
+                    "p95": 47.72
+                },
+                "dispersion": 7.79
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#8b8579",
+                "rgb_std": [
+                    62.37,
+                    61.34,
+                    71.2
+                ],
+                "lightness": {
+                    "mean": 46.8,
+                    "std": 24.28,
+                    "p05": 15.17,
+                    "p25": 27.57,
+                    "p50": 43.28,
+                    "p75": 58.0,
+                    "p95": 94.58
+                },
+                "dispersion": 20.98
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#8e887c",
+                "rgb_std": [
+                    72.96,
+                    68.59,
+                    78.48
+                ],
+                "lightness": {
+                    "mean": 45.51,
+                    "std": 27.45,
+                    "p05": 12.87,
+                    "p25": 22.71,
+                    "p50": 37.13,
+                    "p75": 64.93,
+                    "p95": 95.15
+                },
+                "dispersion": 25.02
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271103,
+                "area_fraction": 0.70877,
+                "mean": "#070a16",
+                "rgb_std": [
+                    10.08,
+                    10.45,
+                    9.11
+                ],
+                "lightness": {
+                    "mean": 1.94,
+                    "std": 4.19,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.8
+                },
+                "dispersion": 1.59
+            },
+            "Total Earth Mean": {
+                "pixels": 6479829,
+                "area_fraction": 1.0,
+                "mean": "#504d48",
+                "rgb_std": [
+                    65.78,
+                    61.64,
+                    53.44
+                ],
+                "lightness": {
+                    "mean": 14.67,
+                    "std": 25.15,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 18.55,
+                    "p95": 84.35
+                },
+                "dispersion": 22.66
+            }
+        }
+    },
+    {
+        "month": "jul",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261838,
+                "area_fraction": 0.70735,
+                "mean": "#060916",
+                "rgb_std": [
+                    8.63,
+                    9.24,
+                    8.32
+                ],
+                "lightness": {
+                    "mean": 1.85,
+                    "std": 3.66,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.74
+                },
+                "dispersion": 1.37
+            },
+            "Fresh Water": {
+                "pixels": 124536,
+                "area_fraction": 0.00866,
+                "mean": "#9c9e9d",
+                "rgb_std": [
+                    97.69,
+                    94.78,
+                    103.01
+                ],
+                "lightness": {
+                    "mean": 46.56,
+                    "std": 37.98,
+                    "p05": 1.27,
+                    "p25": 12.36,
+                    "p50": 30.02,
+                    "p75": 94.0,
+                    "p95": 95.23
+                },
+                "dispersion": 33.53
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#ebedef",
+                "rgb_std": [
+                    22.82,
+                    22.16,
+                    22.25
+                ],
+                "lightness": {
+                    "mean": 93.27,
+                    "std": 8.39,
+                    "p05": 84.59,
+                    "p25": 93.75,
+                    "p50": 94.45,
+                    "p75": 95.15,
+                    "p95": 99.31
+                },
+                "dispersion": 3.39
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#af9676",
+                "rgb_std": [
+                    28.86,
+                    26.16,
+                    27.59
+                ],
+                "lightness": {
+                    "mean": 62.43,
+                    "std": 10.1,
+                    "p05": 45.25,
+                    "p25": 56.85,
+                    "p50": 63.73,
+                    "p75": 68.58,
+                    "p95": 75.08
+                },
+                "dispersion": 7.7
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#202c11",
+                "rgb_std": [
+                    12.3,
+                    11.65,
+                    10.79
+                ],
+                "lightness": {
+                    "mean": 15.19,
+                    "std": 5.22,
+                    "p05": 9.6,
+                    "p25": 11.91,
+                    "p50": 14.27,
+                    "p75": 17.39,
+                    "p95": 23.1
+                },
+                "dispersion": 3.78
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#5b5742",
+                "rgb_std": [
+                    44.7,
+                    38.02,
+                    41.94
+                ],
+                "lightness": {
+                    "mean": 30.9,
+                    "std": 16.07,
+                    "p05": 15.0,
+                    "p25": 19.81,
+                    "p50": 25.55,
+                    "p75": 37.75,
+                    "p95": 61.85
+                },
+                "dispersion": 13.41
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#7d6e5d",
+                "rgb_std": [
+                    42.91,
+                    44.87,
+                    51.32
+                ],
+                "lightness": {
+                    "mean": 42.05,
+                    "std": 17.37,
+                    "p05": 20.78,
+                    "p25": 30.08,
+                    "p50": 38.38,
+                    "p75": 49.89,
+                    "p95": 82.54
+                },
+                "dispersion": 14.87
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#565231",
+                "rgb_std": [
+                    29.58,
+                    19.74,
+                    19.41
+                ],
+                "lightness": {
+                    "mean": 32.67,
+                    "std": 9.12,
+                    "p05": 21.47,
+                    "p25": 25.72,
+                    "p50": 30.47,
+                    "p75": 38.33,
+                    "p95": 50.63
+                },
+                "dispersion": 8.4
+            },
+            "Wetlands": {
+                "pixels": 16210,
+                "area_fraction": 0.00216,
+                "mean": "#4b4e42",
+                "rgb_std": [
+                    43.15,
+                    42.34,
+                    48.2
+                ],
+                "lightness": {
+                    "mean": 24.08,
+                    "std": 17.53,
+                    "p05": 10.42,
+                    "p25": 14.27,
+                    "p50": 17.35,
+                    "p75": 26.23,
+                    "p95": 66.58
+                },
+                "dispersion": 14.94
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#4d4d2e",
+                "rgb_std": [
+                    29.24,
+                    21.14,
+                    20.03
+                ],
+                "lightness": {
+                    "mean": 30.02,
+                    "std": 9.64,
+                    "p05": 17.04,
+                    "p25": 23.57,
+                    "p50": 28.42,
+                    "p75": 35.41,
+                    "p95": 48.49
+                },
+                "dispersion": 8.16
+            },
+            "Mountains": {
+                "pixels": 292546,
+                "area_fraction": 0.04462,
+                "mean": "#837d6f",
+                "rgb_std": [
+                    61.02,
+                    58.28,
+                    67.17
+                ],
+                "lightness": {
+                    "mean": 43.7,
+                    "std": 23.33,
+                    "p05": 14.53,
+                    "p25": 24.91,
+                    "p50": 40.75,
+                    "p75": 54.57,
+                    "p95": 94.49
+                },
+                "dispersion": 19.55
+            },
+            "Total Land Mean": {
+                "pixels": 2084186,
+                "area_fraction": 0.28258,
+                "mean": "#817a6c",
+                "rgb_std": [
+                    70.24,
+                    63.5,
+                    71.61
+                ],
+                "lightness": {
+                    "mean": 40.48,
+                    "std": 25.82,
+                    "p05": 12.31,
+                    "p25": 19.93,
+                    "p50": 31.41,
+                    "p75": 57.14,
+                    "p95": 94.58
+                },
+                "dispersion": 22.6
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271096,
+                "area_fraction": 0.70877,
+                "mean": "#070a16",
+                "rgb_std": [
+                    9.76,
+                    10.13,
+                    8.78
+                ],
+                "lightness": {
+                    "mean": 1.92,
+                    "std": 4.06,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.81
+                },
+                "dispersion": 1.54
+            },
+            "Total Earth Mean": {
+                "pixels": 6479818,
+                "area_fraction": 1.0,
+                "mean": "#494640",
+                "rgb_std": [
+                    60.14,
+                    55.73,
+                    46.93
+                ],
+                "lightness": {
+                    "mean": 13.2,
+                    "std": 22.86,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 16.62,
+                    "p95": 68.06
+                },
+                "dispersion": 20.93
+            }
+        }
+    },
+    {
+        "month": "aug",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261826,
+                "area_fraction": 0.70735,
+                "mean": "#050916",
+                "rgb_std": [
+                    8.3,
+                    8.92,
+                    8.02
+                ],
+                "lightness": {
+                    "mean": 1.84,
+                    "std": 3.52,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.74
+                },
+                "dispersion": 1.32
+            },
+            "Fresh Water": {
+                "pixels": 124539,
+                "area_fraction": 0.00866,
+                "mean": "#989a98",
+                "rgb_std": [
+                    98.18,
+                    95.03,
+                    103.54
+                ],
+                "lightness": {
+                    "mean": 43.86,
+                    "std": 38.1,
+                    "p05": 1.27,
+                    "p25": 11.32,
+                    "p50": 24.57,
+                    "p75": 93.92,
+                    "p95": 95.22
+                },
+                "dispersion": 34.4
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#ebedef",
+                "rgb_std": [
+                    24.19,
+                    23.61,
+                    24.07
+                ],
+                "lightness": {
+                    "mean": 93.05,
+                    "std": 8.93,
+                    "p05": 82.82,
+                    "p25": 93.75,
+                    "p50": 94.45,
+                    "p75": 95.15,
+                    "p95": 99.48
+                },
+                "dispersion": 3.65
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#ae9574",
+                "rgb_std": [
+                    29.99,
+                    26.15,
+                    26.24
+                ],
+                "lightness": {
+                    "mean": 61.83,
+                    "std": 10.26,
+                    "p05": 44.04,
+                    "p25": 56.15,
+                    "p50": 63.55,
+                    "p75": 68.47,
+                    "p95": 74.51
+                },
+                "dispersion": 7.8
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#1e2b10",
+                "rgb_std": [
+                    11.59,
+                    10.49,
+                    9.73
+                ],
+                "lightness": {
+                    "mean": 14.69,
+                    "std": 4.73,
+                    "p05": 9.56,
+                    "p25": 11.91,
+                    "p50": 13.8,
+                    "p75": 16.71,
+                    "p95": 21.84
+                },
+                "dispersion": 3.54
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#514c33",
+                "rgb_std": [
+                    38.98,
+                    29.53,
+                    30.64
+                ],
+                "lightness": {
+                    "mean": 28.26,
+                    "std": 13.12,
+                    "p05": 14.04,
+                    "p25": 18.94,
+                    "p50": 24.47,
+                    "p75": 34.54,
+                    "p95": 53.84
+                },
+                "dispersion": 11.44
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#675135",
+                "rgb_std": [
+                    39.14,
+                    26.54,
+                    24.23
+                ],
+                "lightness": {
+                    "mean": 33.11,
+                    "std": 12.15,
+                    "p05": 17.55,
+                    "p25": 22.1,
+                    "p50": 31.9,
+                    "p75": 41.67,
+                    "p95": 55.17
+                },
+                "dispersion": 11.53
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#4f4e2c",
+                "rgb_std": [
+                    29.67,
+                    19.51,
+                    19.15
+                ],
+                "lightness": {
+                    "mean": 30.78,
+                    "std": 9.07,
+                    "p05": 20.25,
+                    "p25": 24.17,
+                    "p50": 28.21,
+                    "p75": 35.77,
+                    "p95": 49.44
+                },
+                "dispersion": 8.26
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#2d3320",
+                "rgb_std": [
+                    21.05,
+                    20.45,
+                    22.56
+                ],
+                "lightness": {
+                    "mean": 17.33,
+                    "std": 8.79,
+                    "p05": 9.18,
+                    "p25": 13.43,
+                    "p50": 15.36,
+                    "p75": 18.55,
+                    "p95": 30.04
+                },
+                "dispersion": 6.75
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#4b4b2c",
+                "rgb_std": [
+                    29.11,
+                    21.11,
+                    19.86
+                ],
+                "lightness": {
+                    "mean": 29.1,
+                    "std": 9.62,
+                    "p05": 16.44,
+                    "p25": 22.77,
+                    "p50": 27.38,
+                    "p75": 33.92,
+                    "p95": 47.87
+                },
+                "dispersion": 8.09
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#7f796a",
+                "rgb_std": [
+                    61.81,
+                    57.99,
+                    66.61
+                ],
+                "lightness": {
+                    "mean": 41.67,
+                    "std": 23.35,
+                    "p05": 13.6,
+                    "p25": 22.86,
+                    "p50": 38.15,
+                    "p75": 52.27,
+                    "p95": 94.45
+                },
+                "dispersion": 19.37
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#7c7566",
+                "rgb_std": [
+                    69.79,
+                    61.88,
+                    69.33
+                ],
+                "lightness": {
+                    "mean": 38.13,
+                    "std": 25.32,
+                    "p05": 12.05,
+                    "p25": 18.76,
+                    "p50": 28.2,
+                    "p75": 52.83,
+                    "p95": 94.48
+                },
+                "dispersion": 21.98
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271084,
+                "area_fraction": 0.70876,
+                "mean": "#060a16",
+                "rgb_std": [
+                    9.46,
+                    9.82,
+                    8.48
+                ],
+                "lightness": {
+                    "mean": 1.9,
+                    "std": 3.93,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.8
+                },
+                "dispersion": 1.5
+            },
+            "Total Earth Mean": {
+                "pixels": 6479810,
+                "area_fraction": 1.0,
+                "mean": "#46423c",
+                "rgb_std": [
+                    57.81,
+                    53.26,
+                    44.37
+                ],
+                "lightness": {
+                    "mean": 12.5,
+                    "std": 21.87,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 15.69,
+                    "p95": 65.52
+                },
+                "dispersion": 20.24
+            }
+        }
+    },
+    {
+        "month": "sept",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261835,
+                "area_fraction": 0.70735,
+                "mean": "#050916",
+                "rgb_std": [
+                    8.25,
+                    8.86,
+                    7.98
+                ],
+                "lightness": {
+                    "mean": 1.83,
+                    "std": 3.5,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.74
+                },
+                "dispersion": 1.32
+            },
+            "Fresh Water": {
+                "pixels": 124540,
+                "area_fraction": 0.00866,
+                "mean": "#979998",
+                "rgb_std": [
+                    98.47,
+                    95.58,
+                    103.91
+                ],
+                "lightness": {
+                    "mean": 43.3,
+                    "std": 38.32,
+                    "p05": 1.26,
+                    "p25": 10.54,
+                    "p50": 23.37,
+                    "p75": 93.92,
+                    "p95": 95.22
+                },
+                "dispersion": 34.66
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#ebedef",
+                "rgb_std": [
+                    24.67,
+                    24.08,
+                    24.57
+                ],
+                "lightness": {
+                    "mean": 92.98,
+                    "std": 9.11,
+                    "p05": 82.35,
+                    "p25": 93.75,
+                    "p50": 94.45,
+                    "p75": 95.15,
+                    "p95": 99.48
+                },
+                "dispersion": 3.73
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#ad9472",
+                "rgb_std": [
+                    30.59,
+                    26.58,
+                    26.4
+                ],
+                "lightness": {
+                    "mean": 61.32,
+                    "std": 10.47,
+                    "p05": 43.34,
+                    "p25": 55.5,
+                    "p50": 63.05,
+                    "p75": 68.14,
+                    "p95": 74.3
+                },
+                "dispersion": 7.95
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#1e2a0f",
+                "rgb_std": [
+                    11.67,
+                    9.75,
+                    9.08
+                ],
+                "lightness": {
+                    "mean": 14.6,
+                    "std": 4.51,
+                    "p05": 9.14,
+                    "p25": 12.01,
+                    "p50": 13.93,
+                    "p75": 16.43,
+                    "p95": 21.91
+                },
+                "dispersion": 3.53
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#514b31",
+                "rgb_std": [
+                    38.06,
+                    28.45,
+                    29.15
+                ],
+                "lightness": {
+                    "mean": 27.89,
+                    "std": 12.76,
+                    "p05": 12.69,
+                    "p25": 18.67,
+                    "p50": 25.01,
+                    "p75": 34.24,
+                    "p95": 51.98
+                },
+                "dispersion": 11.08
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#695235",
+                "rgb_std": [
+                    39.66,
+                    27.18,
+                    24.28
+                ],
+                "lightness": {
+                    "mean": 33.33,
+                    "std": 12.52,
+                    "p05": 16.31,
+                    "p25": 21.2,
+                    "p50": 33.41,
+                    "p75": 42.46,
+                    "p95": 54.92
+                },
+                "dispersion": 11.4
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#4c4b29",
+                "rgb_std": [
+                    27.53,
+                    18.37,
+                    17.62
+                ],
+                "lightness": {
+                    "mean": 29.51,
+                    "std": 8.54,
+                    "p05": 19.4,
+                    "p25": 23.45,
+                    "p50": 27.33,
+                    "p75": 33.65,
+                    "p95": 47.18
+                },
+                "dispersion": 7.64
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#2c311e",
+                "rgb_std": [
+                    20.23,
+                    19.9,
+                    21.36
+                ],
+                "lightness": {
+                    "mean": 16.44,
+                    "std": 8.59,
+                    "p05": 8.45,
+                    "p25": 12.25,
+                    "p50": 14.41,
+                    "p75": 18.06,
+                    "p95": 29.17
+                },
+                "dispersion": 6.56
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#4a492b",
+                "rgb_std": [
+                    28.56,
+                    20.86,
+                    19.29
+                ],
+                "lightness": {
+                    "mean": 28.33,
+                    "std": 9.53,
+                    "p05": 15.69,
+                    "p25": 21.95,
+                    "p50": 26.75,
+                    "p75": 33.18,
+                    "p95": 47.1
+                },
+                "dispersion": 7.95
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#7e7769",
+                "rgb_std": [
+                    61.62,
+                    58.03,
+                    66.43
+                ],
+                "lightness": {
+                    "mean": 41.04,
+                    "std": 23.37,
+                    "p05": 12.87,
+                    "p25": 22.44,
+                    "p50": 37.36,
+                    "p75": 51.41,
+                    "p95": 94.45
+                },
+                "dispersion": 19.3
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#7b7465",
+                "rgb_std": [
+                    69.39,
+                    61.81,
+                    69.01
+                ],
+                "lightness": {
+                    "mean": 37.78,
+                    "std": 25.28,
+                    "p05": 11.83,
+                    "p25": 18.33,
+                    "p50": 28.53,
+                    "p75": 51.77,
+                    "p95": 94.46
+                },
+                "dispersion": 21.81
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271093,
+                "area_fraction": 0.70876,
+                "mean": "#060a16",
+                "rgb_std": [
+                    9.41,
+                    9.75,
+                    8.43
+                ],
+                "lightness": {
+                    "mean": 1.9,
+                    "std": 3.9,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.8
+                },
+                "dispersion": 1.5
+            },
+            "Total Earth Mean": {
+                "pixels": 6479820,
+                "area_fraction": 1.0,
+                "mean": "#45423c",
+                "rgb_std": [
+                    57.58,
+                    52.89,
+                    44.08
+                ],
+                "lightness": {
+                    "mean": 12.4,
+                    "std": 21.74,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 15.19,
+                    "p95": 64.91
+                },
+                "dispersion": 20.09
+            }
+        }
+    },
+    {
+        "month": "oct",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261851,
+                "area_fraction": 0.70736,
+                "mean": "#050916",
+                "rgb_std": [
+                    8.38,
+                    9.0,
+                    8.11
+                ],
+                "lightness": {
+                    "mean": 1.84,
+                    "std": 3.56,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.74
+                },
+                "dispersion": 1.32
+            },
+            "Fresh Water": {
+                "pixels": 124530,
+                "area_fraction": 0.00866,
+                "mean": "#999b9a",
+                "rgb_std": [
+                    97.88,
+                    95.47,
+                    103.28
+                ],
+                "lightness": {
+                    "mean": 44.7,
+                    "std": 38.24,
+                    "p05": 1.25,
+                    "p25": 10.49,
+                    "p50": 26.59,
+                    "p75": 93.96,
+                    "p95": 95.22
+                },
+                "dispersion": 34.1
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#ebedef",
+                "rgb_std": [
+                    23.62,
+                    22.9,
+                    23.12
+                ],
+                "lightness": {
+                    "mean": 93.12,
+                    "std": 8.68,
+                    "p05": 83.64,
+                    "p25": 93.75,
+                    "p50": 94.45,
+                    "p75": 95.15,
+                    "p95": 99.29
+                },
+                "dispersion": 3.51
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#ad9472",
+                "rgb_std": [
+                    29.8,
+                    26.85,
+                    28.05
+                ],
+                "lightness": {
+                    "mean": 61.41,
+                    "std": 10.42,
+                    "p05": 43.93,
+                    "p25": 55.33,
+                    "p50": 62.8,
+                    "p75": 67.89,
+                    "p95": 74.81
+                },
+                "dispersion": 8.06
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#212b12",
+                "rgb_std": [
+                    12.73,
+                    10.65,
+                    10.56
+                ],
+                "lightness": {
+                    "mean": 15.06,
+                    "std": 4.95,
+                    "p05": 8.59,
+                    "p25": 12.35,
+                    "p50": 14.55,
+                    "p75": 16.89,
+                    "p95": 23.4
+                },
+                "dispersion": 4.05
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#5a543f",
+                "rgb_std": [
+                    41.69,
+                    35.0,
+                    38.9
+                ],
+                "lightness": {
+                    "mean": 30.54,
+                    "std": 15.0,
+                    "p05": 12.2,
+                    "p25": 20.13,
+                    "p50": 27.77,
+                    "p75": 37.18,
+                    "p95": 57.15
+                },
+                "dispersion": 12.47
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#7f6e5d",
+                "rgb_std": [
+                    38.11,
+                    40.23,
+                    47.3
+                ],
+                "lightness": {
+                    "mean": 43.38,
+                    "std": 15.65,
+                    "p05": 18.98,
+                    "p25": 33.9,
+                    "p50": 41.02,
+                    "p75": 50.58,
+                    "p95": 76.74
+                },
+                "dispersion": 13.85
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#4d4929",
+                "rgb_std": [
+                    24.35,
+                    16.83,
+                    15.49
+                ],
+                "lightness": {
+                    "mean": 29.33,
+                    "std": 7.77,
+                    "p05": 19.73,
+                    "p25": 23.88,
+                    "p50": 27.69,
+                    "p75": 33.13,
+                    "p95": 44.91
+                },
+                "dispersion": 6.87
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#3d4034",
+                "rgb_std": [
+                    32.53,
+                    32.1,
+                    36.33
+                ],
+                "lightness": {
+                    "mean": 20.93,
+                    "std": 13.68,
+                    "p05": 7.86,
+                    "p25": 12.25,
+                    "p50": 17.51,
+                    "p75": 24.91,
+                    "p95": 50.31
+                },
+                "dispersion": 11.05
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#4a482a",
+                "rgb_std": [
+                    27.74,
+                    20.54,
+                    18.5
+                ],
+                "lightness": {
+                    "mean": 27.83,
+                    "std": 9.4,
+                    "p05": 15.05,
+                    "p25": 21.48,
+                    "p50": 26.65,
+                    "p75": 32.89,
+                    "p95": 46.1
+                },
+                "dispersion": 7.62
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#817a6e",
+                "rgb_std": [
+                    60.89,
+                    58.94,
+                    67.85
+                ],
+                "lightness": {
+                    "mean": 42.57,
+                    "std": 23.58,
+                    "p05": 12.87,
+                    "p25": 24.25,
+                    "p50": 39.19,
+                    "p75": 52.75,
+                    "p95": 94.45
+                },
+                "dispersion": 19.75
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#80786b",
+                "rgb_std": [
+                    68.66,
+                    62.68,
+                    70.43
+                ],
+                "lightness": {
+                    "mean": 39.96,
+                    "std": 25.46,
+                    "p05": 11.69,
+                    "p25": 19.8,
+                    "p50": 32.13,
+                    "p75": 54.99,
+                    "p95": 94.49
+                },
+                "dispersion": 22.16
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271109,
+                "area_fraction": 0.70877,
+                "mean": "#060a16",
+                "rgb_std": [
+                    9.51,
+                    9.86,
+                    8.55
+                ],
+                "lightness": {
+                    "mean": 1.9,
+                    "std": 3.94,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.79
+                },
+                "dispersion": 1.5
+            },
+            "Total Earth Mean": {
+                "pixels": 6479826,
+                "area_fraction": 1.0,
+                "mean": "#48443f",
+                "rgb_std": [
+                    59.52,
+                    54.82,
+                    46.22
+                ],
+                "lightness": {
+                    "mean": 13.03,
+                    "std": 22.55,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 15.84,
+                    "p95": 67.02
+                },
+                "dispersion": 20.49
+            }
+        }
+    },
+    {
+        "month": "nov",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261848,
+                "area_fraction": 0.70735,
+                "mean": "#060916",
+                "rgb_std": [
+                    8.62,
+                    9.24,
+                    8.34
+                ],
+                "lightness": {
+                    "mean": 1.85,
+                    "std": 3.66,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.71
+                },
+                "dispersion": 1.36
+            },
+            "Fresh Water": {
+                "pixels": 124536,
+                "area_fraction": 0.00866,
+                "mean": "#9fa1a0",
+                "rgb_std": [
+                    97.78,
+                    95.65,
+                    103.16
+                ],
+                "lightness": {
+                    "mean": 47.94,
+                    "std": 38.28,
+                    "p05": 1.26,
+                    "p25": 11.72,
+                    "p50": 32.84,
+                    "p75": 94.07,
+                    "p95": 95.28
+                },
+                "dispersion": 33.25
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#ebedf0",
+                "rgb_std": [
+                    22.85,
+                    22.17,
+                    22.22
+                ],
+                "lightness": {
+                    "mean": 93.23,
+                    "std": 8.4,
+                    "p05": 84.6,
+                    "p25": 93.75,
+                    "p50": 94.45,
+                    "p75": 95.15,
+                    "p95": 99.04
+                },
+                "dispersion": 3.36
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#ae9574",
+                "rgb_std": [
+                    30.05,
+                    28.32,
+                    30.93
+                ],
+                "lightness": {
+                    "mean": 61.63,
+                    "std": 10.82,
+                    "p05": 43.83,
+                    "p25": 55.22,
+                    "p50": 62.66,
+                    "p75": 68.07,
+                    "p95": 75.76
+                },
+                "dispersion": 8.36
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#29311f",
+                "rgb_std": [
+                    19.95,
+                    17.92,
+                    22.18
+                ],
+                "lightness": {
+                    "mean": 16.94,
+                    "std": 8.04,
+                    "p05": 8.89,
+                    "p25": 12.87,
+                    "p50": 15.17,
+                    "p75": 18.29,
+                    "p95": 31.87
+                },
+                "dispersion": 6.76
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#6a6558",
+                "rgb_std": [
+                    50.05,
+                    47.3,
+                    56.01
+                ],
+                "lightness": {
+                    "mean": 35.51,
+                    "std": 19.31,
+                    "p05": 14.08,
+                    "p25": 21.77,
+                    "p50": 31.18,
+                    "p75": 42.52,
+                    "p95": 81.95
+                },
+                "dispersion": 16.71
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#a19790",
+                "rgb_std": [
+                    48.94,
+                    62.99,
+                    77.79
+                ],
+                "lightness": {
+                    "mean": 56.09,
+                    "std": 22.89,
+                    "p05": 30.96,
+                    "p25": 38.29,
+                    "p50": 46.5,
+                    "p75": 82.11,
+                    "p95": 94.29
+                },
+                "dispersion": 23.53
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#524b2d",
+                "rgb_std": [
+                    24.41,
+                    18.12,
+                    17.96
+                ],
+                "lightness": {
+                    "mean": 30.24,
+                    "std": 8.17,
+                    "p05": 19.86,
+                    "p25": 24.44,
+                    "p50": 29.05,
+                    "p75": 34.41,
+                    "p95": 45.32
+                },
+                "dispersion": 7.14
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#818684",
+                "rgb_std": [
+                    71.35,
+                    71.17,
+                    82.03
+                ],
+                "lightness": {
+                    "mean": 43.09,
+                    "std": 28.86,
+                    "p05": 8.57,
+                    "p25": 17.1,
+                    "p50": 33.12,
+                    "p75": 71.53,
+                    "p95": 89.66
+                },
+                "dispersion": 24.76
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#4a472a",
+                "rgb_std": [
+                    27.21,
+                    20.62,
+                    18.49
+                ],
+                "lightness": {
+                    "mean": 27.69,
+                    "std": 9.4,
+                    "p05": 14.81,
+                    "p25": 21.06,
+                    "p50": 26.67,
+                    "p75": 33.11,
+                    "p95": 45.28
+                },
+                "dispersion": 7.63
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#888176",
+                "rgb_std": [
+                    62.07,
+                    61.88,
+                    71.87
+                ],
+                "lightness": {
+                    "mean": 44.98,
+                    "std": 24.5,
+                    "p05": 13.45,
+                    "p25": 26.4,
+                    "p50": 40.9,
+                    "p75": 55.63,
+                    "p95": 94.49
+                },
+                "dispersion": 21.27
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#898377",
+                "rgb_std": [
+                    70.37,
+                    66.62,
+                    76.34
+                ],
+                "lightness": {
+                    "mean": 43.82,
+                    "std": 26.72,
+                    "p05": 12.64,
+                    "p25": 21.77,
+                    "p50": 35.93,
+                    "p75": 62.19,
+                    "p95": 94.73
+                },
+                "dispersion": 24.17
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271106,
+                "area_fraction": 0.70877,
+                "mean": "#060a16",
+                "rgb_std": [
+                    9.69,
+                    10.06,
+                    8.77
+                ],
+                "lightness": {
+                    "mean": 1.91,
+                    "std": 4.03,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.79
+                },
+                "dispersion": 1.52
+            },
+            "Total Earth Mean": {
+                "pixels": 6479829,
+                "area_fraction": 1.0,
+                "mean": "#4d4a46",
+                "rgb_std": [
+                    63.54,
+                    59.36,
+                    51.57
+                ],
+                "lightness": {
+                    "mean": 14.15,
+                    "std": 24.3,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 17.11,
+                    "p95": 76.02
+                },
+                "dispersion": 21.78
+            }
+        }
+    },
+    {
+        "month": "dec",
+        "categories": {
+            "Oceans": {
+                "pixels": 4261844,
+                "area_fraction": 0.70735,
+                "mean": "#060a16",
+                "rgb_std": [
+                    8.84,
+                    9.47,
+                    8.55
+                ],
+                "lightness": {
+                    "mean": 1.86,
+                    "std": 3.76,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.71
+                },
+                "dispersion": 1.38
+            },
+            "Fresh Water": {
+                "pixels": 124537,
+                "area_fraction": 0.00866,
+                "mean": "#a3a6a5",
+                "rgb_std": [
+                    96.61,
+                    94.57,
+                    101.91
+                ],
+                "lightness": {
+                    "mean": 50.98,
+                    "std": 37.78,
+                    "p05": 1.27,
+                    "p25": 14.24,
+                    "p50": 43.32,
+                    "p75": 94.1,
+                    "p95": 95.49
+                },
+                "dispersion": 32.07
+            },
+            "Snow and Ice": {
+                "pixels": 654316,
+                "area_fraction": 0.02883,
+                "mean": "#ebeef0",
+                "rgb_std": [
+                    22.46,
+                    21.81,
+                    21.84
+                ],
+                "lightness": {
+                    "mean": 93.3,
+                    "std": 8.26,
+                    "p05": 85.36,
+                    "p25": 93.79,
+                    "p50": 94.45,
+                    "p75": 95.15,
+                    "p95": 99.04
+                },
+                "dispersion": 3.28
+            },
+            "Deserts": {
+                "pixels": 205631,
+                "area_fraction": 0.04033,
+                "mean": "#ae9574",
+                "rgb_std": [
+                    31.06,
+                    30.24,
+                    33.85
+                ],
+                "lightness": {
+                    "mean": 61.56,
+                    "std": 11.46,
+                    "p05": 43.11,
+                    "p25": 54.53,
+                    "p50": 62.44,
+                    "p75": 68.24,
+                    "p95": 77.18
+                },
+                "dispersion": 8.87
+            },
+            "Forests": {
+                "pixels": 228666,
+                "area_fraction": 0.04397,
+                "mean": "#3d453a",
+                "rgb_std": [
+                    36.52,
+                    35.07,
+                    43.96
+                ],
+                "lightness": {
+                    "mean": 21.75,
+                    "std": 15.05,
+                    "p05": 9.95,
+                    "p25": 13.32,
+                    "p50": 15.96,
+                    "p75": 21.79,
+                    "p95": 59.44
+                },
+                "dispersion": 13.64
+            },
+            "Grasslands": {
+                "pixels": 665512,
+                "area_fraction": 0.11562,
+                "mean": "#78766d",
+                "rgb_std": [
+                    56.55,
+                    56.5,
+                    68.48
+                ],
+                "lightness": {
+                    "mean": 40.97,
+                    "std": 22.55,
+                    "p05": 16.01,
+                    "p25": 23.7,
+                    "p50": 33.95,
+                    "p75": 52.36,
+                    "p95": 88.96
+                },
+                "dispersion": 20.92
+            },
+            "Shrublands": {
+                "pixels": 186348,
+                "area_fraction": 0.02746,
+                "mean": "#a9a19b",
+                "rgb_std": [
+                    51.13,
+                    67.86,
+                    84.09
+                ],
+                "lightness": {
+                    "mean": 59.01,
+                    "std": 24.38,
+                    "p05": 32.36,
+                    "p25": 38.85,
+                    "p50": 47.32,
+                    "p75": 88.48,
+                    "p95": 96.18
+                },
+                "dispersion": 25.46
+            },
+            "Croplands": {
+                "pixels": 130554,
+                "area_fraction": 0.02445,
+                "mean": "#605945",
+                "rgb_std": [
+                    34.92,
+                    33.17,
+                    39.14
+                ],
+                "lightness": {
+                    "mean": 33.95,
+                    "std": 13.54,
+                    "p05": 20.14,
+                    "p25": 25.52,
+                    "p50": 31.11,
+                    "p75": 37.52,
+                    "p95": 65.06
+                },
+                "dispersion": 11.2
+            },
+            "Wetlands": {
+                "pixels": 16211,
+                "area_fraction": 0.00216,
+                "mean": "#a0a7a8",
+                "rgb_std": [
+                    74.0,
+                    73.49,
+                    86.66
+                ],
+                "lightness": {
+                    "mean": 58.19,
+                    "std": 29.47,
+                    "p05": 13.12,
+                    "p25": 24.78,
+                    "p50": 70.31,
+                    "p75": 83.72,
+                    "p95": 93.04
+                },
+                "dispersion": 22.81
+            },
+            "Urban Areas": {
+                "pixels": 6207,
+                "area_fraction": 0.00118,
+                "mean": "#4e4a31",
+                "rgb_std": [
+                    29.19,
+                    24.46,
+                    25.28
+                ],
+                "lightness": {
+                    "mean": 28.35,
+                    "std": 10.73,
+                    "p05": 14.84,
+                    "p25": 21.06,
+                    "p50": 26.87,
+                    "p75": 33.59,
+                    "p95": 48.08
+                },
+                "dispersion": 8.71
+            },
+            "Mountains": {
+                "pixels": 292547,
+                "area_fraction": 0.04462,
+                "mean": "#8e887f",
+                "rgb_std": [
+                    63.44,
+                    64.55,
+                    75.58
+                ],
+                "lightness": {
+                    "mean": 47.57,
+                    "std": 25.38,
+                    "p05": 13.82,
+                    "p25": 28.4,
+                    "p50": 42.86,
+                    "p75": 60.85,
+                    "p95": 94.7
+                },
+                "dispersion": 22.75
+            },
+            "Total Land Mean": {
+                "pixels": 2084187,
+                "area_fraction": 0.28258,
+                "mean": "#908b82",
+                "rgb_std": [
+                    70.54,
+                    68.51,
+                    79.92
+                ],
+                "lightness": {
+                    "mean": 47.52,
+                    "std": 27.21,
+                    "p05": 13.56,
+                    "p25": 24.23,
+                    "p50": 40.51,
+                    "p75": 67.89,
+                    "p95": 94.97
+                },
+                "dispersion": 25.56
+            },
+            "Total Ocean Mean": {
+                "pixels": 4271102,
+                "area_fraction": 0.70877,
+                "mean": "#070a16",
+                "rgb_std": [
+                    9.86,
+                    10.25,
+                    8.97
+                ],
+                "lightness": {
+                    "mean": 1.92,
+                    "std": 4.11,
+                    "p05": 1.27,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 1.55,
+                    "p95": 1.79
+                },
+                "dispersion": 1.55
+            },
+            "Total Earth Mean": {
+                "pixels": 6479826,
+                "area_fraction": 1.0,
+                "mean": "#524f4c",
+                "rgb_std": [
+                    66.76,
+                    63.2,
+                    55.92
+                ],
+                "lightness": {
+                    "mean": 15.23,
+                    "std": 25.78,
+                    "p05": 1.55,
+                    "p25": 1.55,
+                    "p50": 1.55,
+                    "p75": 18.76,
+                    "p95": 84.64
+                },
+                "dispersion": 23.02
+            }
+        }
+    }
+]

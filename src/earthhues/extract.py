@@ -5,6 +5,7 @@ from .color import ESTIMATORS, METHODS, rgb_to_hex
 from .colorspace import delta_e_2000, srgb_to_lab
 from .masks import build_masks
 from .sources import MONTHS, Sources
+from .stats import category_stats
 
 CANONICAL_METHOD = "linear_mean"
 
@@ -74,6 +75,26 @@ def monthly_methods(sources: Sources, methods: list[str] = None, verbose: bool =
                     2,
                 )
             categories[name] = entry
+        records.append({"month": month, "categories": categories})
+
+    return records
+
+
+def monthly_stats(sources: Sources, verbose: bool = True):
+    """Spread, area share and pixel count per category per month."""
+    masks = build_masks(sources.dem, sources.landcover)
+    weights = sources.weights
+    records = []
+
+    for month in MONTHS:
+        if verbose:
+            print(f"measuring {month}")
+        rgb, valid = read_month(sources, month)
+        total = weights[valid].sum()
+        categories = {
+            name: category_stats(rgb, mask & valid, weights, total)
+            for name, mask in masks.items()
+        }
         records.append({"month": month, "categories": categories})
 
     return records

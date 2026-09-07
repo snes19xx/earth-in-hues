@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 from .color import METHODS
-from .extract import CANONICAL_METHOD, monthly_colors, monthly_methods
+from .extract import CANONICAL_METHOD, monthly_colors, monthly_methods, monthly_stats
 from .sources import Sources
 
 
@@ -24,6 +24,11 @@ def cmd_methods(args) -> None:
     write_json(Path(args.out) / "earth_hues_methods.json", monthly_methods(sources))
 
 
+def cmd_stats(args) -> None:
+    sources = Sources(args.data, args.cache)
+    write_json(Path(args.out) / "earth_hues_stats.json", monthly_stats(sources))
+
+
 def build_parser() -> argparse.ArgumentParser:
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument("--data", default="DATA", help="directory holding the input rasters")
@@ -39,6 +44,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     methods = subcommands.add_parser("methods", parents=[common], help="every estimator side by side")
     methods.set_defaults(func=cmd_methods)
+
+    stats = subcommands.add_parser("stats", parents=[common], help="spread and area share per category")
+    stats.set_defaults(func=cmd_stats)
 
     return parser
 
