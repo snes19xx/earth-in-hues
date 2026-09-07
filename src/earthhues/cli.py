@@ -4,7 +4,7 @@ from pathlib import Path
 
 from .color import METHODS
 from .gibs import LAYERS, download_all
-from .timeseries import build
+from .timeseries import build, rebuild
 from .extract import CANONICAL_METHOD, monthly_colors, monthly_methods, monthly_stats
 from .sources import Sources
 
@@ -37,8 +37,11 @@ def cmd_fetch(args) -> None:
 
 
 def cmd_timeseries(args) -> None:
-    sources = Sources(args.data, args.cache)
-    write_json(Path(args.out) / "earth_hues_timeseries.json", build(sources, args.gibs))
+    target = Path(args.out) / "earth_hues_timeseries.json"
+    if args.reuse:
+        write_json(target, rebuild(target))
+        return
+    write_json(target, build(Sources(args.data, args.cache), args.gibs))
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -66,6 +69,7 @@ def build_parser() -> argparse.ArgumentParser:
     fetch.set_defaults(func=cmd_fetch)
 
     timeseries = subcommands.add_parser("timeseries", parents=[common], help="multi-year trends")
+    timeseries.add_argument("--reuse", action="store_true", help="recompute from stored observations")
     timeseries.set_defaults(func=cmd_timeseries)
 
     return parser

@@ -37,7 +37,7 @@ IGBP classification at 0.05 degree, one label per pixel.
 
 ## MODIS 8-day surface reflectance, multi-year
 
-Bands 1, 4 and 3 rendered as true colour, fetched from NASA GIBS over WMS. Login not required.`
+Bands 1, 4 and 3 rendered as true colour, fetched from NASA GIBS over WMS. Login not required.
 
 - Endpoint: https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi
 - Layers: `MODIS_Terra_L3_SurfaceReflectance_Bands143_8Day` (2001 onward) and the Aqua

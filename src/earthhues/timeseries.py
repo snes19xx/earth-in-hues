@@ -131,8 +131,32 @@ def sensor_agreement(trend_table: dict) -> dict:
     }
 
 
-def build(sources: Sources, directory, verbose: bool = True) -> dict:
-    records = observations(sources, directory, verbose)
+def control_adjusted(trend_table: dict) -> dict:
+    """Each slope measured against the pseudo-invariant control on the same sensor.
+
+    Deserts drift slightly on both sensors, so that drift is the floor below which a
+    trend cannot be separated from shared calibration error.
+    """
+    result = {}
+    for sensor, categories in trend_table.items():
+        floor = categories.get(CONTROL_CATEGORY, {}).get("slope_per_decade")
+        if floor is None:
+            continue
+        result[sensor] = {
+            name: {
+                "slope_per_decade": entry["slope_per_decade"],
+                "excess": round(entry["slope_per_decade"] - floor, 4),
+                "above_floor": bool(
+                    entry["significant"] and abs(entry["slope_per_decade"]) > 2 * abs(floor)
+                ),
+            }
+            for name, entry in categories.items()
+        }
+    return result
+
+
+def derive(records: list[dict]) -> dict:
+    """Annual means, trends and cross-checks from a set of composite records."""
     annual = annual_means(records)
     trend_table = trends(annual)
     return {
@@ -140,4 +164,15 @@ def build(sources: Sources, directory, verbose: bool = True) -> dict:
         "annual": annual,
         "trends": trend_table,
         "agreement": sensor_agreement(trend_table),
+        "control_adjusted": control_adjusted(trend_table),
+        "control_category": CONTROL_CATEGORY,
     }
+
+
+def build(sources: Sources, directory, verbose: bool = True) -> dict:
+    return derive(observations(sources, directory, verbose))
+
+
+def rebuild(path) -> dict:
+    """Recompute the derived sections from observations already on disk."""
+    return derive(json.loads(Path(path).read_text())["observations"])
