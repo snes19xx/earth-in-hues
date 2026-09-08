@@ -4,6 +4,11 @@ cache/
 *.hdf
 *.tif
 
+tests/
+verify_claims.py
+
+data/earth_hues_timeseries.json
+
 __pycache__/
 *.py[cod]
 .pytest_cache/

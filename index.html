@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Earth in Hues</title>
+    <meta
+      name="description"
+      content="Area-weighted mean colour of Earth's surface categories from satellite imagery, corrected for gamma, atmosphere and sensor drift."
+    />
+    <meta property="og:title" content="Earth in Hues" />
+    <meta
+      property="og:description"
+      content="What colour is the Earth? Area-weighted spectral signatures of every surface category, month by month."
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="assets/image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script>
@@ -16,282 +28,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
-    <style>
-      /* Computer Modern Fonts */
-      @font-face {
-        font-family: "Computer Modern";
-        src: url("fonts/cmunrm.woff2") format("woff2");
-        font-weight: normal;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: "Computer Modern";
-        src: url("fonts/cmunbx.woff2") format("woff2");
-        font-weight: bold;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: "Computer Modern";
-        src: url("fonts/cmunti.woff2") format("woff2");
-        font-weight: normal;
-        font-style: italic;
-      }
-      @font-face {
-        font-family: "Computer Modern";
-        src: url("fonts/cmunbi.woff2") format("woff2");
-        font-weight: bold;
-        font-style: italic;
-      }
-      @font-face {
-        font-family: "Computer Modern Typewriter";
-        src: url("fonts/cmuntt.woff2") format("woff2");
-        font-weight: normal;
-        font-style: normal;
-      }
-
-      :root {
-        --ink: #000000;
-        --paper: #faf9f6;
-        --link: #0000aa;
-      }
-
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-
-      html {
-        font-size: 11pt;
-        scroll-behavior: smooth;
-      }
-
-      body {
-        background: var(--paper);
-        color: var(--ink);
-        font-family: "Computer Modern", serif;
-        line-height: 1.6;
-        max-width: 800px;
-        margin: 40px auto;
-        padding: 0 40px;
-        text-align: justify;
-        hyphens: auto;
-      }
-
-      /* Navigation Container */
-      .topbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 3rem;
-        border-bottom: 1px solid #000;
-        padding-bottom: 0.5rem;
-      }
-
-      .topbar-right {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-      }
-
-      .nav-btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.4rem;
-        padding: 2px 5px;
-        font-size: 8.5pt;
-        color: var(--link);
-        text-decoration: none;
-        border-radius: 2px;
-        transition: all 0.15s;
-        white-space: nowrap;
-        border: 1px solid transparent;
-      }
-
-      .nav-btn--outline {
-        border: 1px solid #000;
-      }
-
-      .nav-btn--outline:hover {
-        background-color: rgba(0, 0, 0, 0.05);
-        text-decoration: none;
-      }
-      .nav-btn svg {
-        display: block;
-        flex-shrink: 0;
-      }
-
-      /* Header */
-      .paper-header {
-        text-align: center;
-        margin-bottom: 3rem;
-      }
-      .paper-title {
-        font-size: 18pt;
-        font-weight: bold;
-        line-height: 1.3;
-        margin-bottom: rem;
-      }
-      .paper-meta {
-        font-size: 12pt;
-        margin-bottom: 0.5rem;
-      }
-      .paper-subtitle {
-        font-size: 12pt;
-        font-weight: normal;
-        font-style: italic;
-        line-height: 1.3;
-        margin-bottom: 1.5rem;
-      }
-
-      /* Typography */
-      h2 {
-        font-size: 14pt;
-        font-weight: bold;
-        margin-top: 2.5rem;
-        margin-bottom: 1rem;
-      }
-      h3 {
-        font-size: 12pt;
-        font-weight: bold;
-        margin-top: 2rem;
-        margin-bottom: 0.8rem;
-      }
-      h4 {
-        font-size: 11pt;
-        font-weight: bold;
-        margin-top: 1.5rem;
-        margin-bottom: 0.5rem;
-      }
-
-      p {
-        margin-bottom: 1rem;
-      }
-      a {
-        color: var(--link);
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      em {
-        font-style: italic;
-      }
-      strong {
-        font-weight: bold;
-      }
-      code {
-        font-family: "Computer Modern Typewriter", monospace;
-        font-size: 0.9em;
-      }
-
-      /* Table of Contents */
-      .sidebar {
-        margin: 3rem 0;
-        padding: 1.5rem;
-        border: 1px solid #ccc;
-        background: #faf9f6;
-      }
-      .toc-title {
-        text-align: center;
-        font-weight: bold;
-        margin-bottom: 1rem;
-        text-transform: uppercase;
-      }
-      .toc,
-      .toc-sub {
-        list-style: none;
-        padding: 0;
-      }
-      .toc-sub {
-        padding-left: 1.5rem;
-        margin-top: 0.2rem;
-      }
-      .toc a {
-        color: var(--ink);
-      }
-
-      /* Tables */
-      .table-wrap {
-        overflow-x: auto;
-        margin: 2rem 0;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        font-size: 10pt;
-        margin: 0 auto;
-      }
-      table thead tr {
-        border-top: 2px solid var(--ink);
-        border-bottom: 1px solid var(--ink);
-      }
-      table tbody tr:last-child {
-        border-bottom: 2px solid var(--ink);
-      }
-      table th,
-      table td {
-        padding: 0.4rem 0.6rem;
-        text-align: left;
-      }
-      table th {
-        font-weight: bold;
-      }
-
-      /* Math */
-      .math-block {
-        margin: 1.5rem 0;
-        text-align: center;
-        overflow-x: auto;
-      }
-
-      /* Visualizations & Custom Blocks */
-      .viz-container {
-        width: 100%;
-        margin: 2rem 0;
-        overflow-x: auto;
-      }
-      .viz-container svg {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-      .findings-block {
-        margin: 1.5rem 0 2rem;
-        padding: 1rem 1.5rem;
-        border: 1px solid #ccc;
-        background: #faf9f6;
-        font-size: 10pt;
-      }
-      .findings-label {
-        font-weight: bold;
-        margin-bottom: 0.5rem;
-        text-transform: uppercase;
-        font-size: 9pt;
-      }
-      .notes-list {
-        margin-top: 1rem;
-      }
-      .note-item {
-        margin-bottom: 1.5rem;
-      }
-      .note-label {
-        font-weight: bold;
-        display: block;
-        margin-bottom: 0.2rem;
-      }
-
-      /* Footer */
-      .article-footer {
-        margin-top: 4rem;
-        padding-top: 1rem;
-        border-top: 1px solid var(--ink);
-        font-size: 9pt;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="topbar">
@@ -300,7 +37,7 @@
       </div>
       <div class="topbar-right">
         <a
-          href="https://github.com/snes19xx/earth-in-hues"
+          href="https://github.com/snes19xx/earth-in-hues/blob/master/notebooks/earth_in_hues.ipynb"
           target="_blank"
           rel="noopener"
           class="nav-btn nav-btn--outline"
@@ -357,29 +94,17 @@
         <ul class="toc">
           <li><a href="#s1">1. Overview</a></li>
           <li><a href="#s2">2. Data Sources</a></li>
+          <li><a href="#s3">3. Methodology</a></li>
+          <li><a href="#s4" class="toc-lead">4. Visualizations</a></li>
           <li>
-            <a href="#s3">3. Methodology</a>
+            <a href="#s5">5. Earth from Space</a>
             <ul class="toc-sub">
-              <li><a href="#s3-1">3.1 Reference Grid Establishment</a></li>
-              <li><a href="#s3-2">3.2 Elevation Mosaic</a></li>
-              <li><a href="#s3-3">3.3 Land Cover Reprojection</a></li>
-              <li><a href="#s3-4">3.4 Latitude-Cosine Area Weighting</a></li>
-              <li><a href="#s3-5">3.5 Surface Category Masking</a></li>
-              <li><a href="#s3-6">3.6 Mean Color Extraction</a></li>
+              <li><a href="#s5-1" class="toc-lead">5.1 The Map</a></li>
             </ul>
           </li>
-          <li>
-            <a href="#s4">4. Visualizations</a>
-            <ul class="toc-sub">
-              <li><a href="#s4-1">4.1 True Mean Earth Color</a></li>
-              <li><a href="#s4-2">4.2 Earth's Annual Color Signature</a></li>
-              <li><a href="#s4-3">4.3 Seasonal Color Drift</a></li>
-              <li><a href="#s4-4">4.4 Seasonal Color Wheels</a></li>
-              <li><a href="#s4-5">4.5 RGB Channel Decomposition</a></li>
-              <li><a href="#s4-6">4.6 Brightness Anomaly</a></li>
-            </ul>
-          </li>
-          <li><a href="#s5">5. Notes & Limitations</a></li>
+          <li><a href="#s6">6. Two Decades of Change</a></li>
+          <li><a href="#s7">7. Notes &amp; Limitations</a></li>
+          <li><a href="#s8">8. The Palette</a></li>
         </ul>
       </aside>
 
@@ -415,7 +140,7 @@
                 <td><strong>NASA Blue Marble</strong> (×12)</td>
                 <td><code>GeoTIFF</code></td>
                 <td>
-                  True-colour RGB surface reflectance composites at ~10 km
+                  True-colour RGB surface reflectance composites at $\sim$10 km
                   resolution, one per calendar month.
                 </td>
               </tr>
@@ -431,8 +156,8 @@
                 <td><strong>MODIS MCD12C1</strong></td>
                 <td><code>HDF</code></td>
                 <td>
-                  IGBP land cover classification at 0.05° (~5.6 km per pixel),
-                  17 discrete classes.
+                  IGBP land cover classification at 0.05° ($\sim$5.6 km per
+                  pixel), 17 discrete classes.
                 </td>
               </tr>
             </tbody>
@@ -468,9 +193,9 @@
 
         <h3 id="s3-2">3.2 GEBCO Elevation Mosaic</h3>
         <p>
-          GEBCO 2025 distributes global bathymetry as regional tiles at ~450 m
-          native resolution. Each tile is downsampled from disk via average
-          resampling to match the reference grid:
+          GEBCO 2025 distributes global bathymetry as regional tiles at
+          $\sim$450 m native resolution. Each tile is downsampled from disk via
+          average resampling to match the reference grid:
         </p>
         <div class="math-block">
           $$\hat{e}_{i,j} = \frac{1}{|\mathcal{P}_{i,j}|} \sum_{p \in
@@ -485,7 +210,7 @@
         <h3 id="s3-3">3.3 Land Cover Reprojection</h3>
         <p>
           The MODIS MCD12C1 HDF encodes IGBP land surface classification. The
-          file lacks a standard geotransform, so reprojection is handled
+          file lacks a standard geotransform, so the code reprojects it
           explicitly. Nearest-neighbour resampling is required to prevent
           interpolation artifacts on discrete class integers.
         </p>
@@ -501,8 +226,8 @@
 
         <h3 id="s3-4">3.4 Latitude-Cosine Area Weighting</h3>
         <p>
-          In an equirectangular grid, physical area shrinks dramatically toward
-          the poles. Without correction, polar regions are massively
+          In an equirectangular grid, physical area shrinks toward
+          the poles. Without correction, polar regions are
           overrepresented. Since longitude step width scales by the cosine of
           latitude, the relative area weight applied to each pixel is:
         </p>
@@ -511,7 +236,7 @@
 
         <h3 id="s3-5">3.5 Surface Category Masking</h3>
         <p>
-          The mountain category utilizes a topographic roughness index ($\rho$)
+          The mountain category uses a topographic roughness index ($\rho$)
           calculated from the DEM gradient, distinguishing rugged terrain from
           flat elevated plateaus.
         </p>
@@ -583,17 +308,16 @@
           w_{i}\; c_{i,j}}{\sum_{(i,j) \in \mathcal{M}_{k}^{(m)}} w_{i}}$$
         </div>
         <p>
-          Channel means are rounded, clamped to $[0,255]$, and encoded as
-          standard hexadecimal strings.
+          Each channel mean is rounded, clamped to $[0,255]$, and encoded as
+          a hexadecimal string.
         </p>
       </section>
 
       <section id="s4">
         <h2><span class="section-num">4.</span> Visualizations</h2>
         <p>
-          Six charts explore the dataset from different angles: from a raw
-          colour grid to channel-level decompositions and seasonal brightness
-          anomalies.
+          Six charts show the dataset as a raw colour grid,
+          channel-level decompositions, and seasonal brightness anomalies.
         </p>
 
         <h3 id="s4-1">4.1 True Mean Earth Color</h3>
@@ -605,18 +329,19 @@
         <div class="findings-block">
           <div class="findings-label">Findings</div>
           <p>
-            The ocean row is immediately legible: twelve identical squares of
-            very deep navy (#030614), confirming that total ocean mean luminance
-            is essentially constant. The ocean absorbs nearly all incident
-            visible radiation at every wavelength.
+            The ocean row is the flattest in the grid: twelve months resolve to
+            only three distinct values, all within one unit of
+            <code>#060a16</code>. Seawater absorbs nearly all visible light
+            at every wavelength, year-round.
           </p>
           <p>
-            Snow and Ice shows the opposite extreme — consistently the brightest
-            row, near-white all year, with a barely perceptible warm shift in
-            Northern Hemisphere summer as Arctic melt ponds and older snow
-            reduce overall albedo. The Forests row traces a clear arc: warm
-            dark-olive in boreal winter, deepening to near-black (#1b290d) in
-            July–September, then recovering.
+            Snow and Ice is equally static at the bright end, four distinct
+            values around <code>#ebeef0</code>. Forests has the largest
+            seasonal range of any land class: <code>#52564f</code> in March,
+            darkening to <code>#1e2a0f</code> in September as Northern
+            Hemisphere canopy closes, then back to <code>#3d453a</code> by
+            December. It is also the only vegetation class whose multi-decade
+            trend clears the two-satellite check in Section 6.
           </p>
         </div>
 
@@ -629,13 +354,16 @@
         <div class="findings-block">
           <div class="findings-label">Findings</div>
           <p>
-            Carl Sagan famously described Earth as a "pale blue dot," and it
-            holds at interplanetary distance, where atmospheric scattering
-            dominates the signal. The surface data differs. The Total Earth Mean
-            sits around #242528 in summer and #28292d in winter — a near-neutral
-            very dark grey with only a marginal blue bias. Area-weighted,
-            Earth's surface is not pale and not meaningfully blue; the surface
-            mean is simply dark.
+            Total Earth Mean runs from <code>#595653</code> in March to
+            <code>#45423c</code> in September, an $L^*$ range of 28.1 to 36.8.
+            Area-weighted, Earth's surface is a mid grey that leans faintly
+            warm, not blue. All twelve months are distinct; the seasonal
+            signal is not rounding noise.
+          </p>
+          <p>
+            Carl Sagan called Earth a pale blue dot. He was describing the
+            planet as seen through its atmosphere; this is the ground beneath
+            it. Section 5 adds the atmosphere back.
           </p>
         </div>
 
@@ -648,13 +376,12 @@
         <div class="findings-block">
           <div class="findings-label">Findings</div>
           <p>
-            Wetlands dominates by a wide margin, exceeding 200 RGB units by
-            August–September. This is a bimodal signal: boreal winter produces
-            cool grey-green tones from frozen Arctic peatland pixels, while
-            Northern Hemisphere summer brings dramatic darkening as vegetation
-            growth and open water reflectance take over. Shrublands shows the
-            second-largest drift, capturing the double-hemisphere drying signal
-            during mid-year months.
+            Wetlands reaches 238 RGB units by August–September, against
+            147 for the next category. The signal is bimodal: boreal winter
+            produces cool grey-green tones from frozen Arctic peatland, while
+            Northern Hemisphere summer darkens as vegetation grows and open
+            water replaces ice. Shrublands shows the second-largest drift,
+            driven by drying in both hemispheres during mid-year months.
           </p>
         </div>
 
@@ -668,9 +395,8 @@
           <div class="findings-label">Findings</div>
           <p>
             The Oceans wheel is a near-perfect monochrome disc. Snow and Ice is
-            equally static but bright. Forests and Wetlands show the most
-            visually striking wheels: a clear split between the lighter
-            boreal-winter half and the darker summer half.
+            equally static but bright. Forests, Wetlands, and Shrublands show
+            the widest contrast: lighter in boreal winter, darker in summer.
           </p>
         </div>
 
@@ -683,11 +409,12 @@
         <div class="findings-block">
           <div class="findings-label">Findings</div>
           <p>
-            For most land categories, all three channels track together —
-            seasonal change is primarily a brightness modulation, not a hue
-            shift. Shrublands is the clearest exception: in July–August red and
-            green fall more steeply than blue, giving the summer minimum its
-            warm brown character consistent with dry senesced vegetation.
+            For most land categories, the three channels track together, i.e.
+            seasonal change is mainly a shift in brightness rather than hue.
+            Shrublands are the clearest exception: from January to August, blue
+            drops by 103 units compared with 66 for red. The larger drop in blue
+            gives the summer minimum its warmer brown tone, consistent with
+            dried-out vegetation.
           </p>
         </div>
 
@@ -700,17 +427,248 @@
         <div class="findings-block">
           <div class="findings-label">Findings</div>
           <p>
-            Wetlands commands the heatmap: January–May run strongly positive
-            (+16 to +18 pp), while August–October plunge to −27 to −29 pp.
-            Shrublands shows the second-sharpest contrast. Grasslands and
-            Croplands show similar shapes, heavily driven by Northern Hemisphere
-            agricultural cycles. Urban Areas are nearly flat throughout.
+            Wetlands has the largest range: January–May run +16.8 to
+            +20.2 pp above the annual mean, August–October drop to −27.7 to
+            −33.9 pp, a total span of 54 points. Shrublands has the
+            second-largest span. Grasslands and Croplands follow similar
+            curves, shaped by Northern Hemisphere growing seasons. Urban Areas
+            are nearly flat.
+          </p>
+        </div>
+
+        <h3 id="s4-7">4.7 Five Ways to Average a Planet</h3>
+        <p>
+          There is no single correct way to reduce millions of pixels to one
+          colour. Each row shows the same January category under five
+          estimators, and the bar is the perceptual distance between the naive
+          answer and the physically correct estimates.
+        </p>
+        <div class="viz-container" id="viz-estimators"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            Snow and Ice moves 0.3 ΔE₀₀ between methods; Oceans moves
+            0.6. Both are internally uniform, so averaging method matters
+            little. Total Earth moves 15.2, from a near-black
+            <code>#28292d</code> to a mid grey <code>#565552</code>.
+          </p>
+          <p>
+            The size of the shift tracks the internal contrast of each
+            category. Averaging gamma-encoded values underestimates radiance
+            in proportion to that contrast — Jensen's inequality applied to
+            the sRGB transfer curve. The next figure measures the contrast
+            directly.
+          </p>
+        </div>
+
+        <h3 id="s4-8">4.8 Does One Colour Describe a Category?</h3>
+        <p>
+          Each box spans the interquartile range of pixel lightness within a
+          category, whiskers reach the 5th and 95th percentiles, and the rule
+          inside marks the median. Boxes are filled with the category's own mean
+          colour, so a wide box is a colour that describes its category poorly.
+        </p>
+        <div class="viz-container" id="viz-distribution"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            Only Oceans and Snow and Ice have low spreads, 1.4 and 3.2
+            respectively. Fresh Water is the highest at 31.2, spanning $L^*$
+            1.4 to 95.5: frozen lakes and open tropical water fall in the same
+            class with no meaningful midpoint.
+          </p>
+          <p>
+            Across all 168 category-months, spread correlates with the gamma
+            shift in the previous figure at $r = 0.940$. The error from
+            averaging in the wrong colour space scales with the variance
+            inside the category, as the concavity argument predicts.
           </p>
         </div>
       </section>
 
       <section id="s5">
-        <h2><span class="section-num">5.</span> Notes & Limitations</h2>
+        <h2><span class="section-num">5.</span> Earth from Space</h2>
+        <p>
+          The colours above are surface colours. Blue Marble is atmospherically
+          corrected and cloud-cleared, so it records what the ground reflects,
+          not what a distant observer sees. Two layers sit in between.
+        </p>
+        <p>
+          The first is Rayleigh scattering. Optical depth goes as
+          $\lambda^{-4}$, so the atmosphere scatters blue roughly four times
+          more strongly than red, and that scattered light is added along every
+          viewing path. On a bright surface the effect is negligible; on a
+          dark one it becomes the dominant signal. The second layer is cloud, which covers about
+          two thirds of the planet at any moment.
+        </p>
+
+        <h3 id="s5-1">5.1 The Map</h3>
+        <p>
+          Every pixel is painted with the mean colour of the category it belongs
+          to, so the map shows the planet reduced to fourteen colours and
+          nothing else. It opens on the view from space, with the atmosphere in
+          place. Drag the slider to move through the year, and switch layers to
+          strip the air away or bring in the cloud deck.
+        </p>
+
+        <figure class="map-figure" id="viz-map">
+          <div class="map-controls">
+            <div class="map-views" role="group" aria-label="Viewing layer">
+              <button type="button" data-view="atmosphere" aria-pressed="true">
+                Atmosphere
+              </button>
+              <button type="button" data-view="surface" aria-pressed="false">
+                Surface
+              </button>
+              <button type="button" data-view="space" aria-pressed="false">
+                Clouds
+              </button>
+            </div>
+            <label class="map-scrub">
+              <input
+                type="range"
+                min="0"
+                max="11"
+                value="0"
+                step="1"
+                aria-label="Month"
+              />
+              <span class="map-month">January</span>
+            </label>
+          </div>
+          <div class="map-canvas-wrap"><canvas title="Click to hold this reading"></canvas></div>
+          <div class="map-readout"></div>
+          <span class="map-status" role="status" aria-live="polite"></span>
+          <div class="map-legend"></div>
+          <figcaption class="figure-caption">
+            <b>Figure 1.</b> Earth painted in category means, equirectangular,
+            0.1° grid. The ten surface classes partition the globe exactly, so
+            every pixel carries one colour and no pixel carries two. The cloud
+            layer is different: it is measured MODIS cloud fraction, applied per
+            pixel, so the structure it shows is observed and not modelled. Each
+            season averages nine days, three per month across 2015, 2018 and
+            2021.
+          </figcaption>
+        </figure>
+
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            The atmosphere shifts the ocean from <code>#060a16</code> to
+            <code>#30415c</code>; the Sahara barely moves, from
+            <code>#ae9675</code> to <code>#ad9781</code>. Earth looks blue
+            because most of its surface is dark enough for scattered blue
+            light to dominate, not because seawater is blue.
+          </p>
+          <p>
+            The cloud layer makes the intertropical convergence zone, the
+            Southern Ocean storm track, and the clear subtropical belts
+            visible. Averaged within a category, that spatial structure
+            reduces to a single grey — at two-thirds cloud cover the surface
+            underneath is no longer the main signal. The gap between the three
+            layers is largest where the surface is darkest.
+          </p>
+        </div>
+
+        <h3 id="s5-2">5.2 Checking the Model Against a Camera</h3>
+        <p>
+          The model has one fitted parameter: an effective cloud reflectance,
+          set so that whole-Earth albedo matches the observed value. That fit
+          constrains brightness but not colour balance, so the blue-to-red
+          ratio is an independent prediction. DSCOVR EPIC photographs the
+          full sunlit disk from a million miles away and provides the test.
+        </p>
+        <div class="viz-container" id="viz-validation"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            The bare surface leans red at 0.907. Atmosphere alone pushes
+            the ratio to 1.448. With cloud the model gives 1.026, against
+            1.041 from the camera — within 0.003 in every channel, on a
+            quantity that was not fitted.
+          </p>
+          <p>
+            The seasonal cycle is less accurate. Model and observation
+            correlate at $r = 0.644$ across eleven months, brightest in
+            December and dimmest around August, but the modelled amplitude is
+            about an eighth of the observed one. Three cloud days per month is
+            thin sampling, and EPIC's published frames carry a display tone
+            curve, so the two amplitudes are not directly comparable.
+          </p>
+        </div>
+      </section>
+
+      <section id="s6">
+        <h2><span class="section-num">6.</span> Two Decades of Change</h2>
+        <p>
+          Blue Marble is a single climatological year, so it cannot say whether
+          anything is changing. To ask that, the same measurement is repeated on
+          276 eight-day MODIS composites spanning 2001 to 2024, six per year,
+          from two satellites: Terra and Aqua.
+        </p>
+        <p>
+          Both instruments observe the same planet and are calibrated
+          independently, so the second acts as a control. Any trend that
+          shows up on only one satellite is instrument drift, not the surface.
+        </p>
+
+        <h3 id="s6-1">6.1 Two Satellites, One Planet</h3>
+        <p>
+          Each row is a surface category. The filled dot is the trend Terra
+          reports, the hollow dot is Aqua, and the line between them is the
+          disagreement. Two separate things are marked, and they are not the
+          same test. The shaded band spans twice the drift measured over
+          deserts, which are radiometrically stable, so a category whose dots
+          fall inside it has no trend worth claiming and a
+          <b>bold name</b> means both satellites put it outside. The right-hand
+          column is the gap between the two satellites, daggered where that gap
+          alone exceeds the desert floor.
+        </p>
+        <div class="viz-container" id="viz-sensor-check"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            Every land category falls within the band, most with the two
+            dots nearly touching. Total Land differs by 0.008 L* per decade
+            between the two satellites — small enough to trust.
+          </p>
+          <p>
+            Oceans is outside the band by a wide margin. Terra reports
+            +0.404 L* per decade; Aqua reports $-$0.234 with no significance.
+            The gap of 0.639 is eighteen times the 0.036 that separates the
+            two over deserts. Terra is known to drift on dark targets. A
+            project using one satellite would have reported ocean brightening
+            as a real trend.
+          </p>
+        </div>
+
+        <h3 id="s6-2">6.2 Annual Lightness by Category</h3>
+        <p>
+          Mean lightness per year, Terra solid and Aqua dashed. Categories in
+          bold clear the desert noise floor on both instruments. Each panel is
+          scaled to its own range, so compare shapes rather than heights.
+        </p>
+        <div class="viz-container" id="viz-annual"></div>
+        <div class="findings-block">
+          <div class="findings-label">Findings</div>
+          <p>
+            Two categories clear the control on both satellites: Forests,
+            darkening at $-$0.49 (Terra) and $-$0.56 (Aqua) L* per decade,
+            and Urban Areas at $-$0.54 and $-$0.89. Forest darkening is
+            consistent with denser canopy absorbing more visible light, the
+            optical counterpart of the greening seen in vegetation indices.
+          </p>
+          <p>
+            Total Land is significant on both sensors and still not claimable:
+            its trend of $-$0.19 sits within 0.01 of the desert control itself,
+            so it cannot be separated from shared calibration drift. Statistical
+            significance and physical meaning are not the same test.
+          </p>
+        </div>
+      </section>
+
+      <section id="s7">
+        <h2><span class="section-num">7.</span> Notes & Limitations</h2>
         <div class="notes-list">
           <div class="note-item">
             <span class="note-label">Resampling strategy</span>
@@ -757,13 +715,81 @@
         </div>
       </section>
 
+      <section id="s8">
+        <h2><span class="section-num">8.</span> The Palette</h2>
+        <p>
+          One hundred and sixty-eight colours, measured rather than chosen.
+          Click any swatch to copy it; click a category name to copy its whole
+          year.
+        </p>
+
+        <div id="palette-gallery" class="palette">
+          <div class="palette-toolbar">
+            <div
+              class="palette-formats"
+              role="group"
+              aria-label="Colour format"
+            >
+              <button type="button" data-format="hex" aria-pressed="true">
+                HEX
+              </button>
+              <button type="button" data-format="rgb" aria-pressed="false">
+                RGB
+              </button>
+              <button type="button" data-format="css" aria-pressed="false">
+                CSS
+              </button>
+              <button type="button" data-format="lab" aria-pressed="false">
+                Lab
+              </button>
+            </div>
+            <button type="button" class="palette-all" data-copy-all="hex">
+              Copy all 168
+            </button>
+            <button type="button" class="palette-all" data-copy-all="css">
+              Copy as CSS
+            </button>
+            <span
+              class="palette-status"
+              role="status"
+              aria-live="polite"
+            ></span>
+          </div>
+          <div class="palette-grid"></div>
+          <p class="figure-caption">
+            <b>Plate I.</b> Area-weighted mean colour of each surface category,
+            by calendar month, averaged in linear light. The trailing column
+            repeats the January value as a reference.
+          </p>
+        </div>
+
+        <h3>Downloads</h3>
+        <p class="palette-links">
+          <a href="data/earth_hues.json" download>earth_hues.json</a>
+          <a id="palette-css" href="#">earth-hues.css</a>
+          <a href="data/earth_hues_space.json" download
+            >earth_hues_space.json</a
+          >
+          <a href="data/earth_hues_trends.json" download
+            >earth_hues_trends.json</a
+          >
+        </p>
+      </section>
+
       <footer class="article-footer">
-        Data: NASA Terra/MODIS MCD43C3 | GEBCO 2025 | MODIS MCD12C1 Land
-        Cover<br />
-        Analysis: Python, rasterio, NumPy | Visualizations: D3.js v7
+        Sandesh Bhandari<br />
+        Data: NASA Blue Marble Next Generation | GEBCO 2025 | MODIS MCD12C1 |
+        MODIS surface reflectance via NASA GIBS | DSCOVR EPIC<br />
+        Analysis: Python, rasterio, NumPy, SciPy | Visualizations: D3.js v7
       </footer>
     </main>
 
-    <script src="js/viz.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/trends.js"></script>
+    <script src="js/plates.js"></script>
+    <script src="js/palette.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

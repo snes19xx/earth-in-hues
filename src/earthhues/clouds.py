@@ -109,3 +109,52 @@ def fill_gaps(field: np.ndarray) -> np.ndarray:
     rows = np.where(counts > 0, totals / np.maximum(counts, 1), overall)
     filled[~present] = np.broadcast_to(rows[:, None], filled.shape)[~present]
     return filled
+
+
+SEASONS = {"winter": (12, 1, 2), "spring": (3, 4, 5), "summer": (6, 7, 8), "autumn": (9, 10, 11)}
+SEASON_ORDER = ["winter", "spring", "summer", "autumn"]
+ATLAS_WIDTH = 720
+ATLAS_LEVELS = 16
+
+
+def seasonal_composite(months, directory, colormap) -> np.ndarray:
+    """Mean cloud fraction over every downloaded day falling in these months."""
+    dates = [d for group in CLIMATOLOGY_DATES for d in group if int(d[5:7]) in months]
+    fields = np.stack([decode(download(d, directory), colormap) for d in dates])
+    present = np.isfinite(fields)
+    counts = present.sum(axis=0)
+    totals = np.where(present, fields, 0.0).sum(axis=0)
+    return fill_gaps(np.where(counts > 0, totals / np.maximum(counts, 1), np.nan)), len(dates)
+
+
+def write_atlas(directory, cache_dir, out_path, verbose: bool = True) -> dict:
+    """Four seasonal cloud fields stacked into one quantised greyscale PNG."""
+    from PIL import Image
+
+    colormap = load_colormap(cache_dir)
+    height = ATLAS_WIDTH // 2
+    step = 255 // (ATLAS_LEVELS - 1)
+    tiles, days = [], {}
+
+    for season in SEASON_ORDER:
+        field, count = seasonal_composite(SEASONS[season], directory, colormap)
+        days[season] = count
+        if verbose:
+            print(f"  {season} from {count} days, mean {field.mean():.3f}")
+        small = Image.fromarray((np.clip(field, 0, 1) * 255).astype(np.uint8))
+        small = small.resize((ATLAS_WIDTH, height), Image.BILINEAR)
+        tiles.append(np.round(np.array(small) / 255 * (ATLAS_LEVELS - 1)).astype(np.uint8) * step)
+
+    out_path = Path(out_path)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    Image.fromarray(np.vstack(tiles), mode="L").save(out_path, optimize=True)
+
+    return {
+        "width": ATLAS_WIDTH,
+        "height": height,
+        "seasons": SEASON_ORDER,
+        "levels": ATLAS_LEVELS,
+        "step": step,
+        "days_per_season": days,
+        "month_to_season": [0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 0],
+    }

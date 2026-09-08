@@ -4,10 +4,11 @@ from pathlib import Path
 
 from .color import METHODS
 from .gibs import LAYERS, download_all
+from .clouds import cloud_albedo, write_atlas
 from .epic import observed
 from .raster import build as raster_build
 from .space import build as space_build
-from .timeseries import build, rebuild
+from .timeseries import build, rebuild, web_payload
 from .extract import CANONICAL_METHOD, monthly_colors, monthly_methods, monthly_stats
 from .sources import Sources
 
@@ -41,10 +42,11 @@ def cmd_fetch(args) -> None:
 
 def cmd_timeseries(args) -> None:
     target = Path(args.out) / "earth_hues_timeseries.json"
-    if args.reuse:
-        write_json(target, rebuild(target))
-        return
-    write_json(target, build(Sources(args.data, args.cache), args.gibs))
+    if args.reuse and not target.exists():
+        raise SystemExit(f"{target} is not in the repository. Drop --reuse to rebuild it.")
+    derived = rebuild(target) if args.reuse else build(Sources(args.data, args.cache), args.gibs)
+    write_json(target, derived)
+    write_json(Path(args.out) / "earth_hues_trends.json", web_payload(derived))
 
 
 def cmd_space(args) -> None:
@@ -55,6 +57,12 @@ def cmd_space(args) -> None:
 
 def cmd_epic(args) -> None:
     write_json(Path(args.out) / "earth_hues_epic.json", observed(Path(args.data) / "epic"))
+
+
+def cmd_cloudmap(args) -> None:
+    meta = write_atlas(Path(args.data) / "clouds", args.cache, Path(args.out) / "raster" / "clouds.png")
+    meta["albedo"] = round(cloud_albedo(), 4)
+    write_json(Path(args.out) / "raster" / "clouds.json", meta)
 
 
 def cmd_masks(args) -> None:
@@ -99,6 +107,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     masks = subcommands.add_parser("masks", parents=[common], help="category raster for the map")
     masks.set_defaults(func=cmd_masks)
+
+    cloudmap = subcommands.add_parser("cloudmap", parents=[common], help="seasonal cloud raster")
+    cloudmap.set_defaults(func=cmd_cloudmap)
 
     return parser
 

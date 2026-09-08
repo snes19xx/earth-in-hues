@@ -2,7 +2,7 @@ PY := $(HOME)/miniforge3/envs/geo_env/bin/python
 DATA := DATA
 OUT := data
 
-.PHONY: setup colors stats fetch timeseries space epic masks all test serve clean
+.PHONY: setup colors stats fetch timeseries space epic masks cloudmap all test serve clean
 
 setup:
 	mamba env update -f environment.yml
@@ -29,7 +29,10 @@ epic:
 masks:
 	$(PY) -m earthhues masks --data $(DATA) --out $(OUT)
 
-all: colors stats masks timeseries space epic
+cloudmap:
+	$(PY) -m earthhues cloudmap --data $(DATA) --out $(OUT)
+
+all: colors stats masks cloudmap timeseries space epic
 
 test:
 	$(PY) -m pytest -q

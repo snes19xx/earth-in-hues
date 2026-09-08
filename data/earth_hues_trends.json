@@ -1,0 +1,3131 @@
+{
+    "annual": {
+        "terra": {
+            "Oceans": {
+                "2001": {
+                    "lightness": 35.325,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 35.526,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 35.829,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 35.988,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 35.388,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 34.853,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 35.578,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 35.789,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 36.269,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 36.199,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 35.599,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 36.089,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 36.356,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 35.94,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 36.093,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 34.899,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 35.245,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 36.004,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 37.567,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 36.728,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 35.553,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 35.775,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 36.06,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 38.146,
+                    "composites": 6
+                }
+            },
+            "Fresh Water": {
+                "2001": {
+                    "lightness": 65.517,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 65.419,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 65.535,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 65.315,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 64.837,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 65.498,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 65.089,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 66.109,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 66.136,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 65.243,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 65.941,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 66.243,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 66.203,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 66.299,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 65.747,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 64.644,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 66.093,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 66.53,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 66.46,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 66.174,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 65.221,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 66.328,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 66.097,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 65.823,
+                    "composites": 6
+                }
+            },
+            "Snow and Ice": {
+                "2001": {
+                    "lightness": 93.432,
+                    "composites": 5
+                },
+                "2002": {
+                    "lightness": 93.572,
+                    "composites": 5
+                },
+                "2003": {
+                    "lightness": 93.529,
+                    "composites": 5
+                },
+                "2004": {
+                    "lightness": 93.446,
+                    "composites": 5
+                },
+                "2005": {
+                    "lightness": 93.332,
+                    "composites": 5
+                },
+                "2006": {
+                    "lightness": 93.48,
+                    "composites": 5
+                },
+                "2007": {
+                    "lightness": 93.402,
+                    "composites": 5
+                },
+                "2008": {
+                    "lightness": 93.434,
+                    "composites": 5
+                },
+                "2009": {
+                    "lightness": 93.43,
+                    "composites": 5
+                },
+                "2010": {
+                    "lightness": 93.425,
+                    "composites": 5
+                },
+                "2011": {
+                    "lightness": 93.585,
+                    "composites": 5
+                },
+                "2012": {
+                    "lightness": 93.593,
+                    "composites": 5
+                },
+                "2013": {
+                    "lightness": 93.531,
+                    "composites": 5
+                },
+                "2014": {
+                    "lightness": 93.521,
+                    "composites": 5
+                },
+                "2015": {
+                    "lightness": 93.333,
+                    "composites": 5
+                },
+                "2016": {
+                    "lightness": 93.521,
+                    "composites": 5
+                },
+                "2017": {
+                    "lightness": 93.539,
+                    "composites": 5
+                },
+                "2018": {
+                    "lightness": 93.519,
+                    "composites": 5
+                },
+                "2019": {
+                    "lightness": 93.458,
+                    "composites": 5
+                },
+                "2020": {
+                    "lightness": 93.984,
+                    "composites": 5
+                },
+                "2021": {
+                    "lightness": 93.114,
+                    "composites": 5
+                },
+                "2022": {
+                    "lightness": 93.795,
+                    "composites": 5
+                },
+                "2023": {
+                    "lightness": 94.272,
+                    "composites": 5
+                },
+                "2024": {
+                    "lightness": 95.322,
+                    "composites": 5
+                }
+            },
+            "Deserts": {
+                "2001": {
+                    "lightness": 67.67,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 67.935,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 68.051,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 67.414,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 67.72,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 67.743,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 67.696,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 67.636,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 67.983,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 67.679,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 67.853,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 67.829,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 67.852,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 67.478,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 67.615,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 67.45,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 67.635,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 67.763,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 67.567,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 67.338,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 67.495,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 67.576,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 67.364,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 66.967,
+                    "composites": 6
+                }
+            },
+            "Forests": {
+                "2001": {
+                    "lightness": 44.659,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 43.61,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 43.612,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 45.45,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 42.176,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 45.148,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 43.447,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 44.054,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 43.166,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 43.264,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 43.814,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 44.676,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 43.766,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 42.92,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 43.607,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 43.137,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 43.552,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 43.697,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 43.478,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 43.121,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 43.606,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 43.491,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 42.732,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 42.278,
+                    "composites": 6
+                }
+            },
+            "Grasslands": {
+                "2001": {
+                    "lightness": 52.201,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 52.044,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 52.665,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 52.245,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 51.631,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 52.447,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 52.266,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 52.382,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 52.509,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 52.009,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 52.744,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 52.764,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 52.488,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 51.96,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 51.995,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 51.687,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 52.314,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 52.379,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 52.273,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 52.267,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 51.77,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 52.624,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 51.902,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 51.754,
+                    "composites": 6
+                }
+            },
+            "Shrublands": {
+                "2001": {
+                    "lightness": 57.844,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 57.575,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 57.608,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 57.985,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 57.232,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 58.255,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 57.758,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 58.257,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 58.279,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 57.276,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 57.204,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 56.691,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 57.397,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 57.341,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 57.543,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 56.689,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 57.408,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 57.796,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 57.731,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 57.18,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 57.521,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 57.781,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 57.387,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 57.421,
+                    "composites": 6
+                }
+            },
+            "Croplands": {
+                "2001": {
+                    "lightness": 49.818,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 48.881,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 50.879,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 48.933,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 49.03,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 50.083,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 47.478,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 48.546,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 50.017,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 51.123,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 50.916,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 48.379,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 50.123,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 48.897,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 47.884,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 49.226,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 49.296,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 50.201,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 48.996,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 46.862,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 48.259,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 49.572,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 49.036,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 48.382,
+                    "composites": 6
+                }
+            },
+            "Wetlands": {
+                "2001": {
+                    "lightness": 59.558,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 60.985,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 60.923,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 61.501,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 58.203,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 60.258,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 58.816,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 60.887,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 59.898,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 58.559,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 57.759,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 59.397,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 59.881,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 61.124,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 60.136,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 57.884,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 60.864,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 61.086,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 60.543,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 59.855,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 59.665,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 60.511,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 59.804,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 59.969,
+                    "composites": 6
+                }
+            },
+            "Urban Areas": {
+                "2001": {
+                    "lightness": 45.764,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 44.301,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 46.032,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 44.941,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 44.994,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 46.252,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 44.774,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 44.991,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 45.956,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 47.006,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 47.076,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 45.101,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 46.052,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 44.643,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 44.641,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 44.567,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 44.364,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 45.644,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 45.114,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 43.341,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 44.79,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 44.273,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 43.99,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 44.148,
+                    "composites": 6
+                }
+            },
+            "Mountains": {
+                "2001": {
+                    "lightness": 61.225,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 61.422,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 61.803,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 61.414,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 61.388,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 61.204,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 61.206,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 61.301,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 61.194,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 61.067,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 61.978,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 61.707,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 61.424,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 60.659,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 60.67,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 60.342,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 61.028,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 60.859,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 61.561,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 61.078,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 60.19,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 61.014,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 60.714,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 60.109,
+                    "composites": 6
+                }
+            },
+            "Total Land Mean": {
+                "2001": {
+                    "lightness": 59.38,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 59.169,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 59.479,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 59.364,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 58.771,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 59.56,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 59.036,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 59.297,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 59.393,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 59.176,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 59.485,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 59.371,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 59.399,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 58.961,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 58.965,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 58.774,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 59.197,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 59.356,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 59.116,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 58.865,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 58.791,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 59.303,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 58.85,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 58.664,
+                    "composites": 6
+                }
+            },
+            "Total Ocean Mean": {
+                "2001": {
+                    "lightness": 35.408,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 35.63,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 35.927,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 36.075,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 35.471,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 34.954,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 35.664,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 35.888,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 36.385,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 36.283,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 35.686,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 36.2,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 36.454,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 36.039,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 36.178,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 35.016,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 35.339,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 36.098,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 37.659,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 36.804,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 35.653,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 35.863,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 36.139,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 38.213,
+                    "composites": 6
+                }
+            },
+            "Total Earth Mean": {
+                "2001": {
+                    "lightness": 47.625,
+                    "composites": 6
+                },
+                "2002": {
+                    "lightness": 47.554,
+                    "composites": 6
+                },
+                "2003": {
+                    "lightness": 47.869,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 47.86,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 47.299,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 47.569,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 47.476,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 47.772,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 48.039,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 47.858,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 47.837,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 47.906,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 48.055,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 47.64,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 47.637,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 47.099,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 47.537,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 47.939,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 48.406,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 47.894,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 47.377,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 47.781,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 47.663,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 48.403,
+                    "composites": 6
+                }
+            }
+        },
+        "aqua": {
+            "Oceans": {
+                "2003": {
+                    "lightness": 35.297,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 35.295,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 34.731,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 34.227,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 35.158,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 35.257,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 35.845,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 35.607,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 35.04,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 35.398,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 36.102,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 35.039,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 35.494,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 34.067,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 34.164,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 34.387,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 35.075,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 34.62,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 34.463,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 34.612,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 34.676,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 35.822,
+                    "composites": 6
+                }
+            },
+            "Fresh Water": {
+                "2003": {
+                    "lightness": 64.959,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 65.091,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 64.623,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 65.205,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 65.063,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 65.708,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 65.744,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 65.124,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 65.608,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 65.608,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 65.793,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 65.802,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 65.461,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 64.3,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 65.655,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 65.831,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 65.37,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 64.957,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 65.208,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 65.853,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 65.5,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 65.249,
+                    "composites": 6
+                }
+            },
+            "Snow and Ice": {
+                "2003": {
+                    "lightness": 93.885,
+                    "composites": 5
+                },
+                "2004": {
+                    "lightness": 93.884,
+                    "composites": 5
+                },
+                "2005": {
+                    "lightness": 93.975,
+                    "composites": 5
+                },
+                "2006": {
+                    "lightness": 94.144,
+                    "composites": 5
+                },
+                "2007": {
+                    "lightness": 94.105,
+                    "composites": 5
+                },
+                "2008": {
+                    "lightness": 94.124,
+                    "composites": 5
+                },
+                "2009": {
+                    "lightness": 94.353,
+                    "composites": 5
+                },
+                "2010": {
+                    "lightness": 94.249,
+                    "composites": 5
+                },
+                "2011": {
+                    "lightness": 94.198,
+                    "composites": 5
+                },
+                "2012": {
+                    "lightness": 94.193,
+                    "composites": 5
+                },
+                "2013": {
+                    "lightness": 94.274,
+                    "composites": 5
+                },
+                "2014": {
+                    "lightness": 94.238,
+                    "composites": 5
+                },
+                "2015": {
+                    "lightness": 94.065,
+                    "composites": 5
+                },
+                "2016": {
+                    "lightness": 94.171,
+                    "composites": 5
+                },
+                "2017": {
+                    "lightness": 94.216,
+                    "composites": 5
+                },
+                "2018": {
+                    "lightness": 94.224,
+                    "composites": 5
+                },
+                "2019": {
+                    "lightness": 94.131,
+                    "composites": 5
+                },
+                "2020": {
+                    "lightness": 94.105,
+                    "composites": 5
+                },
+                "2021": {
+                    "lightness": 94.152,
+                    "composites": 5
+                },
+                "2022": {
+                    "lightness": 94.308,
+                    "composites": 5
+                },
+                "2023": {
+                    "lightness": 94.857,
+                    "composites": 5
+                },
+                "2024": {
+                    "lightness": 96.433,
+                    "composites": 5
+                }
+            },
+            "Deserts": {
+                "2003": {
+                    "lightness": 68.182,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 67.617,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 67.958,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 67.943,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 67.817,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 67.769,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 68.011,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 67.817,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 67.935,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 67.972,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 67.888,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 67.682,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 67.743,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 67.537,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 67.868,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 67.914,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 67.659,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 67.383,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 67.668,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 67.708,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 67.44,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 67.063,
+                    "composites": 6
+                }
+            },
+            "Forests": {
+                "2003": {
+                    "lightness": 43.141,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 44.84,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 42.788,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 44.9,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 43.57,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 44.159,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 43.133,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 43.636,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 44.147,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 44.062,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 43.815,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 42.964,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 43.325,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 42.959,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 43.659,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 43.357,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 43.265,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 43.242,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 43.114,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 43.973,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 42.866,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 42.602,
+                    "composites": 6
+                }
+            },
+            "Grasslands": {
+                "2003": {
+                    "lightness": 52.534,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 52.482,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 51.855,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 52.417,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 52.322,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 52.353,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 52.435,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 52.072,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 52.84,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 52.756,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 52.641,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 52.128,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 52.071,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 51.791,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 52.688,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 52.588,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 52.52,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 52.368,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 51.823,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 52.724,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 51.878,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 51.472,
+                    "composites": 6
+                }
+            },
+            "Shrublands": {
+                "2003": {
+                    "lightness": 57.762,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 58.151,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 57.462,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 58.381,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 57.944,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 58.385,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 58.326,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 57.486,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 57.555,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 56.875,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 57.515,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 57.598,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 57.433,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 56.977,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 57.849,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 58.012,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 57.923,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 58.166,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 57.744,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 57.836,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 57.272,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 57.442,
+                    "composites": 6
+                }
+            },
+            "Croplands": {
+                "2003": {
+                    "lightness": 50.619,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 49.423,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 49.243,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 50.196,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 47.867,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 48.636,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 50.061,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 51.092,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 51.096,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 48.574,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 50.361,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 49.045,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 48.306,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 49.399,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 49.817,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 50.526,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 49.714,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 47.283,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 48.389,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 49.531,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 48.808,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 47.601,
+                    "composites": 6
+                }
+            },
+            "Wetlands": {
+                "2003": {
+                    "lightness": 60.503,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 61.305,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 58.02,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 59.817,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 58.88,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 60.421,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 59.575,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 58.172,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 57.528,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 58.942,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 59.571,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 60.926,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 59.794,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 57.944,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 60.703,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 60.812,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 60.011,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 59.87,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 59.43,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 60.171,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 59.256,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 59.416,
+                    "composites": 6
+                }
+            },
+            "Urban Areas": {
+                "2003": {
+                    "lightness": 45.694,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 45.572,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 45.107,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 46.139,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 44.885,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 45.123,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 45.965,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 46.982,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 47.2,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 45.16,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 46.561,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 45.348,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 44.992,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 44.801,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 44.639,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 46.172,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 45.623,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 43.444,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 44.809,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 44.481,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 43.889,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 43.659,
+                    "composites": 6
+                }
+            },
+            "Mountains": {
+                "2003": {
+                    "lightness": 62.193,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 61.869,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 62.007,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 61.731,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 61.669,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 61.68,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 61.537,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 61.58,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 62.479,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 62.056,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 61.883,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 61.131,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 61.1,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 60.859,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 61.785,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 61.456,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 61.985,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 61.621,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 60.97,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 61.732,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 61.274,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 60.811,
+                    "composites": 6
+                }
+            },
+            "Total Land Mean": {
+                "2003": {
+                    "lightness": 59.409,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 59.475,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 58.995,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 59.575,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 59.129,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 59.332,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 59.377,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 59.28,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 59.597,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 59.339,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 59.477,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 59.093,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 58.993,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 58.844,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 59.441,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 59.457,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 59.266,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 59.03,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 58.922,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 59.414,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 58.853,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 58.566,
+                    "composites": 6
+                }
+            },
+            "Total Ocean Mean": {
+                "2003": {
+                    "lightness": 35.398,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 35.386,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 34.819,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 34.331,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 35.249,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 35.36,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 35.96,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 35.695,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 35.131,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 35.513,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 36.202,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 35.146,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 35.584,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 34.187,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 34.266,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 34.491,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 35.182,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 34.709,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 34.565,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 34.706,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 34.767,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 35.903,
+                    "composites": 6
+                }
+            },
+            "Total Earth Mean": {
+                "2003": {
+                    "lightness": 47.606,
+                    "composites": 6
+                },
+                "2004": {
+                    "lightness": 47.62,
+                    "composites": 6
+                },
+                "2005": {
+                    "lightness": 47.133,
+                    "composites": 6
+                },
+                "2006": {
+                    "lightness": 47.306,
+                    "composites": 6
+                },
+                "2007": {
+                    "lightness": 47.346,
+                    "composites": 6
+                },
+                "2008": {
+                    "lightness": 47.527,
+                    "composites": 6
+                },
+                "2009": {
+                    "lightness": 47.807,
+                    "composites": 6
+                },
+                "2010": {
+                    "lightness": 47.655,
+                    "composites": 6
+                },
+                "2011": {
+                    "lightness": 47.651,
+                    "composites": 6
+                },
+                "2012": {
+                    "lightness": 47.576,
+                    "composites": 6
+                },
+                "2013": {
+                    "lightness": 47.964,
+                    "composites": 6
+                },
+                "2014": {
+                    "lightness": 47.329,
+                    "composites": 6
+                },
+                "2015": {
+                    "lightness": 47.38,
+                    "composites": 6
+                },
+                "2016": {
+                    "lightness": 46.773,
+                    "composites": 6
+                },
+                "2017": {
+                    "lightness": 47.224,
+                    "composites": 6
+                },
+                "2018": {
+                    "lightness": 47.315,
+                    "composites": 6
+                },
+                "2019": {
+                    "lightness": 47.422,
+                    "composites": 6
+                },
+                "2020": {
+                    "lightness": 47.131,
+                    "composites": 6
+                },
+                "2021": {
+                    "lightness": 47.003,
+                    "composites": 6
+                },
+                "2022": {
+                    "lightness": 47.342,
+                    "composites": 6
+                },
+                "2023": {
+                    "lightness": 47.101,
+                    "composites": 6
+                },
+                "2024": {
+                    "lightness": 47.343,
+                    "composites": 6
+                }
+            }
+        }
+    },
+    "trends": {
+        "terra": {
+            "Oceans": {
+                "slope_per_decade": 0.4042,
+                "confidence_low": 0.0142,
+                "confidence_high": 0.95,
+                "tau": 0.312,
+                "p_value": 0.03393,
+                "years": 24,
+                "significant": true
+            },
+            "Fresh Water": {
+                "slope_per_decade": 0.3488,
+                "confidence_low": 0.0067,
+                "confidence_high": 0.6487,
+                "tau": 0.297,
+                "p_value": 0.04362,
+                "years": 24,
+                "significant": true
+            },
+            "Snow and Ice": {
+                "slope_per_decade": 0.1026,
+                "confidence_low": -0.0025,
+                "confidence_high": 0.2488,
+                "tau": 0.279,
+                "p_value": 0.05607,
+                "years": 24,
+                "significant": false
+            },
+            "Deserts": {
+                "slope_per_decade": -0.2,
+                "confidence_low": -0.3317,
+                "confidence_high": -0.0858,
+                "tau": -0.449,
+                "p_value": 0.00173,
+                "years": 24,
+                "significant": true
+            },
+            "Forests": {
+                "slope_per_decade": -0.486,
+                "confidence_low": -0.9017,
+                "confidence_high": -0.0429,
+                "tau": -0.362,
+                "p_value": 0.0129,
+                "years": 24,
+                "significant": true
+            },
+            "Grasslands": {
+                "slope_per_decade": -0.1186,
+                "confidence_low": -0.32,
+                "confidence_high": 0.1106,
+                "tau": -0.13,
+                "p_value": 0.38934,
+                "years": 24,
+                "significant": false
+            },
+            "Shrublands": {
+                "slope_per_decade": -0.1242,
+                "confidence_low": -0.4446,
+                "confidence_high": 0.1036,
+                "tau": -0.167,
+                "p_value": 0.26751,
+                "years": 24,
+                "significant": false
+            },
+            "Croplands": {
+                "slope_per_decade": -0.407,
+                "confidence_low": -1.1525,
+                "confidence_high": 0.2542,
+                "tau": -0.138,
+                "p_value": 0.36266,
+                "years": 24,
+                "significant": false
+            },
+            "Wetlands": {
+                "slope_per_decade": -0.0745,
+                "confidence_low": -0.6947,
+                "confidence_high": 0.69,
+                "tau": -0.051,
+                "p_value": 0.74976,
+                "years": 24,
+                "significant": false
+            },
+            "Urban Areas": {
+                "slope_per_decade": -0.5406,
+                "confidence_low": -1.1043,
+                "confidence_high": -0.1546,
+                "tau": -0.362,
+                "p_value": 0.0129,
+                "years": 24,
+                "significant": true
+            },
+            "Mountains": {
+                "slope_per_decade": -0.3852,
+                "confidence_low": -0.6764,
+                "confidence_high": -0.178,
+                "tau": -0.464,
+                "p_value": 0.00118,
+                "years": 24,
+                "significant": true
+            },
+            "Total Land Mean": {
+                "slope_per_decade": -0.1916,
+                "confidence_low": -0.364,
+                "confidence_high": -0.05,
+                "tau": -0.355,
+                "p_value": 0.01494,
+                "years": 24,
+                "significant": true
+            },
+            "Total Ocean Mean": {
+                "slope_per_decade": 0.4002,
+                "confidence_low": 0.0164,
+                "confidence_high": 0.9533,
+                "tau": 0.304,
+                "p_value": 0.03852,
+                "years": 24,
+                "significant": true
+            },
+            "Total Earth Mean": {
+                "slope_per_decade": 0.0636,
+                "confidence_low": -0.1037,
+                "confidence_high": 0.3164,
+                "tau": 0.152,
+                "p_value": 0.31276,
+                "years": 24,
+                "significant": false
+            }
+        },
+        "aqua": {
+            "Oceans": {
+                "slope_per_decade": -0.2345,
+                "confidence_low": -0.6036,
+                "confidence_high": 0.2807,
+                "tau": -0.16,
+                "p_value": 0.31398,
+                "years": 22,
+                "significant": false
+            },
+            "Fresh Water": {
+                "slope_per_decade": 0.1367,
+                "confidence_low": -0.1387,
+                "confidence_high": 0.4872,
+                "tau": 0.226,
+                "p_value": 0.14241,
+                "years": 22,
+                "significant": false
+            },
+            "Snow and Ice": {
+                "slope_per_decade": 0.1647,
+                "confidence_low": 0.0517,
+                "confidence_high": 0.354,
+                "tau": 0.408,
+                "p_value": 0.00801,
+                "years": 22,
+                "significant": true
+            },
+            "Deserts": {
+                "slope_per_decade": -0.2356,
+                "confidence_low": -0.3827,
+                "confidence_high": -0.0967,
+                "tau": -0.495,
+                "p_value": 0.0013,
+                "years": 22,
+                "significant": true
+            },
+            "Forests": {
+                "slope_per_decade": -0.5556,
+                "confidence_low": -1.0056,
+                "confidence_high": -0.025,
+                "tau": -0.333,
+                "p_value": 0.03089,
+                "years": 22,
+                "significant": true
+            },
+            "Grasslands": {
+                "slope_per_decade": -0.2412,
+                "confidence_low": -0.4133,
+                "confidence_high": 0.1243,
+                "tau": -0.16,
+                "p_value": 0.31398,
+                "years": 22,
+                "significant": false
+            },
+            "Shrublands": {
+                "slope_per_decade": -0.156,
+                "confidence_low": -0.4409,
+                "confidence_high": 0.1762,
+                "tau": -0.169,
+                "p_value": 0.28762,
+                "years": 22,
+                "significant": false
+            },
+            "Croplands": {
+                "slope_per_decade": -0.6082,
+                "confidence_low": -1.4309,
+                "confidence_high": 0.2127,
+                "tau": -0.238,
+                "p_value": 0.12888,
+                "years": 22,
+                "significant": false
+            },
+            "Wetlands": {
+                "slope_per_decade": -0.0467,
+                "confidence_low": -0.7767,
+                "confidence_high": 0.832,
+                "tau": -0.022,
+                "p_value": 0.91129,
+                "years": 22,
+                "significant": false
+            },
+            "Urban Areas": {
+                "slope_per_decade": -0.8867,
+                "confidence_low": -1.4275,
+                "confidence_high": -0.3145,
+                "tau": -0.411,
+                "p_value": 0.00694,
+                "years": 22,
+                "significant": true
+            },
+            "Mountains": {
+                "slope_per_decade": -0.4238,
+                "confidence_low": -0.6991,
+                "confidence_high": -0.1522,
+                "tau": -0.403,
+                "p_value": 0.00832,
+                "years": 22,
+                "significant": true
+            },
+            "Total Land Mean": {
+                "slope_per_decade": -0.2,
+                "confidence_low": -0.3983,
+                "confidence_high": -0.0262,
+                "tau": -0.333,
+                "p_value": 0.03089,
+                "years": 22,
+                "significant": true
+            },
+            "Total Ocean Mean": {
+                "slope_per_decade": -0.2291,
+                "confidence_low": -0.6047,
+                "confidence_high": 0.2593,
+                "tau": -0.152,
+                "p_value": 0.34184,
+                "years": 22,
+                "significant": false
+            },
+            "Total Earth Mean": {
+                "slope_per_decade": -0.202,
+                "confidence_low": -0.3367,
+                "confidence_high": 0.005,
+                "tau": -0.299,
+                "p_value": 0.05442,
+                "years": 22,
+                "significant": false
+            }
+        }
+    },
+    "agreement": {
+        "Croplands": {
+            "terra": -0.407,
+            "aqua": -0.6082,
+            "difference": 0.2012,
+            "exceeds_control": false
+        },
+        "Deserts": {
+            "terra": -0.2,
+            "aqua": -0.2356,
+            "difference": 0.0356,
+            "exceeds_control": false
+        },
+        "Forests": {
+            "terra": -0.486,
+            "aqua": -0.5556,
+            "difference": 0.0696,
+            "exceeds_control": false
+        },
+        "Fresh Water": {
+            "terra": 0.3488,
+            "aqua": 0.1367,
+            "difference": 0.2121,
+            "exceeds_control": false
+        },
+        "Grasslands": {
+            "terra": -0.1186,
+            "aqua": -0.2412,
+            "difference": 0.1226,
+            "exceeds_control": false
+        },
+        "Mountains": {
+            "terra": -0.3852,
+            "aqua": -0.4238,
+            "difference": 0.0386,
+            "exceeds_control": false
+        },
+        "Oceans": {
+            "terra": 0.4042,
+            "aqua": -0.2345,
+            "difference": 0.6387,
+            "exceeds_control": true
+        },
+        "Shrublands": {
+            "terra": -0.1242,
+            "aqua": -0.156,
+            "difference": 0.0318,
+            "exceeds_control": false
+        },
+        "Snow and Ice": {
+            "terra": 0.1026,
+            "aqua": 0.1647,
+            "difference": -0.0621,
+            "exceeds_control": false
+        },
+        "Total Earth Mean": {
+            "terra": 0.0636,
+            "aqua": -0.202,
+            "difference": 0.2656,
+            "exceeds_control": false
+        },
+        "Total Land Mean": {
+            "terra": -0.1916,
+            "aqua": -0.2,
+            "difference": 0.0084,
+            "exceeds_control": false
+        },
+        "Total Ocean Mean": {
+            "terra": 0.4002,
+            "aqua": -0.2291,
+            "difference": 0.6293,
+            "exceeds_control": true
+        },
+        "Urban Areas": {
+            "terra": -0.5406,
+            "aqua": -0.8867,
+            "difference": 0.3461,
+            "exceeds_control": false
+        },
+        "Wetlands": {
+            "terra": -0.0745,
+            "aqua": -0.0467,
+            "difference": -0.0278,
+            "exceeds_control": false
+        }
+    },
+    "control_adjusted": {
+        "terra": {
+            "Oceans": {
+                "slope_per_decade": 0.4042,
+                "excess": 0.6042,
+                "above_floor": true
+            },
+            "Fresh Water": {
+                "slope_per_decade": 0.3488,
+                "excess": 0.5488,
+                "above_floor": false
+            },
+            "Snow and Ice": {
+                "slope_per_decade": 0.1026,
+                "excess": 0.3026,
+                "above_floor": false
+            },
+            "Deserts": {
+                "slope_per_decade": -0.2,
+                "excess": 0.0,
+                "above_floor": false
+            },
+            "Forests": {
+                "slope_per_decade": -0.486,
+                "excess": -0.286,
+                "above_floor": true
+            },
+            "Grasslands": {
+                "slope_per_decade": -0.1186,
+                "excess": 0.0814,
+                "above_floor": false
+            },
+            "Shrublands": {
+                "slope_per_decade": -0.1242,
+                "excess": 0.0758,
+                "above_floor": false
+            },
+            "Croplands": {
+                "slope_per_decade": -0.407,
+                "excess": -0.207,
+                "above_floor": false
+            },
+            "Wetlands": {
+                "slope_per_decade": -0.0745,
+                "excess": 0.1255,
+                "above_floor": false
+            },
+            "Urban Areas": {
+                "slope_per_decade": -0.5406,
+                "excess": -0.3406,
+                "above_floor": true
+            },
+            "Mountains": {
+                "slope_per_decade": -0.3852,
+                "excess": -0.1852,
+                "above_floor": false
+            },
+            "Total Land Mean": {
+                "slope_per_decade": -0.1916,
+                "excess": 0.0084,
+                "above_floor": false
+            },
+            "Total Ocean Mean": {
+                "slope_per_decade": 0.4002,
+                "excess": 0.6002,
+                "above_floor": true
+            },
+            "Total Earth Mean": {
+                "slope_per_decade": 0.0636,
+                "excess": 0.2636,
+                "above_floor": false
+            }
+        },
+        "aqua": {
+            "Oceans": {
+                "slope_per_decade": -0.2345,
+                "excess": 0.0011,
+                "above_floor": false
+            },
+            "Fresh Water": {
+                "slope_per_decade": 0.1367,
+                "excess": 0.3723,
+                "above_floor": false
+            },
+            "Snow and Ice": {
+                "slope_per_decade": 0.1647,
+                "excess": 0.4003,
+                "above_floor": false
+            },
+            "Deserts": {
+                "slope_per_decade": -0.2356,
+                "excess": 0.0,
+                "above_floor": false
+            },
+            "Forests": {
+                "slope_per_decade": -0.5556,
+                "excess": -0.32,
+                "above_floor": true
+            },
+            "Grasslands": {
+                "slope_per_decade": -0.2412,
+                "excess": -0.0056,
+                "above_floor": false
+            },
+            "Shrublands": {
+                "slope_per_decade": -0.156,
+                "excess": 0.0796,
+                "above_floor": false
+            },
+            "Croplands": {
+                "slope_per_decade": -0.6082,
+                "excess": -0.3726,
+                "above_floor": false
+            },
+            "Wetlands": {
+                "slope_per_decade": -0.0467,
+                "excess": 0.1889,
+                "above_floor": false
+            },
+            "Urban Areas": {
+                "slope_per_decade": -0.8867,
+                "excess": -0.6511,
+                "above_floor": true
+            },
+            "Mountains": {
+                "slope_per_decade": -0.4238,
+                "excess": -0.1882,
+                "above_floor": false
+            },
+            "Total Land Mean": {
+                "slope_per_decade": -0.2,
+                "excess": 0.0356,
+                "above_floor": false
+            },
+            "Total Ocean Mean": {
+                "slope_per_decade": -0.2291,
+                "excess": 0.0065,
+                "above_floor": false
+            },
+            "Total Earth Mean": {
+                "slope_per_decade": -0.202,
+                "excess": 0.0336,
+                "above_floor": false
+            }
+        }
+    },
+    "control_category": "Deserts"
+}

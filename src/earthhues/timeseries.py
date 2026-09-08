@@ -169,6 +169,11 @@ def derive(records: list[dict]) -> dict:
     }
 
 
+def web_payload(derived: dict) -> dict:
+    """The derived sections only, small enough to ship to a browser."""
+    return {key: value for key, value in derived.items() if key != "observations"}
+
+
 def build(sources: Sources, directory, verbose: bool = True) -> dict:
     return derive(observations(sources, directory, verbose))
 

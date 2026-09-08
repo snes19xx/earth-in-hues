@@ -1,0 +1,593 @@
+/* Computer Modern Fonts */
+@font-face {
+  font-family: "Computer Modern";
+  src: url("fonts/cmunrm.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url("fonts/cmunbx.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url("fonts/cmunti.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url("fonts/cmunbi.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Computer Modern Typewriter";
+  src: url("fonts/cmuntt.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --ink: #000000;
+  --paper: #faf9f6;
+  --link: #0000aa;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 11pt;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Computer Modern", serif;
+  line-height: 1.6;
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 40px;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Navigation Container */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.5rem;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 2px 5px;
+  font-size: 8.5pt;
+  color: var(--link);
+  text-decoration: none;
+  border-radius: 2px;
+  transition: all 0.15s;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.nav-btn--outline {
+  border: 1px solid #000;
+}
+
+.nav-btn--outline:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+}
+.nav-btn svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+/* Header */
+.paper-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.paper-title {
+  font-size: 18pt;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: rem;
+}
+.paper-meta {
+  font-size: 12pt;
+  margin-bottom: 0.5rem;
+}
+.paper-subtitle {
+  font-size: 12pt;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+}
+
+/* Typography */
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+h4 {
+  font-size: 11pt;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+code {
+  font-family: "Computer Modern Typewriter", monospace;
+  font-size: 0.9em;
+}
+
+/* Table of Contents */
+.sidebar {
+  margin: 2.5rem auto 3rem;
+  padding: 1.6rem 2rem;
+  border: 1px solid #ccc;
+  font-size: 11pt;
+  text-align: left;
+  hyphens: none;
+}
+.toc-title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1.1rem;
+}
+.toc,
+.toc-sub {
+  list-style: none;
+  padding: 0;
+}
+.toc > li {
+  margin-bottom: 0.15rem;
+}
+.toc-sub {
+  padding-left: 1.6rem;
+  margin: 0.3rem 0 0.5rem;
+}
+.toc a {
+  color: var(--ink);
+  display: inline-block;
+}
+.toc a:hover {
+  color: var(--link);
+  text-decoration: none;
+}
+.toc a.toc-lead {
+  font-weight: bold;
+}
+.toc a.active {
+  color: var(--link);
+}
+
+/* Tables */
+.table-wrap {
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 10pt;
+  margin: 0 auto;
+}
+table thead tr {
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+table tbody tr:last-child {
+  border-bottom: 2px solid var(--ink);
+}
+table th,
+table td {
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+}
+table th {
+  font-weight: bold;
+}
+
+/* Math */
+.math-block {
+  margin: 1.5rem 0;
+  text-align: center;
+  overflow-x: auto;
+}
+
+/* Visualizations & Custom Blocks */
+.viz-container {
+  width: 100%;
+  margin: 2rem 0;
+  overflow-x: auto;
+}
+.viz-container svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.findings-block {
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ccc;
+  background: #faf9f6;
+  font-size: 10pt;
+}
+.findings-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 9pt;
+}
+.notes-list {
+  margin-top: 1rem;
+}
+.note-item {
+  margin-bottom: 1.5rem;
+}
+.note-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+/* Map */
+.map-figure {
+  margin: 2rem 0;
+}
+.map-canvas-wrap {
+  position: relative;
+  border: 1px solid var(--ink);
+  background: #f0efec;
+}
+.map-figure canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  image-rendering: auto;
+}
+.map-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.8rem;
+  margin-bottom: 0.7rem;
+  font-size: 10.5pt;
+}
+.map-views {
+  display: flex;
+}
+.map-views button {
+  font-family: inherit;
+  font-size: 10.5pt;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid #bbb;
+  border-right-width: 0;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+.map-views button:last-child {
+  border-right-width: 1px;
+}
+.map-views button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+.map-scrub {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex: 1 1 220px;
+}
+.map-scrub input {
+  flex: 1;
+  accent-color: var(--ink);
+  min-width: 120px;
+}
+.map-month {
+  font-style: italic;
+  min-width: 5.5em;
+}
+.map-readout {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 10.5pt;
+  min-height: 1.4em;
+}
+.map-swatch {
+  width: 0.85em;
+  height: 0.85em;
+  border: 1px solid #999;
+  display: inline-block;
+}
+.map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 1rem;
+  margin-top: 0.8rem;
+  font-size: 10pt;
+}
+.map-legend span {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+.figure-caption {
+  margin-top: 0.7rem;
+  font-size: 10pt;
+  text-align: left;
+}
+.figure-caption b {
+  font-weight: bold;
+}
+
+.palette-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.2rem;
+  font-family: "Computer Modern Typewriter", monospace;
+  font-size: 10pt;
+}
+
+/* Footer */
+.article-footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ink);
+  font-size: 9pt;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 10.5pt;
+  }
+  body {
+    margin: 20px auto;
+    padding: 0 18px;
+    text-align: left;
+    hyphens: none;
+  }
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+  .paper-title {
+    font-size: 15pt;
+  }
+  .map-controls {
+    gap: 0.6rem;
+  }
+  .map-scrub {
+    flex-basis: 100%;
+  }
+  .map-legend {
+    gap: 0.15rem 0.7rem;
+  }
+  .findings-block {
+    padding: 0.8rem 1rem;
+  }
+  .viz-container {
+    margin: 1.4rem 0;
+  }
+}
+
+/* Palette gallery */
+.palette {
+  margin: 1.5rem 0 2rem;
+}
+.palette-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.9rem;
+  font-size: 10pt;
+}
+.palette-formats {
+  display: flex;
+}
+.palette-formats button,
+.palette-all {
+  font-family: inherit;
+  font-size: 10pt;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid #bbb;
+  padding: 2px 9px;
+  cursor: pointer;
+}
+.palette-formats button {
+  border-right-width: 0;
+}
+.palette-formats button:last-child {
+  border-right-width: 1px;
+}
+.palette-formats button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+.palette-all:hover,
+.palette-formats button:not([aria-pressed="true"]):hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+.palette-formats button[aria-pressed="true"]:hover,
+.map-views button[aria-pressed="true"]:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+.map-views button:not([aria-pressed="true"]):hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+.palette-status {
+  font-family: "Computer Modern Typewriter", monospace;
+  font-size: 9.5pt;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.palette-status.is-live {
+  opacity: 1;
+}
+
+.palette-grid {
+  border-top: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+  padding: 0.4rem 0;
+}
+.palette-row {
+  display: grid;
+  grid-template-columns: 8.5rem repeat(12, 1fr) 4.6rem;
+  align-items: center;
+  gap: 2px;
+}
+.palette-head {
+  font-size: 9pt;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: 0.35rem;
+}
+.palette-name {
+  font-family: inherit;
+  font-size: 10pt;
+  text-align: right;
+  padding-right: 0.5rem;
+  background: transparent;
+  border: 0;
+  border-right: 1px solid transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+.palette-name:hover {
+  border-right-color: var(--ink);
+  font-style: italic;
+}
+.palette-swatch {
+  height: 26px;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: -2px;
+}
+.palette-swatch:hover {
+  outline: 2px solid var(--ink);
+}
+.palette-swatch:focus-visible {
+  outline: 2px solid var(--link);
+}
+.palette-hex {
+  font-family: "Computer Modern Typewriter", monospace;
+  font-size: 8.5pt;
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .palette-row {
+    grid-template-columns: 6rem repeat(12, 1fr);
+  }
+  .palette-hex {
+    display: none;
+  }
+  .palette-name {
+    font-size: 9pt;
+  }
+  .palette-swatch {
+    height: 20px;
+  }
+}
+
+.viz-container:empty {
+  min-height: 120px;
+}
+
+.map-figure canvas {
+  cursor: crosshair;
+}
+.map-copy {
+  font-family: "Computer Modern Typewriter", monospace;
+  font-size: 10pt;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid #bbb;
+  padding: 0 6px;
+  cursor: pointer;
+}
+.map-copy:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+.map-clear {
+  font-family: inherit;
+  font-size: 9.5pt;
+  color: var(--link);
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.map-status {
+  font-family: "Computer Modern Typewriter", monospace;
+  font-size: 9.5pt;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.map-status.is-live {
+  opacity: 1;
+}

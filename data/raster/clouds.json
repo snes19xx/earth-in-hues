@@ -1,0 +1,33 @@
+{
+    "width": 720,
+    "height": 360,
+    "seasons": [
+        "winter",
+        "spring",
+        "summer",
+        "autumn"
+    ],
+    "levels": 16,
+    "step": 17,
+    "days_per_season": {
+        "winter": 9,
+        "spring": 9,
+        "summer": 9,
+        "autumn": 9
+    },
+    "month_to_season": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        0
+    ],
+    "albedo": 0.5294
+}
